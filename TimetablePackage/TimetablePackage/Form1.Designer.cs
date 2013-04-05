@@ -30,48 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.MainTabControl = new System.Windows.Forms.TabControl();
-            this.HomeTab = new System.Windows.Forms.TabPage();
-            this.TimeTableTab = new System.Windows.Forms.TabPage();
             this.iconImageList = new System.Windows.Forms.ImageList(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.MainTabControl.SuspendLayout();
-            this.TimeTableTab.SuspendLayout();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // MainTabControl
-            // 
-            this.MainTabControl.Controls.Add(this.HomeTab);
-            this.MainTabControl.Controls.Add(this.TimeTableTab);
-            this.MainTabControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainTabControl.Enabled = false;
-            this.MainTabControl.ImageList = this.iconImageList;
-            this.MainTabControl.Location = new System.Drawing.Point(0, 0);
-            this.MainTabControl.Name = "MainTabControl";
-            this.MainTabControl.SelectedIndex = 0;
-            this.MainTabControl.Size = new System.Drawing.Size(1053, 610);
-            this.MainTabControl.TabIndex = 0;
-            // 
-            // HomeTab
-            // 
-            this.HomeTab.Location = new System.Drawing.Point(4, 39);
-            this.HomeTab.Name = "HomeTab";
-            this.HomeTab.Padding = new System.Windows.Forms.Padding(3);
-            this.HomeTab.Size = new System.Drawing.Size(1045, 567);
-            this.HomeTab.TabIndex = 0;
-            this.HomeTab.Text = "Home";
-            this.HomeTab.UseVisualStyleBackColor = true;
-            // 
-            // TimeTableTab
-            // 
-            this.TimeTableTab.Controls.Add(this.button1);
-            this.TimeTableTab.Location = new System.Drawing.Point(4, 39);
-            this.TimeTableTab.Name = "TimeTableTab";
-            this.TimeTableTab.Padding = new System.Windows.Forms.Padding(3);
-            this.TimeTableTab.Size = new System.Drawing.Size(1045, 567);
-            this.TimeTableTab.TabIndex = 1;
-            this.TimeTableTab.Text = "Timetable";
-            this.TimeTableTab.UseVisualStyleBackColor = true;
             // 
             // iconImageList
             // 
@@ -79,36 +43,56 @@
             this.iconImageList.TransparentColor = System.Drawing.Color.Transparent;
             this.iconImageList.Images.SetKeyName(0, "house.png");
             // 
-            // button1
+            // tabControl1
             // 
-            this.button1.Location = new System.Drawing.Point(284, 98);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(174, 81);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1053, 610);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1045, 584);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(466, 208);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1053, 610);
-            this.Controls.Add(this.MainTabControl);
+            this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Timetable Package";
-            this.MainTabControl.ResumeLayout(false);
-            this.TimeTableTab.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl MainTabControl;
-        private System.Windows.Forms.TabPage HomeTab;
-        private System.Windows.Forms.TabPage TimeTableTab;
         private System.Windows.Forms.ImageList iconImageList;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }
 
