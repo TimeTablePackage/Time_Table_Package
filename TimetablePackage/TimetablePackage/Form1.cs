@@ -15,6 +15,7 @@ namespace TimetablePackage
         public Form1()
         {
             InitializeComponent();
+            HomeTab.ImageIndex = 0;
         }
     }
 }
