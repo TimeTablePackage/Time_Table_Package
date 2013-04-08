@@ -96,17 +96,17 @@ namespace TimetablePackage
             PictureBox temp = (PictureBox) sender;
             if (temp.Tag.Equals("Tick"))
             {
-                temp.Image = iconImageList.Images[3];
+                temp.Image = iconImageList.Images[1];
                 temp.Tag = "Question";
             }
             else if (temp.Tag.Equals("Question"))
             {
-                temp.Image = iconImageList.Images[4];
+                temp.Image = iconImageList.Images[2];
                 temp.Tag = "Cross";
             }
             else if (temp.Tag.Equals("Cross"))
             {
-                temp.Image = iconImageList.Images[2];
+                temp.Image = iconImageList.Images[0];
                 temp.Tag = "Tick";
             }
         }
@@ -115,6 +115,8 @@ namespace TimetablePackage
         {
 
         }
+
+     
 
 
     }
