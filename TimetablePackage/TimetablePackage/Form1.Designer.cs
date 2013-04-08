@@ -41,12 +41,21 @@
             this.TimetableTab = new System.Windows.Forms.TabPage();
             this.statusStrip2 = new System.Windows.Forms.StatusStrip();
             this.LecturerTab = new System.Windows.Forms.TabPage();
+            this.BuildingsTab = new System.Windows.Forms.TabPage();
+            this.statusStrip4 = new System.Windows.Forms.StatusStrip();
+            this.AddBuildingBtn = new System.Windows.Forms.Button();
+            this.HelpTab = new System.Windows.Forms.TabPage();
+            this.statusStrip5 = new System.Windows.Forms.StatusStrip();
+            this.AboutTab = new System.Windows.Forms.TabPage();
+            this.statusStrip6 = new System.Windows.Forms.StatusStrip();
+            this.MainTabImageList = new System.Windows.Forms.ImageList(this.components);
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SplitScreenLR = new System.Windows.Forms.SplitContainer();
             this.splitLSideTopBottom = new System.Windows.Forms.SplitContainer();
             this.LecterOptionPanel = new System.Windows.Forms.Panel();
             this.LecturerListPanel = new System.Windows.Forms.Panel();
             this.LecturerInfoPanel = new System.Windows.Forms.Panel();
-            this.statusStrip3 = new System.Windows.Forms.StatusStrip();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox68 = new System.Windows.Forms.PictureBox();
             this.pictureBox58 = new System.Windows.Forms.PictureBox();
@@ -111,15 +120,7 @@
             this.pictureBox60 = new System.Windows.Forms.PictureBox();
             this.pictureBox01 = new System.Windows.Forms.PictureBox();
             this.pictureBox00 = new System.Windows.Forms.PictureBox();
-            this.BuildingsTab = new System.Windows.Forms.TabPage();
-            this.statusStrip4 = new System.Windows.Forms.StatusStrip();
-            this.AddBuildingBtn = new System.Windows.Forms.Button();
-            this.HelpTab = new System.Windows.Forms.TabPage();
-            this.statusStrip5 = new System.Windows.Forms.StatusStrip();
-            this.AboutTab = new System.Windows.Forms.TabPage();
-            this.statusStrip6 = new System.Windows.Forms.StatusStrip();
-            this.MainTabImageList = new System.Windows.Forms.ImageList(this.components);
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.statusStrip3 = new System.Windows.Forms.StatusStrip();
             this.MainTabControl.SuspendLayout();
             this.HomeTab.SuspendLayout();
             this.homeTabToolStrip.SuspendLayout();
@@ -127,6 +128,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.HomeTabLogoPictureBox)).BeginInit();
             this.TimetableTab.SuspendLayout();
             this.LecturerTab.SuspendLayout();
+            this.BuildingsTab.SuspendLayout();
+            this.HelpTab.SuspendLayout();
+            this.AboutTab.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SplitScreenLR)).BeginInit();
             this.SplitScreenLR.Panel1.SuspendLayout();
             this.SplitScreenLR.Panel2.SuspendLayout();
@@ -200,9 +205,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox00)).BeginInit();
-            this.BuildingsTab.SuspendLayout();
-            this.HelpTab.SuspendLayout();
-            this.AboutTab.SuspendLayout();
             this.SuspendLayout();
             // 
             // iconImageList
@@ -316,7 +318,8 @@
             // 
             // LecturerTab
             // 
-            this.LecturerTab.Controls.Add(this.SplitScreenLR);
+            this.LecturerTab.Controls.Add(this.statusStrip3);
+            this.LecturerTab.Controls.Add(this.panel1);
             this.LecturerTab.ImageKey = "group.png";
             this.LecturerTab.Location = new System.Drawing.Point(4, 39);
             this.LecturerTab.Name = "LecturerTab";
@@ -326,10 +329,105 @@
             this.LecturerTab.Text = "Lecturer";
             this.LecturerTab.UseVisualStyleBackColor = true;
             // 
+            // BuildingsTab
+            // 
+            this.BuildingsTab.Controls.Add(this.statusStrip4);
+            this.BuildingsTab.Controls.Add(this.AddBuildingBtn);
+            this.BuildingsTab.ImageKey = "building.png";
+            this.BuildingsTab.Location = new System.Drawing.Point(4, 39);
+            this.BuildingsTab.Name = "BuildingsTab";
+            this.BuildingsTab.Padding = new System.Windows.Forms.Padding(3);
+            this.BuildingsTab.Size = new System.Drawing.Size(1045, 567);
+            this.BuildingsTab.TabIndex = 2;
+            this.BuildingsTab.Text = "Buildings";
+            this.BuildingsTab.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip4
+            // 
+            this.statusStrip4.Location = new System.Drawing.Point(3, 542);
+            this.statusStrip4.Name = "statusStrip4";
+            this.statusStrip4.Size = new System.Drawing.Size(1039, 22);
+            this.statusStrip4.TabIndex = 1;
+            this.statusStrip4.Text = "statusStrip4";
+            // 
+            // AddBuildingBtn
+            // 
+            this.AddBuildingBtn.Location = new System.Drawing.Point(23, 23);
+            this.AddBuildingBtn.Name = "AddBuildingBtn";
+            this.AddBuildingBtn.Size = new System.Drawing.Size(75, 23);
+            this.AddBuildingBtn.TabIndex = 0;
+            this.AddBuildingBtn.Text = "Add";
+            this.AddBuildingBtn.UseVisualStyleBackColor = true;
+            this.AddBuildingBtn.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // HelpTab
+            // 
+            this.HelpTab.Controls.Add(this.statusStrip5);
+            this.HelpTab.ImageKey = "help.png";
+            this.HelpTab.Location = new System.Drawing.Point(4, 39);
+            this.HelpTab.Name = "HelpTab";
+            this.HelpTab.Size = new System.Drawing.Size(1045, 567);
+            this.HelpTab.TabIndex = 4;
+            this.HelpTab.Text = "Help";
+            this.HelpTab.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip5
+            // 
+            this.statusStrip5.Location = new System.Drawing.Point(0, 545);
+            this.statusStrip5.Name = "statusStrip5";
+            this.statusStrip5.Size = new System.Drawing.Size(1045, 22);
+            this.statusStrip5.TabIndex = 0;
+            this.statusStrip5.Text = "statusStrip5";
+            // 
+            // AboutTab
+            // 
+            this.AboutTab.Controls.Add(this.statusStrip6);
+            this.AboutTab.ImageKey = "information.png";
+            this.AboutTab.Location = new System.Drawing.Point(4, 39);
+            this.AboutTab.Name = "AboutTab";
+            this.AboutTab.Size = new System.Drawing.Size(1045, 567);
+            this.AboutTab.TabIndex = 5;
+            this.AboutTab.Text = "About";
+            this.AboutTab.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip6
+            // 
+            this.statusStrip6.Location = new System.Drawing.Point(0, 545);
+            this.statusStrip6.Name = "statusStrip6";
+            this.statusStrip6.Size = new System.Drawing.Size(1045, 22);
+            this.statusStrip6.TabIndex = 0;
+            this.statusStrip6.Text = "statusStrip6";
+            // 
+            // MainTabImageList
+            // 
+            this.MainTabImageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("MainTabImageList.ImageStream")));
+            this.MainTabImageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.MainTabImageList.Images.SetKeyName(0, "house.png");
+            this.MainTabImageList.Images.SetKeyName(1, "calendar.png");
+            this.MainTabImageList.Images.SetKeyName(2, "group.png");
+            this.MainTabImageList.Images.SetKeyName(3, "building.png");
+            this.MainTabImageList.Images.SetKeyName(4, "help.png");
+            this.MainTabImageList.Images.SetKeyName(5, "information.png");
+            // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.SplitScreenLR);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1039, 561);
+            this.panel1.TabIndex = 0;
+            // 
             // SplitScreenLR
             // 
             this.SplitScreenLR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SplitScreenLR.Location = new System.Drawing.Point(3, 3);
+            this.SplitScreenLR.Location = new System.Drawing.Point(0, 0);
             this.SplitScreenLR.Name = "SplitScreenLR";
             // 
             // SplitScreenLR.Panel1
@@ -341,7 +439,7 @@
             this.SplitScreenLR.Panel2.Controls.Add(this.LecturerInfoPanel);
             this.SplitScreenLR.Size = new System.Drawing.Size(1039, 561);
             this.SplitScreenLR.SplitterDistance = 174;
-            this.SplitScreenLR.TabIndex = 0;
+            this.SplitScreenLR.TabIndex = 1;
             // 
             // splitLSideTopBottom
             // 
@@ -383,21 +481,12 @@
             // LecturerInfoPanel
             // 
             this.LecturerInfoPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.LecturerInfoPanel.Controls.Add(this.statusStrip3);
             this.LecturerInfoPanel.Controls.Add(this.tableLayoutPanel1);
             this.LecturerInfoPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LecturerInfoPanel.Location = new System.Drawing.Point(0, 0);
             this.LecturerInfoPanel.Name = "LecturerInfoPanel";
             this.LecturerInfoPanel.Size = new System.Drawing.Size(861, 561);
             this.LecturerInfoPanel.TabIndex = 0;
-            // 
-            // statusStrip3
-            // 
-            this.statusStrip3.Location = new System.Drawing.Point(0, 535);
-            this.statusStrip3.Name = "statusStrip3";
-            this.statusStrip3.Size = new System.Drawing.Size(857, 22);
-            this.statusStrip3.TabIndex = 1;
-            this.statusStrip3.Text = "statusStrip3";
             // 
             // tableLayoutPanel1
             // 
@@ -1075,7 +1164,7 @@
             // pictureBox63
             // 
             this.pictureBox63.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox63.Location = new System.Drawing.Point(266, 204);
+            this.pictureBox63.Location = new System.Drawing.Point(162, 204);
             this.pictureBox63.Name = "pictureBox63";
             this.pictureBox63.Size = new System.Drawing.Size(43, 26);
             this.pictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1086,7 +1175,7 @@
             // pictureBox66
             // 
             this.pictureBox66.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox66.Location = new System.Drawing.Point(214, 204);
+            this.pictureBox66.Location = new System.Drawing.Point(318, 204);
             this.pictureBox66.Name = "pictureBox66";
             this.pictureBox66.Size = new System.Drawing.Size(43, 26);
             this.pictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1097,7 +1186,7 @@
             // pictureBox65
             // 
             this.pictureBox65.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox65.Location = new System.Drawing.Point(370, 204);
+            this.pictureBox65.Location = new System.Drawing.Point(266, 204);
             this.pictureBox65.Name = "pictureBox65";
             this.pictureBox65.Size = new System.Drawing.Size(43, 26);
             this.pictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1108,7 +1197,7 @@
             // pictureBox64
             // 
             this.pictureBox64.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox64.Location = new System.Drawing.Point(318, 204);
+            this.pictureBox64.Location = new System.Drawing.Point(214, 204);
             this.pictureBox64.Name = "pictureBox64";
             this.pictureBox64.Size = new System.Drawing.Size(43, 26);
             this.pictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1119,7 +1208,7 @@
             // pictureBox67
             // 
             this.pictureBox67.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox67.Location = new System.Drawing.Point(162, 204);
+            this.pictureBox67.Location = new System.Drawing.Point(370, 204);
             this.pictureBox67.Name = "pictureBox67";
             this.pictureBox67.Size = new System.Drawing.Size(43, 26);
             this.pictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1130,7 +1219,7 @@
             // pictureBox62
             // 
             this.pictureBox62.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox62.Location = new System.Drawing.Point(6, 204);
+            this.pictureBox62.Location = new System.Drawing.Point(110, 204);
             this.pictureBox62.Name = "pictureBox62";
             this.pictureBox62.Size = new System.Drawing.Size(43, 26);
             this.pictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1152,7 +1241,7 @@
             // pictureBox60
             // 
             this.pictureBox60.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox60.Location = new System.Drawing.Point(110, 204);
+            this.pictureBox60.Location = new System.Drawing.Point(6, 204);
             this.pictureBox60.Name = "pictureBox60";
             this.pictureBox60.Size = new System.Drawing.Size(43, 26);
             this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1182,91 +1271,13 @@
             this.pictureBox00.TabStop = false;
             this.pictureBox00.Tag = "Tick";
             // 
-            // BuildingsTab
+            // statusStrip3
             // 
-            this.BuildingsTab.Controls.Add(this.statusStrip4);
-            this.BuildingsTab.Controls.Add(this.AddBuildingBtn);
-            this.BuildingsTab.ImageKey = "building.png";
-            this.BuildingsTab.Location = new System.Drawing.Point(4, 39);
-            this.BuildingsTab.Name = "BuildingsTab";
-            this.BuildingsTab.Padding = new System.Windows.Forms.Padding(3);
-            this.BuildingsTab.Size = new System.Drawing.Size(1045, 567);
-            this.BuildingsTab.TabIndex = 2;
-            this.BuildingsTab.Text = "Buildings";
-            this.BuildingsTab.UseVisualStyleBackColor = true;
-            // 
-            // statusStrip4
-            // 
-            this.statusStrip4.Location = new System.Drawing.Point(3, 542);
-            this.statusStrip4.Name = "statusStrip4";
-            this.statusStrip4.Size = new System.Drawing.Size(1039, 22);
-            this.statusStrip4.TabIndex = 1;
-            this.statusStrip4.Text = "statusStrip4";
-            // 
-            // AddBuildingBtn
-            // 
-            this.AddBuildingBtn.Location = new System.Drawing.Point(23, 23);
-            this.AddBuildingBtn.Name = "AddBuildingBtn";
-            this.AddBuildingBtn.Size = new System.Drawing.Size(75, 23);
-            this.AddBuildingBtn.TabIndex = 0;
-            this.AddBuildingBtn.Text = "Add";
-            this.AddBuildingBtn.UseVisualStyleBackColor = true;
-            this.AddBuildingBtn.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // HelpTab
-            // 
-            this.HelpTab.Controls.Add(this.statusStrip5);
-            this.HelpTab.ImageKey = "help.png";
-            this.HelpTab.Location = new System.Drawing.Point(4, 39);
-            this.HelpTab.Name = "HelpTab";
-            this.HelpTab.Size = new System.Drawing.Size(1045, 567);
-            this.HelpTab.TabIndex = 4;
-            this.HelpTab.Text = "Help";
-            this.HelpTab.UseVisualStyleBackColor = true;
-            // 
-            // statusStrip5
-            // 
-            this.statusStrip5.Location = new System.Drawing.Point(0, 545);
-            this.statusStrip5.Name = "statusStrip5";
-            this.statusStrip5.Size = new System.Drawing.Size(1045, 22);
-            this.statusStrip5.TabIndex = 0;
-            this.statusStrip5.Text = "statusStrip5";
-            // 
-            // AboutTab
-            // 
-            this.AboutTab.Controls.Add(this.statusStrip6);
-            this.AboutTab.ImageKey = "information.png";
-            this.AboutTab.Location = new System.Drawing.Point(4, 39);
-            this.AboutTab.Name = "AboutTab";
-            this.AboutTab.Size = new System.Drawing.Size(1045, 567);
-            this.AboutTab.TabIndex = 5;
-            this.AboutTab.Text = "About";
-            this.AboutTab.UseVisualStyleBackColor = true;
-            // 
-            // statusStrip6
-            // 
-            this.statusStrip6.Location = new System.Drawing.Point(0, 545);
-            this.statusStrip6.Name = "statusStrip6";
-            this.statusStrip6.Size = new System.Drawing.Size(1045, 22);
-            this.statusStrip6.TabIndex = 0;
-            this.statusStrip6.Text = "statusStrip6";
-            // 
-            // MainTabImageList
-            // 
-            this.MainTabImageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("MainTabImageList.ImageStream")));
-            this.MainTabImageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.MainTabImageList.Images.SetKeyName(0, "house.png");
-            this.MainTabImageList.Images.SetKeyName(1, "calendar.png");
-            this.MainTabImageList.Images.SetKeyName(2, "group.png");
-            this.MainTabImageList.Images.SetKeyName(3, "building.png");
-            this.MainTabImageList.Images.SetKeyName(4, "help.png");
-            this.MainTabImageList.Images.SetKeyName(5, "information.png");
-            // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.statusStrip3.Location = new System.Drawing.Point(3, 542);
+            this.statusStrip3.Name = "statusStrip3";
+            this.statusStrip3.Size = new System.Drawing.Size(1039, 22);
+            this.statusStrip3.TabIndex = 2;
+            this.statusStrip3.Text = "statusStrip3";
             // 
             // Form1
             // 
@@ -1289,6 +1300,14 @@
             this.TimetableTab.ResumeLayout(false);
             this.TimetableTab.PerformLayout();
             this.LecturerTab.ResumeLayout(false);
+            this.LecturerTab.PerformLayout();
+            this.BuildingsTab.ResumeLayout(false);
+            this.BuildingsTab.PerformLayout();
+            this.HelpTab.ResumeLayout(false);
+            this.HelpTab.PerformLayout();
+            this.AboutTab.ResumeLayout(false);
+            this.AboutTab.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.SplitScreenLR.Panel1.ResumeLayout(false);
             this.SplitScreenLR.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SplitScreenLR)).EndInit();
@@ -1298,7 +1317,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitLSideTopBottom)).EndInit();
             this.splitLSideTopBottom.ResumeLayout(false);
             this.LecturerInfoPanel.ResumeLayout(false);
-            this.LecturerInfoPanel.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
@@ -1363,12 +1381,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox00)).EndInit();
-            this.BuildingsTab.ResumeLayout(false);
-            this.BuildingsTab.PerformLayout();
-            this.HelpTab.ResumeLayout(false);
-            this.HelpTab.PerformLayout();
-            this.AboutTab.ResumeLayout(false);
-            this.AboutTab.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1379,13 +1391,30 @@
         private System.Windows.Forms.TabControl MainTabControl;
         private System.Windows.Forms.TabPage HomeTab;
         private System.Windows.Forms.TabPage LecturerTab;
+        private System.Windows.Forms.TabPage BuildingsTab;
+        private System.Windows.Forms.Button AddBuildingBtn;
+        private System.Windows.Forms.ImageList MainTabImageList;
+        private System.Windows.Forms.TabPage TimetableTab;
+        private System.Windows.Forms.TabPage HelpTab;
+        private System.Windows.Forms.TabPage AboutTab;
+        private System.Windows.Forms.PictureBox HomeTabLogoPictureBox;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel StatusBarMessage;
+        private System.Windows.Forms.StatusStrip statusStrip2;
+        private System.Windows.Forms.StatusStrip statusStrip4;
+        private System.Windows.Forms.StatusStrip statusStrip5;
+        private System.Windows.Forms.StatusStrip statusStrip6;
+        private System.Windows.Forms.ToolStrip homeTabToolStrip;
+        private System.Windows.Forms.ToolStripButton toolStripNewButton;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.StatusStrip statusStrip3;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.SplitContainer SplitScreenLR;
         private System.Windows.Forms.SplitContainer splitLSideTopBottom;
         private System.Windows.Forms.Panel LecterOptionPanel;
+        private System.Windows.Forms.Panel LecturerListPanel;
         private System.Windows.Forms.Panel LecturerInfoPanel;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox01;
-        private System.Windows.Forms.PictureBox pictureBox00;
         private System.Windows.Forms.PictureBox pictureBox68;
         private System.Windows.Forms.PictureBox pictureBox58;
         private System.Windows.Forms.PictureBox pictureBox57;
@@ -1447,24 +1476,8 @@
         private System.Windows.Forms.PictureBox pictureBox62;
         private System.Windows.Forms.PictureBox pictureBox61;
         private System.Windows.Forms.PictureBox pictureBox60;
-        private System.Windows.Forms.TabPage BuildingsTab;
-        private System.Windows.Forms.Button AddBuildingBtn;
-        private System.Windows.Forms.ImageList MainTabImageList;
-        private System.Windows.Forms.TabPage TimetableTab;
-        private System.Windows.Forms.TabPage HelpTab;
-        private System.Windows.Forms.TabPage AboutTab;
-        private System.Windows.Forms.PictureBox HomeTabLogoPictureBox;
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel StatusBarMessage;
-        private System.Windows.Forms.StatusStrip statusStrip2;
-        private System.Windows.Forms.Panel LecturerListPanel;
-        private System.Windows.Forms.StatusStrip statusStrip3;
-        private System.Windows.Forms.StatusStrip statusStrip4;
-        private System.Windows.Forms.StatusStrip statusStrip5;
-        private System.Windows.Forms.StatusStrip statusStrip6;
-        private System.Windows.Forms.ToolStrip homeTabToolStrip;
-        private System.Windows.Forms.ToolStripButton toolStripNewButton;
-        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.PictureBox pictureBox01;
+        private System.Windows.Forms.PictureBox pictureBox00;
     }
 }
 
