@@ -117,6 +117,11 @@
             this.HelpTab = new System.Windows.Forms.TabPage();
             this.statusStrip5 = new System.Windows.Forms.StatusStrip();
             this.AboutTab = new System.Windows.Forms.TabPage();
+            this.supervisorNameLabel = new System.Windows.Forms.Label();
+            this.supervisorTitleLabel = new System.Windows.Forms.Label();
+            this.developersTitleLabel = new System.Windows.Forms.Label();
+            this.developerNamesLabel = new System.Windows.Forms.Label();
+            this.versionInfoLabel = new System.Windows.Forms.Label();
             this.licenceInfoLink = new System.Windows.Forms.LinkLabel();
             this.licenceInfo1 = new System.Windows.Forms.Label();
             this.projectNameLabel = new System.Windows.Forms.Label();
@@ -125,11 +130,6 @@
             this.statusStrip6 = new System.Windows.Forms.StatusStrip();
             this.MainTabImageList = new System.Windows.Forms.ImageList(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.versionInfoLabel = new System.Windows.Forms.Label();
-            this.developerNamesLabel = new System.Windows.Forms.Label();
-            this.developersTitleLabel = new System.Windows.Forms.Label();
-            this.supervisorTitleLabel = new System.Windows.Forms.Label();
-            this.supervisorNameLabel = new System.Windows.Forms.Label();
             this.MainTabControl.SuspendLayout();
             this.HomeTab.SuspendLayout();
             this.homeTabToolStrip.SuspendLayout();
@@ -1262,6 +1262,57 @@
             this.AboutTab.Text = "About";
             this.AboutTab.UseVisualStyleBackColor = true;
             // 
+            // supervisorNameLabel
+            // 
+            this.supervisorNameLabel.AutoSize = true;
+            this.supervisorNameLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.supervisorNameLabel.Location = new System.Drawing.Point(472, 374);
+            this.supervisorNameLabel.Name = "supervisorNameLabel";
+            this.supervisorNameLabel.Size = new System.Drawing.Size(97, 22);
+            this.supervisorNameLabel.TabIndex = 11;
+            this.supervisorNameLabel.Text = "David Kelly";
+            // 
+            // supervisorTitleLabel
+            // 
+            this.supervisorTitleLabel.AutoSize = true;
+            this.supervisorTitleLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.supervisorTitleLabel.ForeColor = System.Drawing.Color.Blue;
+            this.supervisorTitleLabel.Location = new System.Drawing.Point(440, 340);
+            this.supervisorTitleLabel.Name = "supervisorTitleLabel";
+            this.supervisorTitleLabel.Size = new System.Drawing.Size(156, 22);
+            this.supervisorTitleLabel.TabIndex = 10;
+            this.supervisorTitleLabel.Text = "Project Supervisor";
+            // 
+            // developersTitleLabel
+            // 
+            this.developersTitleLabel.AutoSize = true;
+            this.developersTitleLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.developersTitleLabel.ForeColor = System.Drawing.Color.Blue;
+            this.developersTitleLabel.Location = new System.Drawing.Point(440, 249);
+            this.developersTitleLabel.Name = "developersTitleLabel";
+            this.developersTitleLabel.Size = new System.Drawing.Size(161, 22);
+            this.developersTitleLabel.TabIndex = 9;
+            this.developersTitleLabel.Text = "Project Developers";
+            // 
+            // developerNamesLabel
+            // 
+            this.developerNamesLabel.AutoSize = true;
+            this.developerNamesLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.developerNamesLabel.Location = new System.Drawing.Point(405, 271);
+            this.developerNamesLabel.Name = "developerNamesLabel";
+            this.developerNamesLabel.Size = new System.Drawing.Size(230, 44);
+            this.developerNamesLabel.TabIndex = 8;
+            this.developerNamesLabel.Text = "Ayhan Sahin-C00145773\r\nThomas Nolan-C00146771";
+            // 
+            // versionInfoLabel
+            // 
+            this.versionInfoLabel.AutoSize = true;
+            this.versionInfoLabel.Location = new System.Drawing.Point(567, 185);
+            this.versionInfoLabel.Name = "versionInfoLabel";
+            this.versionInfoLabel.Size = new System.Drawing.Size(68, 15);
+            this.versionInfoLabel.TabIndex = 7;
+            this.versionInfoLabel.Text = "Version 1.0";
+            // 
             // licenceInfoLink
             // 
             this.licenceInfoLink.ActiveLinkColor = System.Drawing.Color.Red;
@@ -1338,57 +1389,6 @@
             this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // versionInfoLabel
-            // 
-            this.versionInfoLabel.AutoSize = true;
-            this.versionInfoLabel.Location = new System.Drawing.Point(567, 185);
-            this.versionInfoLabel.Name = "versionInfoLabel";
-            this.versionInfoLabel.Size = new System.Drawing.Size(68, 15);
-            this.versionInfoLabel.TabIndex = 7;
-            this.versionInfoLabel.Text = "Version 1.0";
-            // 
-            // developerNamesLabel
-            // 
-            this.developerNamesLabel.AutoSize = true;
-            this.developerNamesLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.developerNamesLabel.Location = new System.Drawing.Point(405, 271);
-            this.developerNamesLabel.Name = "developerNamesLabel";
-            this.developerNamesLabel.Size = new System.Drawing.Size(230, 44);
-            this.developerNamesLabel.TabIndex = 8;
-            this.developerNamesLabel.Text = "Ayhan Sahin-C00145773\r\nThomas Nolan-C00146771";
-            // 
-            // developersTitleLabel
-            // 
-            this.developersTitleLabel.AutoSize = true;
-            this.developersTitleLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.developersTitleLabel.ForeColor = System.Drawing.Color.Blue;
-            this.developersTitleLabel.Location = new System.Drawing.Point(440, 249);
-            this.developersTitleLabel.Name = "developersTitleLabel";
-            this.developersTitleLabel.Size = new System.Drawing.Size(161, 22);
-            this.developersTitleLabel.TabIndex = 9;
-            this.developersTitleLabel.Text = "Project Developers";
-            // 
-            // supervisorTitleLabel
-            // 
-            this.supervisorTitleLabel.AutoSize = true;
-            this.supervisorTitleLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.supervisorTitleLabel.ForeColor = System.Drawing.Color.Blue;
-            this.supervisorTitleLabel.Location = new System.Drawing.Point(440, 340);
-            this.supervisorTitleLabel.Name = "supervisorTitleLabel";
-            this.supervisorTitleLabel.Size = new System.Drawing.Size(156, 22);
-            this.supervisorTitleLabel.TabIndex = 10;
-            this.supervisorTitleLabel.Text = "Project Supervisor";
-            // 
-            // supervisorNameLabel
-            // 
-            this.supervisorNameLabel.AutoSize = true;
-            this.supervisorNameLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.supervisorNameLabel.Location = new System.Drawing.Point(472, 374);
-            this.supervisorNameLabel.Name = "supervisorNameLabel";
-            this.supervisorNameLabel.Size = new System.Drawing.Size(97, 22);
-            this.supervisorNameLabel.TabIndex = 11;
-            this.supervisorNameLabel.Text = "David Kelly";
             // 
             // Form1
             // 

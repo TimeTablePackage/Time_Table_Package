@@ -117,7 +117,8 @@ namespace TimetablePackage
         }
 
         private void licenceInfoLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
+        {// The application will launch the text file that is located on the application start up path. 
+         //The text file contains the licensing information.
             System.Diagnostics.Process.Start(Application.StartupPath + "\\licenceInfo.txt");
         }
 
