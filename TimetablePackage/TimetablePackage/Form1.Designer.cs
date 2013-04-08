@@ -121,6 +121,10 @@
             this.MainTabImageList = new System.Windows.Forms.ImageList(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.HomeTabLogoPictureBox = new System.Windows.Forms.PictureBox();
+            this.licenseInfoLabel = new System.Windows.Forms.Label();
+            this.projectNameLabel = new System.Windows.Forms.Label();
+            this.licenceInfo1 = new System.Windows.Forms.Label();
+            this.licenceInfoLink = new System.Windows.Forms.LinkLabel();
             this.MainTabControl.SuspendLayout();
             this.HomeTab.SuspendLayout();
             this.homeTabToolStrip.SuspendLayout();
@@ -1233,8 +1237,13 @@
             // 
             // AboutTab
             // 
+            this.AboutTab.Controls.Add(this.licenceInfoLink);
+            this.AboutTab.Controls.Add(this.licenceInfo1);
+            this.AboutTab.Controls.Add(this.projectNameLabel);
+            this.AboutTab.Controls.Add(this.licenseInfoLabel);
             this.AboutTab.Controls.Add(this.HomeTabLogoPictureBox);
             this.AboutTab.Controls.Add(this.statusStrip6);
+            this.AboutTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AboutTab.ImageKey = "information.png";
             this.AboutTab.Location = new System.Drawing.Point(4, 39);
             this.AboutTab.Name = "AboutTab";
@@ -1270,14 +1279,54 @@
             // 
             // HomeTabLogoPictureBox
             // 
+            this.HomeTabLogoPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.HomeTabLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.HomeTabLogoPictureBox.Dock = System.Windows.Forms.DockStyle.Top;
             this.HomeTabLogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("HomeTabLogoPictureBox.Image")));
-            this.HomeTabLogoPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.HomeTabLogoPictureBox.Location = new System.Drawing.Point(461, 3);
             this.HomeTabLogoPictureBox.Name = "HomeTabLogoPictureBox";
-            this.HomeTabLogoPictureBox.Size = new System.Drawing.Size(1045, 131);
+            this.HomeTabLogoPictureBox.Size = new System.Drawing.Size(122, 131);
             this.HomeTabLogoPictureBox.TabIndex = 1;
             this.HomeTabLogoPictureBox.TabStop = false;
+            // 
+            // licenseInfoLabel
+            // 
+            this.licenseInfoLabel.AutoSize = true;
+            this.licenseInfoLabel.Location = new System.Drawing.Point(438, 505);
+            this.licenseInfoLabel.Name = "licenseInfoLabel";
+            this.licenseInfoLabel.Size = new System.Drawing.Size(169, 30);
+            this.licenseInfoLabel.TabIndex = 2;
+            this.licenseInfoLabel.Text = "           Copyright 2013©\r\nInstitute of Technology Carlow";
+            // 
+            // projectNameLabel
+            // 
+            this.projectNameLabel.AutoSize = true;
+            this.projectNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.projectNameLabel.Location = new System.Drawing.Point(428, 137);
+            this.projectNameLabel.Name = "projectNameLabel";
+            this.projectNameLabel.Size = new System.Drawing.Size(189, 24);
+            this.projectNameLabel.TabIndex = 3;
+            this.projectNameLabel.Text = "Time Table Package ";
+            // 
+            // licenceInfo1
+            // 
+            this.licenceInfo1.AutoSize = true;
+            this.licenceInfo1.Location = new System.Drawing.Point(229, 478);
+            this.licenceInfo1.Name = "licenceInfo1";
+            this.licenceInfo1.Size = new System.Drawing.Size(168, 15);
+            this.licenceInfo1.TabIndex = 4;
+            this.licenceInfo1.Text = "This work is licensed under a ";
+            // 
+            // licenceInfoLink
+            // 
+            this.licenceInfoLink.AutoSize = true;
+            this.licenceInfoLink.Location = new System.Drawing.Point(394, 478);
+            this.licenceInfoLink.Name = "licenceInfoLink";
+            this.licenceInfoLink.Size = new System.Drawing.Size(426, 15);
+            this.licenceInfoLink.TabIndex = 6;
+            this.licenceInfoLink.TabStop = true;
+            this.licenceInfoLink.Text = "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Ireland License.";
+            this.licenceInfoLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.licenceInfoLink_LinkClicked);
             // 
             // Form1
             // 
@@ -1286,9 +1335,12 @@
             this.ClientSize = new System.Drawing.Size(1053, 610);
             this.Controls.Add(this.MainTabControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1069, 648);
+            this.MinimumSize = new System.Drawing.Size(1069, 648);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Timetable Package";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MainTabControl.ResumeLayout(false);
             this.HomeTab.ResumeLayout(false);
             this.HomeTab.PerformLayout();
@@ -1478,6 +1530,10 @@
         private System.Windows.Forms.PictureBox pictureBox01;
         private System.Windows.Forms.PictureBox pictureBox00;
         private System.Windows.Forms.PictureBox HomeTabLogoPictureBox;
+        private System.Windows.Forms.Label projectNameLabel;
+        private System.Windows.Forms.Label licenseInfoLabel;
+        private System.Windows.Forms.LinkLabel licenceInfoLink;
+        private System.Windows.Forms.Label licenceInfo1;
     }
 }
 

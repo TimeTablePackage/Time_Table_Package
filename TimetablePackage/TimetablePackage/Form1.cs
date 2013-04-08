@@ -116,6 +116,11 @@ namespace TimetablePackage
 
         }
 
+        private void licenceInfoLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("\resources\licenceInfo.txt");
+        }
+
      
 
 
