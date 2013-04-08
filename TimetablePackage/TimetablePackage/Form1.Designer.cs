@@ -37,19 +37,10 @@
             this.toolStripNewButton = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.StatusBarMessage = new System.Windows.Forms.ToolStripStatusLabel();
-            this.HomeTabLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.TimetableTab = new System.Windows.Forms.TabPage();
             this.statusStrip2 = new System.Windows.Forms.StatusStrip();
             this.LecturerTab = new System.Windows.Forms.TabPage();
-            this.BuildingsTab = new System.Windows.Forms.TabPage();
-            this.statusStrip4 = new System.Windows.Forms.StatusStrip();
-            this.AddBuildingBtn = new System.Windows.Forms.Button();
-            this.HelpTab = new System.Windows.Forms.TabPage();
-            this.statusStrip5 = new System.Windows.Forms.StatusStrip();
-            this.AboutTab = new System.Windows.Forms.TabPage();
-            this.statusStrip6 = new System.Windows.Forms.StatusStrip();
-            this.MainTabImageList = new System.Windows.Forms.ImageList(this.components);
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.statusStrip3 = new System.Windows.Forms.StatusStrip();
             this.panel1 = new System.Windows.Forms.Panel();
             this.SplitScreenLR = new System.Windows.Forms.SplitContainer();
             this.splitLSideTopBottom = new System.Windows.Forms.SplitContainer();
@@ -120,17 +111,22 @@
             this.pictureBox60 = new System.Windows.Forms.PictureBox();
             this.pictureBox01 = new System.Windows.Forms.PictureBox();
             this.pictureBox00 = new System.Windows.Forms.PictureBox();
-            this.statusStrip3 = new System.Windows.Forms.StatusStrip();
+            this.BuildingsTab = new System.Windows.Forms.TabPage();
+            this.statusStrip4 = new System.Windows.Forms.StatusStrip();
+            this.AddBuildingBtn = new System.Windows.Forms.Button();
+            this.HelpTab = new System.Windows.Forms.TabPage();
+            this.statusStrip5 = new System.Windows.Forms.StatusStrip();
+            this.AboutTab = new System.Windows.Forms.TabPage();
+            this.statusStrip6 = new System.Windows.Forms.StatusStrip();
+            this.MainTabImageList = new System.Windows.Forms.ImageList(this.components);
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.HomeTabLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.MainTabControl.SuspendLayout();
             this.HomeTab.SuspendLayout();
             this.homeTabToolStrip.SuspendLayout();
             this.statusStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.HomeTabLogoPictureBox)).BeginInit();
             this.TimetableTab.SuspendLayout();
             this.LecturerTab.SuspendLayout();
-            this.BuildingsTab.SuspendLayout();
-            this.HelpTab.SuspendLayout();
-            this.AboutTab.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SplitScreenLR)).BeginInit();
             this.SplitScreenLR.Panel1.SuspendLayout();
@@ -205,6 +201,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox00)).BeginInit();
+            this.BuildingsTab.SuspendLayout();
+            this.HelpTab.SuspendLayout();
+            this.AboutTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HomeTabLogoPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // iconImageList
@@ -235,7 +235,6 @@
             // 
             this.HomeTab.Controls.Add(this.homeTabToolStrip);
             this.HomeTab.Controls.Add(this.statusStrip1);
-            this.HomeTab.Controls.Add(this.HomeTabLogoPictureBox);
             this.HomeTab.ImageIndex = 0;
             this.HomeTab.Location = new System.Drawing.Point(4, 39);
             this.HomeTab.Name = "HomeTab";
@@ -286,17 +285,6 @@
             this.StatusBarMessage.Size = new System.Drawing.Size(186, 17);
             this.StatusBarMessage.Text = ".:Welcome to Timetable Package:.";
             // 
-            // HomeTabLogoPictureBox
-            // 
-            this.HomeTabLogoPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.HomeTabLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.HomeTabLogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("HomeTabLogoPictureBox.Image")));
-            this.HomeTabLogoPictureBox.Location = new System.Drawing.Point(3, 408);
-            this.HomeTabLogoPictureBox.Name = "HomeTabLogoPictureBox";
-            this.HomeTabLogoPictureBox.Size = new System.Drawing.Size(122, 131);
-            this.HomeTabLogoPictureBox.TabIndex = 0;
-            this.HomeTabLogoPictureBox.TabStop = false;
-            // 
             // TimetableTab
             // 
             this.TimetableTab.Controls.Add(this.statusStrip2);
@@ -329,91 +317,13 @@
             this.LecturerTab.Text = "Lecturer";
             this.LecturerTab.UseVisualStyleBackColor = true;
             // 
-            // BuildingsTab
+            // statusStrip3
             // 
-            this.BuildingsTab.Controls.Add(this.statusStrip4);
-            this.BuildingsTab.Controls.Add(this.AddBuildingBtn);
-            this.BuildingsTab.ImageKey = "building.png";
-            this.BuildingsTab.Location = new System.Drawing.Point(4, 39);
-            this.BuildingsTab.Name = "BuildingsTab";
-            this.BuildingsTab.Padding = new System.Windows.Forms.Padding(3);
-            this.BuildingsTab.Size = new System.Drawing.Size(1045, 567);
-            this.BuildingsTab.TabIndex = 2;
-            this.BuildingsTab.Text = "Buildings";
-            this.BuildingsTab.UseVisualStyleBackColor = true;
-            // 
-            // statusStrip4
-            // 
-            this.statusStrip4.Location = new System.Drawing.Point(3, 542);
-            this.statusStrip4.Name = "statusStrip4";
-            this.statusStrip4.Size = new System.Drawing.Size(1039, 22);
-            this.statusStrip4.TabIndex = 1;
-            this.statusStrip4.Text = "statusStrip4";
-            // 
-            // AddBuildingBtn
-            // 
-            this.AddBuildingBtn.Location = new System.Drawing.Point(23, 23);
-            this.AddBuildingBtn.Name = "AddBuildingBtn";
-            this.AddBuildingBtn.Size = new System.Drawing.Size(75, 23);
-            this.AddBuildingBtn.TabIndex = 0;
-            this.AddBuildingBtn.Text = "Add";
-            this.AddBuildingBtn.UseVisualStyleBackColor = true;
-            this.AddBuildingBtn.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // HelpTab
-            // 
-            this.HelpTab.Controls.Add(this.statusStrip5);
-            this.HelpTab.ImageKey = "help.png";
-            this.HelpTab.Location = new System.Drawing.Point(4, 39);
-            this.HelpTab.Name = "HelpTab";
-            this.HelpTab.Size = new System.Drawing.Size(1045, 567);
-            this.HelpTab.TabIndex = 4;
-            this.HelpTab.Text = "Help";
-            this.HelpTab.UseVisualStyleBackColor = true;
-            // 
-            // statusStrip5
-            // 
-            this.statusStrip5.Location = new System.Drawing.Point(0, 545);
-            this.statusStrip5.Name = "statusStrip5";
-            this.statusStrip5.Size = new System.Drawing.Size(1045, 22);
-            this.statusStrip5.TabIndex = 0;
-            this.statusStrip5.Text = "statusStrip5";
-            // 
-            // AboutTab
-            // 
-            this.AboutTab.Controls.Add(this.statusStrip6);
-            this.AboutTab.ImageKey = "information.png";
-            this.AboutTab.Location = new System.Drawing.Point(4, 39);
-            this.AboutTab.Name = "AboutTab";
-            this.AboutTab.Size = new System.Drawing.Size(1045, 567);
-            this.AboutTab.TabIndex = 5;
-            this.AboutTab.Text = "About";
-            this.AboutTab.UseVisualStyleBackColor = true;
-            // 
-            // statusStrip6
-            // 
-            this.statusStrip6.Location = new System.Drawing.Point(0, 545);
-            this.statusStrip6.Name = "statusStrip6";
-            this.statusStrip6.Size = new System.Drawing.Size(1045, 22);
-            this.statusStrip6.TabIndex = 0;
-            this.statusStrip6.Text = "statusStrip6";
-            // 
-            // MainTabImageList
-            // 
-            this.MainTabImageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("MainTabImageList.ImageStream")));
-            this.MainTabImageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.MainTabImageList.Images.SetKeyName(0, "house.png");
-            this.MainTabImageList.Images.SetKeyName(1, "calendar.png");
-            this.MainTabImageList.Images.SetKeyName(2, "group.png");
-            this.MainTabImageList.Images.SetKeyName(3, "building.png");
-            this.MainTabImageList.Images.SetKeyName(4, "help.png");
-            this.MainTabImageList.Images.SetKeyName(5, "information.png");
-            // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.statusStrip3.Location = new System.Drawing.Point(3, 542);
+            this.statusStrip3.Name = "statusStrip3";
+            this.statusStrip3.Size = new System.Drawing.Size(1039, 22);
+            this.statusStrip3.TabIndex = 2;
+            this.statusStrip3.Text = "statusStrip3";
             // 
             // panel1
             // 
@@ -1271,13 +1181,103 @@
             this.pictureBox00.TabStop = false;
             this.pictureBox00.Tag = "Tick";
             // 
-            // statusStrip3
+            // BuildingsTab
             // 
-            this.statusStrip3.Location = new System.Drawing.Point(3, 542);
-            this.statusStrip3.Name = "statusStrip3";
-            this.statusStrip3.Size = new System.Drawing.Size(1039, 22);
-            this.statusStrip3.TabIndex = 2;
-            this.statusStrip3.Text = "statusStrip3";
+            this.BuildingsTab.Controls.Add(this.statusStrip4);
+            this.BuildingsTab.Controls.Add(this.AddBuildingBtn);
+            this.BuildingsTab.ImageKey = "building.png";
+            this.BuildingsTab.Location = new System.Drawing.Point(4, 39);
+            this.BuildingsTab.Name = "BuildingsTab";
+            this.BuildingsTab.Padding = new System.Windows.Forms.Padding(3);
+            this.BuildingsTab.Size = new System.Drawing.Size(1045, 567);
+            this.BuildingsTab.TabIndex = 2;
+            this.BuildingsTab.Text = "Buildings";
+            this.BuildingsTab.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip4
+            // 
+            this.statusStrip4.Location = new System.Drawing.Point(3, 542);
+            this.statusStrip4.Name = "statusStrip4";
+            this.statusStrip4.Size = new System.Drawing.Size(1039, 22);
+            this.statusStrip4.TabIndex = 1;
+            this.statusStrip4.Text = "statusStrip4";
+            // 
+            // AddBuildingBtn
+            // 
+            this.AddBuildingBtn.Location = new System.Drawing.Point(23, 23);
+            this.AddBuildingBtn.Name = "AddBuildingBtn";
+            this.AddBuildingBtn.Size = new System.Drawing.Size(75, 23);
+            this.AddBuildingBtn.TabIndex = 0;
+            this.AddBuildingBtn.Text = "Add";
+            this.AddBuildingBtn.UseVisualStyleBackColor = true;
+            this.AddBuildingBtn.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // HelpTab
+            // 
+            this.HelpTab.Controls.Add(this.statusStrip5);
+            this.HelpTab.ImageKey = "help.png";
+            this.HelpTab.Location = new System.Drawing.Point(4, 39);
+            this.HelpTab.Name = "HelpTab";
+            this.HelpTab.Size = new System.Drawing.Size(1045, 567);
+            this.HelpTab.TabIndex = 4;
+            this.HelpTab.Text = "Help";
+            this.HelpTab.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip5
+            // 
+            this.statusStrip5.Location = new System.Drawing.Point(0, 545);
+            this.statusStrip5.Name = "statusStrip5";
+            this.statusStrip5.Size = new System.Drawing.Size(1045, 22);
+            this.statusStrip5.TabIndex = 0;
+            this.statusStrip5.Text = "statusStrip5";
+            // 
+            // AboutTab
+            // 
+            this.AboutTab.Controls.Add(this.HomeTabLogoPictureBox);
+            this.AboutTab.Controls.Add(this.statusStrip6);
+            this.AboutTab.ImageKey = "information.png";
+            this.AboutTab.Location = new System.Drawing.Point(4, 39);
+            this.AboutTab.Name = "AboutTab";
+            this.AboutTab.Size = new System.Drawing.Size(1045, 567);
+            this.AboutTab.TabIndex = 5;
+            this.AboutTab.Text = "About";
+            this.AboutTab.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip6
+            // 
+            this.statusStrip6.Location = new System.Drawing.Point(0, 545);
+            this.statusStrip6.Name = "statusStrip6";
+            this.statusStrip6.Size = new System.Drawing.Size(1045, 22);
+            this.statusStrip6.TabIndex = 0;
+            this.statusStrip6.Text = "statusStrip6";
+            // 
+            // MainTabImageList
+            // 
+            this.MainTabImageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("MainTabImageList.ImageStream")));
+            this.MainTabImageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.MainTabImageList.Images.SetKeyName(0, "house.png");
+            this.MainTabImageList.Images.SetKeyName(1, "calendar.png");
+            this.MainTabImageList.Images.SetKeyName(2, "group.png");
+            this.MainTabImageList.Images.SetKeyName(3, "building.png");
+            this.MainTabImageList.Images.SetKeyName(4, "help.png");
+            this.MainTabImageList.Images.SetKeyName(5, "information.png");
+            // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // HomeTabLogoPictureBox
+            // 
+            this.HomeTabLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.HomeTabLogoPictureBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.HomeTabLogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("HomeTabLogoPictureBox.Image")));
+            this.HomeTabLogoPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.HomeTabLogoPictureBox.Name = "HomeTabLogoPictureBox";
+            this.HomeTabLogoPictureBox.Size = new System.Drawing.Size(1045, 131);
+            this.HomeTabLogoPictureBox.TabIndex = 1;
+            this.HomeTabLogoPictureBox.TabStop = false;
             // 
             // Form1
             // 
@@ -1296,17 +1296,10 @@
             this.homeTabToolStrip.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.HomeTabLogoPictureBox)).EndInit();
             this.TimetableTab.ResumeLayout(false);
             this.TimetableTab.PerformLayout();
             this.LecturerTab.ResumeLayout(false);
             this.LecturerTab.PerformLayout();
-            this.BuildingsTab.ResumeLayout(false);
-            this.BuildingsTab.PerformLayout();
-            this.HelpTab.ResumeLayout(false);
-            this.HelpTab.PerformLayout();
-            this.AboutTab.ResumeLayout(false);
-            this.AboutTab.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.SplitScreenLR.Panel1.ResumeLayout(false);
             this.SplitScreenLR.Panel2.ResumeLayout(false);
@@ -1381,6 +1374,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox00)).EndInit();
+            this.BuildingsTab.ResumeLayout(false);
+            this.BuildingsTab.PerformLayout();
+            this.HelpTab.ResumeLayout(false);
+            this.HelpTab.PerformLayout();
+            this.AboutTab.ResumeLayout(false);
+            this.AboutTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.HomeTabLogoPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1397,7 +1397,6 @@
         private System.Windows.Forms.TabPage TimetableTab;
         private System.Windows.Forms.TabPage HelpTab;
         private System.Windows.Forms.TabPage AboutTab;
-        private System.Windows.Forms.PictureBox HomeTabLogoPictureBox;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel StatusBarMessage;
         private System.Windows.Forms.StatusStrip statusStrip2;
@@ -1478,6 +1477,7 @@
         private System.Windows.Forms.PictureBox pictureBox60;
         private System.Windows.Forms.PictureBox pictureBox01;
         private System.Windows.Forms.PictureBox pictureBox00;
+        private System.Windows.Forms.PictureBox HomeTabLogoPictureBox;
     }
 }
 
