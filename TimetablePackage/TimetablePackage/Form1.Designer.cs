@@ -117,14 +117,19 @@
             this.HelpTab = new System.Windows.Forms.TabPage();
             this.statusStrip5 = new System.Windows.Forms.StatusStrip();
             this.AboutTab = new System.Windows.Forms.TabPage();
+            this.licenceInfoLink = new System.Windows.Forms.LinkLabel();
+            this.licenceInfo1 = new System.Windows.Forms.Label();
+            this.projectNameLabel = new System.Windows.Forms.Label();
+            this.licenseInfoLabel = new System.Windows.Forms.Label();
+            this.HomeTabLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.statusStrip6 = new System.Windows.Forms.StatusStrip();
             this.MainTabImageList = new System.Windows.Forms.ImageList(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.HomeTabLogoPictureBox = new System.Windows.Forms.PictureBox();
-            this.licenseInfoLabel = new System.Windows.Forms.Label();
-            this.projectNameLabel = new System.Windows.Forms.Label();
-            this.licenceInfo1 = new System.Windows.Forms.Label();
-            this.licenceInfoLink = new System.Windows.Forms.LinkLabel();
+            this.versionInfoLabel = new System.Windows.Forms.Label();
+            this.developerNamesLabel = new System.Windows.Forms.Label();
+            this.developersTitleLabel = new System.Windows.Forms.Label();
+            this.supervisorTitleLabel = new System.Windows.Forms.Label();
+            this.supervisorNameLabel = new System.Windows.Forms.Label();
             this.MainTabControl.SuspendLayout();
             this.HomeTab.SuspendLayout();
             this.homeTabToolStrip.SuspendLayout();
@@ -1078,7 +1083,7 @@
             // pictureBox63
             // 
             this.pictureBox63.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox63.Location = new System.Drawing.Point(162, 204);
+            this.pictureBox63.Location = new System.Drawing.Point(266, 204);
             this.pictureBox63.Name = "pictureBox63";
             this.pictureBox63.Size = new System.Drawing.Size(43, 26);
             this.pictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1089,7 +1094,7 @@
             // pictureBox66
             // 
             this.pictureBox66.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox66.Location = new System.Drawing.Point(318, 204);
+            this.pictureBox66.Location = new System.Drawing.Point(214, 204);
             this.pictureBox66.Name = "pictureBox66";
             this.pictureBox66.Size = new System.Drawing.Size(43, 26);
             this.pictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1100,7 +1105,7 @@
             // pictureBox65
             // 
             this.pictureBox65.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox65.Location = new System.Drawing.Point(266, 204);
+            this.pictureBox65.Location = new System.Drawing.Point(370, 204);
             this.pictureBox65.Name = "pictureBox65";
             this.pictureBox65.Size = new System.Drawing.Size(43, 26);
             this.pictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1111,7 +1116,7 @@
             // pictureBox64
             // 
             this.pictureBox64.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox64.Location = new System.Drawing.Point(214, 204);
+            this.pictureBox64.Location = new System.Drawing.Point(318, 204);
             this.pictureBox64.Name = "pictureBox64";
             this.pictureBox64.Size = new System.Drawing.Size(43, 26);
             this.pictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1122,7 +1127,7 @@
             // pictureBox67
             // 
             this.pictureBox67.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox67.Location = new System.Drawing.Point(370, 204);
+            this.pictureBox67.Location = new System.Drawing.Point(162, 204);
             this.pictureBox67.Name = "pictureBox67";
             this.pictureBox67.Size = new System.Drawing.Size(43, 26);
             this.pictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1133,7 +1138,7 @@
             // pictureBox62
             // 
             this.pictureBox62.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox62.Location = new System.Drawing.Point(110, 204);
+            this.pictureBox62.Location = new System.Drawing.Point(6, 204);
             this.pictureBox62.Name = "pictureBox62";
             this.pictureBox62.Size = new System.Drawing.Size(43, 26);
             this.pictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1155,7 +1160,7 @@
             // pictureBox60
             // 
             this.pictureBox60.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox60.Location = new System.Drawing.Point(6, 204);
+            this.pictureBox60.Location = new System.Drawing.Point(110, 204);
             this.pictureBox60.Name = "pictureBox60";
             this.pictureBox60.Size = new System.Drawing.Size(43, 26);
             this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1237,6 +1242,11 @@
             // 
             // AboutTab
             // 
+            this.AboutTab.Controls.Add(this.supervisorNameLabel);
+            this.AboutTab.Controls.Add(this.supervisorTitleLabel);
+            this.AboutTab.Controls.Add(this.developersTitleLabel);
+            this.AboutTab.Controls.Add(this.developerNamesLabel);
+            this.AboutTab.Controls.Add(this.versionInfoLabel);
             this.AboutTab.Controls.Add(this.licenceInfoLink);
             this.AboutTab.Controls.Add(this.licenceInfo1);
             this.AboutTab.Controls.Add(this.projectNameLabel);
@@ -1251,6 +1261,58 @@
             this.AboutTab.TabIndex = 5;
             this.AboutTab.Text = "About";
             this.AboutTab.UseVisualStyleBackColor = true;
+            // 
+            // licenceInfoLink
+            // 
+            this.licenceInfoLink.ActiveLinkColor = System.Drawing.Color.Red;
+            this.licenceInfoLink.AutoSize = true;
+            this.licenceInfoLink.Location = new System.Drawing.Point(392, 478);
+            this.licenceInfoLink.Name = "licenceInfoLink";
+            this.licenceInfoLink.Size = new System.Drawing.Size(426, 15);
+            this.licenceInfoLink.TabIndex = 6;
+            this.licenceInfoLink.TabStop = true;
+            this.licenceInfoLink.Text = "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Ireland License.";
+            this.licenceInfoLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.licenceInfoLink_LinkClicked);
+            // 
+            // licenceInfo1
+            // 
+            this.licenceInfo1.AutoSize = true;
+            this.licenceInfo1.Location = new System.Drawing.Point(227, 478);
+            this.licenceInfo1.Name = "licenceInfo1";
+            this.licenceInfo1.Size = new System.Drawing.Size(168, 15);
+            this.licenceInfo1.TabIndex = 4;
+            this.licenceInfo1.Text = "This work is licensed under a ";
+            // 
+            // projectNameLabel
+            // 
+            this.projectNameLabel.AutoSize = true;
+            this.projectNameLabel.Font = new System.Drawing.Font("TR Architecture", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.projectNameLabel.Location = new System.Drawing.Point(387, 137);
+            this.projectNameLabel.Name = "projectNameLabel";
+            this.projectNameLabel.Size = new System.Drawing.Size(271, 48);
+            this.projectNameLabel.TabIndex = 3;
+            this.projectNameLabel.Text = "Time Table Package ";
+            // 
+            // licenseInfoLabel
+            // 
+            this.licenseInfoLabel.AutoSize = true;
+            this.licenseInfoLabel.Location = new System.Drawing.Point(436, 505);
+            this.licenseInfoLabel.Name = "licenseInfoLabel";
+            this.licenseInfoLabel.Size = new System.Drawing.Size(169, 30);
+            this.licenseInfoLabel.TabIndex = 2;
+            this.licenseInfoLabel.Text = "           Copyright 2013©\r\nInstitute of Technology Carlow";
+            // 
+            // HomeTabLogoPictureBox
+            // 
+            this.HomeTabLogoPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.HomeTabLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.HomeTabLogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("HomeTabLogoPictureBox.Image")));
+            this.HomeTabLogoPictureBox.Location = new System.Drawing.Point(461, 3);
+            this.HomeTabLogoPictureBox.Name = "HomeTabLogoPictureBox";
+            this.HomeTabLogoPictureBox.Size = new System.Drawing.Size(122, 131);
+            this.HomeTabLogoPictureBox.TabIndex = 1;
+            this.HomeTabLogoPictureBox.TabStop = false;
             // 
             // statusStrip6
             // 
@@ -1277,56 +1339,56 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // HomeTabLogoPictureBox
+            // versionInfoLabel
             // 
-            this.HomeTabLogoPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.HomeTabLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.HomeTabLogoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("HomeTabLogoPictureBox.Image")));
-            this.HomeTabLogoPictureBox.Location = new System.Drawing.Point(461, 3);
-            this.HomeTabLogoPictureBox.Name = "HomeTabLogoPictureBox";
-            this.HomeTabLogoPictureBox.Size = new System.Drawing.Size(122, 131);
-            this.HomeTabLogoPictureBox.TabIndex = 1;
-            this.HomeTabLogoPictureBox.TabStop = false;
+            this.versionInfoLabel.AutoSize = true;
+            this.versionInfoLabel.Location = new System.Drawing.Point(567, 185);
+            this.versionInfoLabel.Name = "versionInfoLabel";
+            this.versionInfoLabel.Size = new System.Drawing.Size(68, 15);
+            this.versionInfoLabel.TabIndex = 7;
+            this.versionInfoLabel.Text = "Version 1.0";
             // 
-            // licenseInfoLabel
+            // developerNamesLabel
             // 
-            this.licenseInfoLabel.AutoSize = true;
-            this.licenseInfoLabel.Location = new System.Drawing.Point(438, 505);
-            this.licenseInfoLabel.Name = "licenseInfoLabel";
-            this.licenseInfoLabel.Size = new System.Drawing.Size(169, 30);
-            this.licenseInfoLabel.TabIndex = 2;
-            this.licenseInfoLabel.Text = "           Copyright 2013©\r\nInstitute of Technology Carlow";
+            this.developerNamesLabel.AutoSize = true;
+            this.developerNamesLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.developerNamesLabel.Location = new System.Drawing.Point(405, 271);
+            this.developerNamesLabel.Name = "developerNamesLabel";
+            this.developerNamesLabel.Size = new System.Drawing.Size(230, 44);
+            this.developerNamesLabel.TabIndex = 8;
+            this.developerNamesLabel.Text = "Ayhan Sahin-C00145773\r\nThomas Nolan-C00146771";
             // 
-            // projectNameLabel
+            // developersTitleLabel
             // 
-            this.projectNameLabel.AutoSize = true;
-            this.projectNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.projectNameLabel.Location = new System.Drawing.Point(428, 137);
-            this.projectNameLabel.Name = "projectNameLabel";
-            this.projectNameLabel.Size = new System.Drawing.Size(189, 24);
-            this.projectNameLabel.TabIndex = 3;
-            this.projectNameLabel.Text = "Time Table Package ";
+            this.developersTitleLabel.AutoSize = true;
+            this.developersTitleLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.developersTitleLabel.ForeColor = System.Drawing.Color.Blue;
+            this.developersTitleLabel.Location = new System.Drawing.Point(440, 249);
+            this.developersTitleLabel.Name = "developersTitleLabel";
+            this.developersTitleLabel.Size = new System.Drawing.Size(161, 22);
+            this.developersTitleLabel.TabIndex = 9;
+            this.developersTitleLabel.Text = "Project Developers";
             // 
-            // licenceInfo1
+            // supervisorTitleLabel
             // 
-            this.licenceInfo1.AutoSize = true;
-            this.licenceInfo1.Location = new System.Drawing.Point(229, 478);
-            this.licenceInfo1.Name = "licenceInfo1";
-            this.licenceInfo1.Size = new System.Drawing.Size(168, 15);
-            this.licenceInfo1.TabIndex = 4;
-            this.licenceInfo1.Text = "This work is licensed under a ";
+            this.supervisorTitleLabel.AutoSize = true;
+            this.supervisorTitleLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.supervisorTitleLabel.ForeColor = System.Drawing.Color.Blue;
+            this.supervisorTitleLabel.Location = new System.Drawing.Point(440, 340);
+            this.supervisorTitleLabel.Name = "supervisorTitleLabel";
+            this.supervisorTitleLabel.Size = new System.Drawing.Size(156, 22);
+            this.supervisorTitleLabel.TabIndex = 10;
+            this.supervisorTitleLabel.Text = "Project Supervisor";
             // 
-            // licenceInfoLink
+            // supervisorNameLabel
             // 
-            this.licenceInfoLink.AutoSize = true;
-            this.licenceInfoLink.Location = new System.Drawing.Point(394, 478);
-            this.licenceInfoLink.Name = "licenceInfoLink";
-            this.licenceInfoLink.Size = new System.Drawing.Size(426, 15);
-            this.licenceInfoLink.TabIndex = 6;
-            this.licenceInfoLink.TabStop = true;
-            this.licenceInfoLink.Text = "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Ireland License.";
-            this.licenceInfoLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.licenceInfoLink_LinkClicked);
+            this.supervisorNameLabel.AutoSize = true;
+            this.supervisorNameLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.supervisorNameLabel.Location = new System.Drawing.Point(472, 374);
+            this.supervisorNameLabel.Name = "supervisorNameLabel";
+            this.supervisorNameLabel.Size = new System.Drawing.Size(97, 22);
+            this.supervisorNameLabel.TabIndex = 11;
+            this.supervisorNameLabel.Text = "David Kelly";
             // 
             // Form1
             // 
@@ -1534,6 +1596,11 @@
         private System.Windows.Forms.Label licenseInfoLabel;
         private System.Windows.Forms.LinkLabel licenceInfoLink;
         private System.Windows.Forms.Label licenceInfo1;
+        private System.Windows.Forms.Label versionInfoLabel;
+        private System.Windows.Forms.Label developerNamesLabel;
+        private System.Windows.Forms.Label developersTitleLabel;
+        private System.Windows.Forms.Label supervisorNameLabel;
+        private System.Windows.Forms.Label supervisorTitleLabel;
     }
 }
 
