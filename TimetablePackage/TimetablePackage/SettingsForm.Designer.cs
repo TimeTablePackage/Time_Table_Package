@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsForm));
             this.Language = new System.Windows.Forms.TabControl();
             this.insDetailsTab = new System.Windows.Forms.TabPage();
@@ -52,15 +53,25 @@
             this.languageTab = new System.Windows.Forms.TabPage();
             this.settingsFormSaveButton = new System.Windows.Forms.Button();
             this.settingsFormCancelButton = new System.Windows.Forms.Button();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.languageSelect = new System.Windows.Forms.GroupBox();
+            this.languageSelectLabel = new System.Windows.Forms.Label();
+            this.languageSelectionImages = new System.Windows.Forms.ImageList(this.components);
+            this.englishRadioButton = new System.Windows.Forms.RadioButton();
+            this.turkishRadioButton = new System.Windows.Forms.RadioButton();
+            this.frenchRadioButton = new System.Windows.Forms.RadioButton();
+            this.languagesFlagsPictureBox = new System.Windows.Forms.PictureBox();
             this.Language.SuspendLayout();
             this.insDetailsTab.SuspendLayout();
+            this.languageTab.SuspendLayout();
+            this.languageSelect.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.languagesFlagsPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // Language
             // 
             this.Language.Controls.Add(this.insDetailsTab);
             this.Language.Controls.Add(this.languageTab);
+            this.Language.ImageList = this.languageSelectionImages;
             resources.ApplyResources(this.Language, "Language");
             this.Language.Name = "Language";
             this.Language.SelectedIndex = 0;
@@ -68,7 +79,6 @@
             // insDetailsTab
             // 
             this.insDetailsTab.BackColor = System.Drawing.SystemColors.Control;
-            this.insDetailsTab.Controls.Add(this.maskedTextBox1);
             this.insDetailsTab.Controls.Add(this.countryComboBox);
             this.insDetailsTab.Controls.Add(this.academicYearTextBox);
             this.insDetailsTab.Controls.Add(this.websiteTextBox);
@@ -429,9 +439,11 @@
             // 
             // languageTab
             // 
+            this.languageTab.BackColor = System.Drawing.SystemColors.Control;
+            this.languageTab.Controls.Add(this.languageSelectLabel);
+            this.languageTab.Controls.Add(this.languageSelect);
             resources.ApplyResources(this.languageTab, "languageTab");
             this.languageTab.Name = "languageTab";
-            this.languageTab.UseVisualStyleBackColor = true;
             // 
             // settingsFormSaveButton
             // 
@@ -446,10 +458,62 @@
             this.settingsFormCancelButton.Name = "settingsFormCancelButton";
             this.settingsFormCancelButton.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox1
+            // languageSelect
             // 
-            resources.ApplyResources(this.maskedTextBox1, "maskedTextBox1");
-            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.languageSelect.BackColor = System.Drawing.Color.Transparent;
+            this.languageSelect.Controls.Add(this.languagesFlagsPictureBox);
+            this.languageSelect.Controls.Add(this.frenchRadioButton);
+            this.languageSelect.Controls.Add(this.turkishRadioButton);
+            this.languageSelect.Controls.Add(this.englishRadioButton);
+            resources.ApplyResources(this.languageSelect, "languageSelect");
+            this.languageSelect.Name = "languageSelect";
+            this.languageSelect.TabStop = false;
+            // 
+            // languageSelectLabel
+            // 
+            resources.ApplyResources(this.languageSelectLabel, "languageSelectLabel");
+            this.languageSelectLabel.Name = "languageSelectLabel";
+            // 
+            // languageSelectionImages
+            // 
+            this.languageSelectionImages.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("languageSelectionImages.ImageStream")));
+            this.languageSelectionImages.TransparentColor = System.Drawing.Color.Transparent;
+            this.languageSelectionImages.Images.SetKeyName(0, "flag_turkey.png");
+            this.languageSelectionImages.Images.SetKeyName(1, "flag_france.png");
+            this.languageSelectionImages.Images.SetKeyName(2, "flag_ireland.png");
+            // 
+            // englishRadioButton
+            // 
+            resources.ApplyResources(this.englishRadioButton, "englishRadioButton");
+            this.englishRadioButton.ImageList = this.languageSelectionImages;
+            this.englishRadioButton.Name = "englishRadioButton";
+            this.englishRadioButton.TabStop = true;
+            this.englishRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // turkishRadioButton
+            // 
+            resources.ApplyResources(this.turkishRadioButton, "turkishRadioButton");
+            this.turkishRadioButton.ImageList = this.languageSelectionImages;
+            this.turkishRadioButton.Name = "turkishRadioButton";
+            this.turkishRadioButton.TabStop = true;
+            this.turkishRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // frenchRadioButton
+            // 
+            resources.ApplyResources(this.frenchRadioButton, "frenchRadioButton");
+            this.frenchRadioButton.ImageList = this.languageSelectionImages;
+            this.frenchRadioButton.Name = "frenchRadioButton";
+            this.frenchRadioButton.TabStop = true;
+            this.frenchRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // languagesFlagsPictureBox
+            // 
+            this.languagesFlagsPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.languagesFlagsPictureBox.Image = global::TimetablePackage.Properties.Resources.flags_globe;
+            resources.ApplyResources(this.languagesFlagsPictureBox, "languagesFlagsPictureBox");
+            this.languagesFlagsPictureBox.InitialImage = global::TimetablePackage.Properties.Resources.flags_globe;
+            this.languagesFlagsPictureBox.Name = "languagesFlagsPictureBox";
+            this.languagesFlagsPictureBox.TabStop = false;
             // 
             // SettingsForm
             // 
@@ -466,6 +530,11 @@
             this.Language.ResumeLayout(false);
             this.insDetailsTab.ResumeLayout(false);
             this.insDetailsTab.PerformLayout();
+            this.languageTab.ResumeLayout(false);
+            this.languageTab.PerformLayout();
+            this.languageSelect.ResumeLayout(false);
+            this.languageSelect.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.languagesFlagsPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -495,6 +564,12 @@
         private System.Windows.Forms.TextBox addLine2TextBox;
         private System.Windows.Forms.TextBox addLine1TextBox;
         private System.Windows.Forms.TextBox insNameTextBox;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label languageSelectLabel;
+        private System.Windows.Forms.GroupBox languageSelect;
+        private System.Windows.Forms.RadioButton turkishRadioButton;
+        private System.Windows.Forms.RadioButton englishRadioButton;
+        private System.Windows.Forms.ImageList languageSelectionImages;
+        private System.Windows.Forms.RadioButton frenchRadioButton;
+        private System.Windows.Forms.PictureBox languagesFlagsPictureBox;
     }
 }

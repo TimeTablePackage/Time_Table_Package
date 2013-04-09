@@ -63,6 +63,16 @@ namespace TimetablePackage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flags_globe {
+            get {
+                object obj = ResourceManager.GetObject("flags_globe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tick {
             get {
                 object obj = ResourceManager.GetObject("tick", resourceCulture);
