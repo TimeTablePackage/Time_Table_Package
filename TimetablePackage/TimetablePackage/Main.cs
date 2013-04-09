@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace TimetablePackage
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         public String buildingName;
         public Int16 noOfRooms;
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
             this.pictureBox00.Click += new System.EventHandler(this.changeIcon);
@@ -122,7 +122,16 @@ namespace TimetablePackage
             System.Diagnostics.Process.Start(Application.StartupPath + "\\licenceInfo.txt");
         }
 
-     
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            SettingsForm settings = new SettingsForm();
+            settings.ShowDialog();
+
+
+        }
+
+    
+        
 
 
     }

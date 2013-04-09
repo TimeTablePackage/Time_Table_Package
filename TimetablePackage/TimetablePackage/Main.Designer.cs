@@ -1,6 +1,6 @@
 ﻿namespace TimetablePackage
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -29,12 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.iconImageList = new System.Windows.Forms.ImageList(this.components);
             this.MainTabControl = new System.Windows.Forms.TabControl();
             this.HomeTab = new System.Windows.Forms.TabPage();
             this.homeTabToolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripNewButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.StatusBarMessage = new System.Windows.Forms.ToolStripStatusLabel();
             this.TimetableTab = new System.Windows.Forms.TabPage();
@@ -126,8 +129,8 @@
             this.licenceInfo1 = new System.Windows.Forms.Label();
             this.projectNameLabel = new System.Windows.Forms.Label();
             this.licenseInfoLabel = new System.Windows.Forms.Label();
-            this.HomeTabLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.statusStrip6 = new System.Windows.Forms.StatusStrip();
+            this.HomeTabLogoPictureBox = new System.Windows.Forms.PictureBox();
             this.MainTabImageList = new System.Windows.Forms.ImageList(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.MainTabControl.SuspendLayout();
@@ -256,26 +259,65 @@
             // homeTabToolStrip
             // 
             this.homeTabToolStrip.AutoSize = false;
+            this.homeTabToolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.homeTabToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripNewButton});
+            this.toolStripNewButton,
+            this.toolStripButton1,
+            this.toolStripButton2,
+            this.toolStripButton3});
             this.homeTabToolStrip.Location = new System.Drawing.Point(3, 3);
             this.homeTabToolStrip.Name = "homeTabToolStrip";
-            this.homeTabToolStrip.Size = new System.Drawing.Size(1039, 52);
+            this.homeTabToolStrip.Size = new System.Drawing.Size(1039, 55);
             this.homeTabToolStrip.Stretch = true;
             this.homeTabToolStrip.TabIndex = 2;
             this.homeTabToolStrip.Text = "toolStrip1";
             // 
             // toolStripNewButton
             // 
-            this.toolStripNewButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripNewButton.Image = ((System.Drawing.Image)(resources.GetObject("toolStripNewButton.Image")));
+            this.toolStripNewButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripNewButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripNewButton.Name = "toolStripNewButton";
-            this.toolStripNewButton.Size = new System.Drawing.Size(23, 49);
+            this.toolStripNewButton.Size = new System.Drawing.Size(36, 52);
             this.toolStripNewButton.Text = "New";
-            this.toolStripNewButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.toolStripNewButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.toolStripNewButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.toolStripNewButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.toolStripNewButton.ToolTipText = "New";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.toolStripButton1.Size = new System.Drawing.Size(40, 52);
+            this.toolStripButton1.Text = "Open";
+            this.toolStripButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.toolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(53, 52);
+            this.toolStripButton2.Text = "Settings";
+            this.toolStripButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(36, 52);
+            this.toolStripButton3.Text = "Print";
+            this.toolStripButton3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // statusStrip1
             // 
@@ -1083,7 +1125,7 @@
             // pictureBox63
             // 
             this.pictureBox63.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox63.Location = new System.Drawing.Point(266, 204);
+            this.pictureBox63.Location = new System.Drawing.Point(162, 204);
             this.pictureBox63.Name = "pictureBox63";
             this.pictureBox63.Size = new System.Drawing.Size(43, 26);
             this.pictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1094,7 +1136,7 @@
             // pictureBox66
             // 
             this.pictureBox66.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox66.Location = new System.Drawing.Point(214, 204);
+            this.pictureBox66.Location = new System.Drawing.Point(318, 204);
             this.pictureBox66.Name = "pictureBox66";
             this.pictureBox66.Size = new System.Drawing.Size(43, 26);
             this.pictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1105,7 +1147,7 @@
             // pictureBox65
             // 
             this.pictureBox65.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox65.Location = new System.Drawing.Point(370, 204);
+            this.pictureBox65.Location = new System.Drawing.Point(266, 204);
             this.pictureBox65.Name = "pictureBox65";
             this.pictureBox65.Size = new System.Drawing.Size(43, 26);
             this.pictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1116,7 +1158,7 @@
             // pictureBox64
             // 
             this.pictureBox64.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox64.Location = new System.Drawing.Point(318, 204);
+            this.pictureBox64.Location = new System.Drawing.Point(214, 204);
             this.pictureBox64.Name = "pictureBox64";
             this.pictureBox64.Size = new System.Drawing.Size(43, 26);
             this.pictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1127,7 +1169,7 @@
             // pictureBox67
             // 
             this.pictureBox67.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox67.Location = new System.Drawing.Point(162, 204);
+            this.pictureBox67.Location = new System.Drawing.Point(370, 204);
             this.pictureBox67.Name = "pictureBox67";
             this.pictureBox67.Size = new System.Drawing.Size(43, 26);
             this.pictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1138,7 +1180,7 @@
             // pictureBox62
             // 
             this.pictureBox62.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox62.Location = new System.Drawing.Point(6, 204);
+            this.pictureBox62.Location = new System.Drawing.Point(110, 204);
             this.pictureBox62.Name = "pictureBox62";
             this.pictureBox62.Size = new System.Drawing.Size(43, 26);
             this.pictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1160,7 +1202,7 @@
             // pictureBox60
             // 
             this.pictureBox60.Image = global::TimetablePackage.Properties.Resources.tick;
-            this.pictureBox60.Location = new System.Drawing.Point(110, 204);
+            this.pictureBox60.Location = new System.Drawing.Point(6, 204);
             this.pictureBox60.Name = "pictureBox60";
             this.pictureBox60.Size = new System.Drawing.Size(43, 26);
             this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1251,8 +1293,8 @@
             this.AboutTab.Controls.Add(this.licenceInfo1);
             this.AboutTab.Controls.Add(this.projectNameLabel);
             this.AboutTab.Controls.Add(this.licenseInfoLabel);
-            this.AboutTab.Controls.Add(this.HomeTabLogoPictureBox);
             this.AboutTab.Controls.Add(this.statusStrip6);
+            this.AboutTab.Controls.Add(this.HomeTabLogoPictureBox);
             this.AboutTab.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AboutTab.ImageKey = "information.png";
             this.AboutTab.Location = new System.Drawing.Point(4, 39);
@@ -1265,42 +1307,42 @@
             // supervisorNameLabel
             // 
             this.supervisorNameLabel.AutoSize = true;
-            this.supervisorNameLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.supervisorNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.supervisorNameLabel.Location = new System.Drawing.Point(472, 374);
             this.supervisorNameLabel.Name = "supervisorNameLabel";
-            this.supervisorNameLabel.Size = new System.Drawing.Size(97, 22);
+            this.supervisorNameLabel.Size = new System.Drawing.Size(102, 24);
             this.supervisorNameLabel.TabIndex = 11;
             this.supervisorNameLabel.Text = "David Kelly";
             // 
             // supervisorTitleLabel
             // 
             this.supervisorTitleLabel.AutoSize = true;
-            this.supervisorTitleLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.supervisorTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.supervisorTitleLabel.ForeColor = System.Drawing.Color.Blue;
             this.supervisorTitleLabel.Location = new System.Drawing.Point(440, 340);
             this.supervisorTitleLabel.Name = "supervisorTitleLabel";
-            this.supervisorTitleLabel.Size = new System.Drawing.Size(156, 22);
+            this.supervisorTitleLabel.Size = new System.Drawing.Size(163, 24);
             this.supervisorTitleLabel.TabIndex = 10;
             this.supervisorTitleLabel.Text = "Project Supervisor";
             // 
             // developersTitleLabel
             // 
             this.developersTitleLabel.AutoSize = true;
-            this.developersTitleLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.developersTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.developersTitleLabel.ForeColor = System.Drawing.Color.Blue;
             this.developersTitleLabel.Location = new System.Drawing.Point(440, 249);
             this.developersTitleLabel.Name = "developersTitleLabel";
-            this.developersTitleLabel.Size = new System.Drawing.Size(161, 22);
+            this.developersTitleLabel.Size = new System.Drawing.Size(169, 24);
             this.developersTitleLabel.TabIndex = 9;
             this.developersTitleLabel.Text = "Project Developers";
             // 
             // developerNamesLabel
             // 
             this.developerNamesLabel.AutoSize = true;
-            this.developerNamesLabel.Font = new System.Drawing.Font("00300", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.developerNamesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.developerNamesLabel.Location = new System.Drawing.Point(405, 271);
             this.developerNamesLabel.Name = "developerNamesLabel";
-            this.developerNamesLabel.Size = new System.Drawing.Size(230, 44);
+            this.developerNamesLabel.Size = new System.Drawing.Size(233, 48);
             this.developerNamesLabel.TabIndex = 8;
             this.developerNamesLabel.Text = "Ayhan Sahin-C00145773\r\nThomas Nolan-C00146771";
             // 
@@ -1337,10 +1379,10 @@
             // projectNameLabel
             // 
             this.projectNameLabel.AutoSize = true;
-            this.projectNameLabel.Font = new System.Drawing.Font("TR Architecture", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.projectNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.projectNameLabel.Location = new System.Drawing.Point(387, 137);
             this.projectNameLabel.Name = "projectNameLabel";
-            this.projectNameLabel.Size = new System.Drawing.Size(271, 48);
+            this.projectNameLabel.Size = new System.Drawing.Size(397, 44);
             this.projectNameLabel.TabIndex = 3;
             this.projectNameLabel.Text = "Time Table Package ";
             // 
@@ -1353,6 +1395,14 @@
             this.licenseInfoLabel.TabIndex = 2;
             this.licenseInfoLabel.Text = "           Copyright 2013©\r\nInstitute of Technology Carlow";
             // 
+            // statusStrip6
+            // 
+            this.statusStrip6.Location = new System.Drawing.Point(0, 545);
+            this.statusStrip6.Name = "statusStrip6";
+            this.statusStrip6.Size = new System.Drawing.Size(1045, 22);
+            this.statusStrip6.TabIndex = 0;
+            this.statusStrip6.Text = "statusStrip6";
+            // 
             // HomeTabLogoPictureBox
             // 
             this.HomeTabLogoPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1364,14 +1414,6 @@
             this.HomeTabLogoPictureBox.Size = new System.Drawing.Size(122, 131);
             this.HomeTabLogoPictureBox.TabIndex = 1;
             this.HomeTabLogoPictureBox.TabStop = false;
-            // 
-            // statusStrip6
-            // 
-            this.statusStrip6.Location = new System.Drawing.Point(0, 545);
-            this.statusStrip6.Name = "statusStrip6";
-            this.statusStrip6.Size = new System.Drawing.Size(1045, 22);
-            this.statusStrip6.TabIndex = 0;
-            this.statusStrip6.Text = "statusStrip6";
             // 
             // MainTabImageList
             // 
@@ -1390,7 +1432,7 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1400,7 +1442,7 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1069, 648);
             this.MinimumSize = new System.Drawing.Size(1069, 648);
-            this.Name = "Form1";
+            this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Timetable Package";
             this.MainTabControl.ResumeLayout(false);
@@ -1601,6 +1643,9 @@
         private System.Windows.Forms.Label developersTitleLabel;
         private System.Windows.Forms.Label supervisorNameLabel;
         private System.Windows.Forms.Label supervisorTitleLabel;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
     }
 }
 
