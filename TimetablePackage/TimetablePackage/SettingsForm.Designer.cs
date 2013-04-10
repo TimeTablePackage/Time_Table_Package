@@ -528,6 +528,7 @@
             this.MinimizeBox = false;
             this.Name = "SettingsForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.Load += new System.EventHandler(this.SettingsForm_Load);
             this.Language.ResumeLayout(false);
             this.insDetailsTab.ResumeLayout(false);
             this.insDetailsTab.PerformLayout();
