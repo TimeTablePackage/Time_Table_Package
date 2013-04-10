@@ -51,15 +51,15 @@
             this.addLine1 = new System.Windows.Forms.Label();
             this.insNameLabel = new System.Windows.Forms.Label();
             this.languageTab = new System.Windows.Forms.TabPage();
+            this.languageSelectLabel = new System.Windows.Forms.Label();
+            this.languageSelect = new System.Windows.Forms.GroupBox();
+            this.languagesFlagsPictureBox = new System.Windows.Forms.PictureBox();
+            this.frenchRadioButton = new System.Windows.Forms.RadioButton();
+            this.languageSelectionImages = new System.Windows.Forms.ImageList(this.components);
+            this.turkishRadioButton = new System.Windows.Forms.RadioButton();
+            this.englishRadioButton = new System.Windows.Forms.RadioButton();
             this.settingsFormSaveButton = new System.Windows.Forms.Button();
             this.settingsFormCancelButton = new System.Windows.Forms.Button();
-            this.languageSelect = new System.Windows.Forms.GroupBox();
-            this.languageSelectLabel = new System.Windows.Forms.Label();
-            this.languageSelectionImages = new System.Windows.Forms.ImageList(this.components);
-            this.englishRadioButton = new System.Windows.Forms.RadioButton();
-            this.turkishRadioButton = new System.Windows.Forms.RadioButton();
-            this.frenchRadioButton = new System.Windows.Forms.RadioButton();
-            this.languagesFlagsPictureBox = new System.Windows.Forms.PictureBox();
             this.Language.SuspendLayout();
             this.insDetailsTab.SuspendLayout();
             this.languageTab.SuspendLayout();
@@ -445,18 +445,10 @@
             resources.ApplyResources(this.languageTab, "languageTab");
             this.languageTab.Name = "languageTab";
             // 
-            // settingsFormSaveButton
+            // languageSelectLabel
             // 
-            resources.ApplyResources(this.settingsFormSaveButton, "settingsFormSaveButton");
-            this.settingsFormSaveButton.Name = "settingsFormSaveButton";
-            this.settingsFormSaveButton.UseVisualStyleBackColor = true;
-            // 
-            // settingsFormCancelButton
-            // 
-            this.settingsFormCancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            resources.ApplyResources(this.settingsFormCancelButton, "settingsFormCancelButton");
-            this.settingsFormCancelButton.Name = "settingsFormCancelButton";
-            this.settingsFormCancelButton.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.languageSelectLabel, "languageSelectLabel");
+            this.languageSelectLabel.Name = "languageSelectLabel";
             // 
             // languageSelect
             // 
@@ -469,34 +461,14 @@
             this.languageSelect.Name = "languageSelect";
             this.languageSelect.TabStop = false;
             // 
-            // languageSelectLabel
+            // languagesFlagsPictureBox
             // 
-            resources.ApplyResources(this.languageSelectLabel, "languageSelectLabel");
-            this.languageSelectLabel.Name = "languageSelectLabel";
-            // 
-            // languageSelectionImages
-            // 
-            this.languageSelectionImages.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("languageSelectionImages.ImageStream")));
-            this.languageSelectionImages.TransparentColor = System.Drawing.Color.Transparent;
-            this.languageSelectionImages.Images.SetKeyName(0, "flag_turkey.png");
-            this.languageSelectionImages.Images.SetKeyName(1, "flag_france.png");
-            this.languageSelectionImages.Images.SetKeyName(2, "flag_ireland.png");
-            // 
-            // englishRadioButton
-            // 
-            resources.ApplyResources(this.englishRadioButton, "englishRadioButton");
-            this.englishRadioButton.ImageList = this.languageSelectionImages;
-            this.englishRadioButton.Name = "englishRadioButton";
-            this.englishRadioButton.TabStop = true;
-            this.englishRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // turkishRadioButton
-            // 
-            resources.ApplyResources(this.turkishRadioButton, "turkishRadioButton");
-            this.turkishRadioButton.ImageList = this.languageSelectionImages;
-            this.turkishRadioButton.Name = "turkishRadioButton";
-            this.turkishRadioButton.TabStop = true;
-            this.turkishRadioButton.UseVisualStyleBackColor = true;
+            this.languagesFlagsPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.languagesFlagsPictureBox.Image = global::TimetablePackage.Properties.Resources.flags_globe;
+            resources.ApplyResources(this.languagesFlagsPictureBox, "languagesFlagsPictureBox");
+            this.languagesFlagsPictureBox.InitialImage = global::TimetablePackage.Properties.Resources.flags_globe;
+            this.languagesFlagsPictureBox.Name = "languagesFlagsPictureBox";
+            this.languagesFlagsPictureBox.TabStop = false;
             // 
             // frenchRadioButton
             // 
@@ -506,14 +478,43 @@
             this.frenchRadioButton.TabStop = true;
             this.frenchRadioButton.UseVisualStyleBackColor = true;
             // 
-            // languagesFlagsPictureBox
+            // languageSelectionImages
             // 
-            this.languagesFlagsPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.languagesFlagsPictureBox.Image = global::TimetablePackage.Properties.Resources.flags_globe;
-            resources.ApplyResources(this.languagesFlagsPictureBox, "languagesFlagsPictureBox");
-            this.languagesFlagsPictureBox.InitialImage = global::TimetablePackage.Properties.Resources.flags_globe;
-            this.languagesFlagsPictureBox.Name = "languagesFlagsPictureBox";
-            this.languagesFlagsPictureBox.TabStop = false;
+            this.languageSelectionImages.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("languageSelectionImages.ImageStream")));
+            this.languageSelectionImages.TransparentColor = System.Drawing.Color.Transparent;
+            this.languageSelectionImages.Images.SetKeyName(0, "flag_turkey.png");
+            this.languageSelectionImages.Images.SetKeyName(1, "flag_france.png");
+            this.languageSelectionImages.Images.SetKeyName(2, "flag_ireland.png");
+            // 
+            // turkishRadioButton
+            // 
+            resources.ApplyResources(this.turkishRadioButton, "turkishRadioButton");
+            this.turkishRadioButton.ImageList = this.languageSelectionImages;
+            this.turkishRadioButton.Name = "turkishRadioButton";
+            this.turkishRadioButton.TabStop = true;
+            this.turkishRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // englishRadioButton
+            // 
+            resources.ApplyResources(this.englishRadioButton, "englishRadioButton");
+            this.englishRadioButton.ImageList = this.languageSelectionImages;
+            this.englishRadioButton.Name = "englishRadioButton";
+            this.englishRadioButton.TabStop = true;
+            this.englishRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // settingsFormSaveButton
+            // 
+            resources.ApplyResources(this.settingsFormSaveButton, "settingsFormSaveButton");
+            this.settingsFormSaveButton.Name = "settingsFormSaveButton";
+            this.settingsFormSaveButton.UseVisualStyleBackColor = true;
+            this.settingsFormSaveButton.Click += new System.EventHandler(this.settingsFormSaveButton_Click);
+            // 
+            // settingsFormCancelButton
+            // 
+            this.settingsFormCancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.settingsFormCancelButton, "settingsFormCancelButton");
+            this.settingsFormCancelButton.Name = "settingsFormCancelButton";
+            this.settingsFormCancelButton.UseVisualStyleBackColor = true;
             // 
             // SettingsForm
             // 

@@ -120,579 +120,6 @@
   <metadata name="countryComboBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="&gt;&gt;countryComboBox.Name" xml:space="preserve">
-    <value>countryComboBox</value>
-  </data>
-  <data name="&gt;&gt;countryComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;countryComboBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;countryComboBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;academicYearTextBox.Name" xml:space="preserve">
-    <value>academicYearTextBox</value>
-  </data>
-  <data name="&gt;&gt;academicYearTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;academicYearTextBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;academicYearTextBox.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;websiteTextBox.Name" xml:space="preserve">
-    <value>websiteTextBox</value>
-  </data>
-  <data name="&gt;&gt;websiteTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;websiteTextBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;websiteTextBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;telephoneTextBox.Name" xml:space="preserve">
-    <value>telephoneTextBox</value>
-  </data>
-  <data name="&gt;&gt;telephoneTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;telephoneTextBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;telephoneTextBox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;cityTextBox.Name" xml:space="preserve">
-    <value>cityTextBox</value>
-  </data>
-  <data name="&gt;&gt;cityTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cityTextBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;cityTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;addLine3TextBox.Name" xml:space="preserve">
-    <value>addLine3TextBox</value>
-  </data>
-  <data name="&gt;&gt;addLine3TextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addLine3TextBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;addLine3TextBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;addLine2TextBox.Name" xml:space="preserve">
-    <value>addLine2TextBox</value>
-  </data>
-  <data name="&gt;&gt;addLine2TextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addLine2TextBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;addLine2TextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;addLine1TextBox.Name" xml:space="preserve">
-    <value>addLine1TextBox</value>
-  </data>
-  <data name="&gt;&gt;addLine1TextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addLine1TextBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;addLine1TextBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;insNameTextBox.Name" xml:space="preserve">
-    <value>insNameTextBox</value>
-  </data>
-  <data name="&gt;&gt;insNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;insNameTextBox.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;insNameTextBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;academicYearLabel.Name" xml:space="preserve">
-    <value>academicYearLabel</value>
-  </data>
-  <data name="&gt;&gt;academicYearLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;academicYearLabel.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;academicYearLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;websiteInfoLabel.Name" xml:space="preserve">
-    <value>websiteInfoLabel</value>
-  </data>
-  <data name="&gt;&gt;websiteInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;websiteInfoLabel.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;websiteInfoLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;telephoneLabel.Name" xml:space="preserve">
-    <value>telephoneLabel</value>
-  </data>
-  <data name="&gt;&gt;telephoneLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;telephoneLabel.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;telephoneLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;countryNameLabel.Name" xml:space="preserve">
-    <value>countryNameLabel</value>
-  </data>
-  <data name="&gt;&gt;countryNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;countryNameLabel.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;countryNameLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;cityNameLabel.Name" xml:space="preserve">
-    <value>cityNameLabel</value>
-  </data>
-  <data name="&gt;&gt;cityNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cityNameLabel.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;cityNameLabel.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;addLine3.Name" xml:space="preserve">
-    <value>addLine3</value>
-  </data>
-  <data name="&gt;&gt;addLine3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addLine3.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;addLine3.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;addLine2.Name" xml:space="preserve">
-    <value>addLine2</value>
-  </data>
-  <data name="&gt;&gt;addLine2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addLine2.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;addLine2.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;addLine1.Name" xml:space="preserve">
-    <value>addLine1</value>
-  </data>
-  <data name="&gt;&gt;addLine1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addLine1.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;addLine1.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;insNameLabel.Name" xml:space="preserve">
-    <value>insNameLabel</value>
-  </data>
-  <data name="&gt;&gt;insNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;insNameLabel.Parent" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;insNameLabel.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="insDetailsTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="insDetailsTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="insDetailsTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>611, 343</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="insDetailsTab.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="insDetailsTab.Text" xml:space="preserve">
-    <value>Institution details</value>
-  </data>
-  <data name="&gt;&gt;insDetailsTab.Name" xml:space="preserve">
-    <value>insDetailsTab</value>
-  </data>
-  <data name="&gt;&gt;insDetailsTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;insDetailsTab.Parent" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="&gt;&gt;insDetailsTab.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="languageSelectLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="languageSelectLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
-  </data>
-  <data name="languageSelectLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="languageSelectLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
-  </data>
-  <data name="languageSelectLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>596, 15</value>
-  </data>
-  <data name="languageSelectLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="languageSelectLabel.Text" xml:space="preserve">
-    <value>Timetable Package cureently supports 3 languages.Select a language you would like to use.</value>
-  </data>
-  <data name="&gt;&gt;languageSelectLabel.Name" xml:space="preserve">
-    <value>languageSelectLabel</value>
-  </data>
-  <data name="&gt;&gt;languageSelectLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languageSelectLabel.Parent" xml:space="preserve">
-    <value>languageTab</value>
-  </data>
-  <data name="&gt;&gt;languageSelectLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="languagesFlagsPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="languagesFlagsPictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 19</value>
-  </data>
-  <data name="languagesFlagsPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 149</value>
-  </data>
-  <data name="languagesFlagsPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="languagesFlagsPictureBox.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;languagesFlagsPictureBox.Name" xml:space="preserve">
-    <value>languagesFlagsPictureBox</value>
-  </data>
-  <data name="&gt;&gt;languagesFlagsPictureBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languagesFlagsPictureBox.Parent" xml:space="preserve">
-    <value>languageSelect</value>
-  </data>
-  <data name="&gt;&gt;languagesFlagsPictureBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="frenchRadioButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="frenchRadioButton.ImageKey" xml:space="preserve">
-    <value>flag_france.png</value>
-  </data>
-  <metadata name="languageSelectionImages.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="languageSelectionImages.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADS
-        EAAAAk1TRnQBSQFMAgEBAwEAARABAAEQAQABIAEAASABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
-        AwABgAMAASADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
-        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
-        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
-        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
-        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
-        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
-        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
-        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
-        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
-        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
-        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
-        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
-        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
-        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
-        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
-        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
-        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
-        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
-        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
-        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
-        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
-        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
-        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
-        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
-        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
-        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
-        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
-        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8ACwAP/xEAD/8RAA//
-        MQAB/wH0C/IB9AH/EQAB/wH0C/IB9AH/EQAB/wH0C/IB9AH/MQAB/wHsCxQB7AH/EQAB/wHsCxQB7AH/
-        EQAB/wHsCxQB7AH/MQAB/wEUC/8BFAH/EQAB/wEUC/8BFAH/EQAB/wEUC/8BFAH/MQAB/wEUAv8BEQL/
-        AREC/wERAv8BFAH/EQAB/wEUAf8BEQT/AREC/wERAf8BFAH/EQAB/wEUAv8BEQH/A0MBEQP/ARQB/zEA
-        Af8BFAL/AREC/wFDAv8BEQL/ARQB/xEAAf8BFAH/AUME/wFDAv8BEQH/ARQB/xEAAf8BFAL/AREB/wFD
-        Bv8BFAH/KQAI/wH0ARQC/wERAv8DQwP/ARQB9Aj/AQAI/wH0ARQB/wEVAUMBEQL/A0MC/wEUAfQI/wEA
-        CP8B9AEUAv8BQwH/AhUBEQT/ARQB9Aj/IQAB/wH0B/IBFAL/AUMC/wFDAv8BEQL/ARQH8gH0Af8BAAH/
-        AfQH8gEUAf8BQwT/AUMC/wERAf8BFAfyAfQB/wEAAf8B9AfyARQC/wERAf8BQwb/ARUH8gH0Af8hAAH/
-        AW8GIAH5ARQB/wERAUMBEQH/AewCQwHsAv8BFAH5BiABbwH/AQAB/wG0BooBrAEUAf8B7AJDAREB/wHs
-        AkMB7AH/ARQB+QYgAW8B/wEAAf8BcgEuBSgBAgEUAv8BEQH/A0MBEQP/ARUBLAZNAXQB/yEAAf8BIAdN
-        ARQL/wEUB00BIAH/AQAB/wGKB7IBFAv/ARQHTQEgAf8BAAH/AS4BVwY1ARQL/wEVBlkBegFNAf8hAAH/
-        ASAGTQFHAUUEFAIVAhQCFQEUAUUBRwZNASAB/wEAAf8BigeyAWwBFAEVCEMBFQFFAUcGTQEgAf8BAAH/
-        ASgBVwY1AUoBFQJDAREEQwERAUMBFQFLBlkBegFNAf8hAAH/ASABTQVHByYNRwFNASAB/wEAAf8BigGz
-        CLIJ/wEmB0cBTQEgAf8BAAH/ASgBVwg1Cf8BUwFZBlMBegFNAf8hAAH/ASABTQNHAiYBFgMaAb0B4w5H
-        AU0BIAH/AQAB/wGKAbMIsgn/ASYHRwFNASAB/wEAAf8BKAFXCDUJ/whTAXoBTQH/IQAB/wEgAU0CRwEm
-        AU0BGwL/ARoBlAHjAZQB4w1HAU0BIAH/AQAB/wGKAbMIsgH2B/QB/wEmB0cBTQEgAf8BAAH/ASgBVwg1
-        Cf8IUwF6AU0B/yEAAf8BIAHjA0cB9AL/AeMEJgFNASYMRwHjASAB/wEAAf8BigGzCLIB9gf0Af8BJgdH
-        AeMBIAH/AQAB/wEoAVcINQL/BfQC/whTAXoBTQH/IQAB/wEgAeMBRwEmAZQC/wHjASYDRwEmARsBTQIm
-        AU0JRwHjASAB/wEAAf8BigGzCLIB9gH0BfMB9AH/ASYHRwHjASAB/wEAAf8BKAF4CDUC/wX0Av8IUwF6
-        AU0B/yEAAf8BIAF1AiYC/wH0ASYDRwImARoB9AGaAf8BTQlHAXUBIAH/AQAB/wGKAboIsgH2B/MB/wEm
-        B0cBdQEgAf8BAAH/ASgBeAg1Av8G9AH/CFMBegFNAf8hAAH/ASABFgImAv8BmgEmA0cB4wGaAfQC/wEW
-        ASYIRwEmARYBIAH/AQAB/wGKAboIsgH2B/MB9AEmBkcBJgEWASAB/wEAAf8BKAF4AjUEVgI1Af8H9AH/
-        CFMBmgFNAf8hAAH/ASABdQImAv8BlAEmAkcBJgHjAZoB9AL/ARYBJghHASYBdQEgAf8BAAH/AYoBugey
-        AawB9gHzBfIB8wH0ASYGRwEmAXUBIAH/AQAB/wEoAXgBNQVWATUBLwH/B/QB/whTAZoBTQH/IQAB/wEg
-        AXUCJgL/ARsCJgJHAiYBvQH0AZQB/wEXASYHRwEmAXUBIAH/AQAB/wGKAboHsgGsAfQG8gHzAfQBJgZH
-        ASYBdQEgAf8BAAH/ASgBeAI1BFYBNQEvAf8B9AXzAvQIUwGaASwB/yEAAf8BIAGUAiYBmgL/AUcFJgEb
-        ARcCJgFHASYHRwEmAZQBIAH/AQAB/wGKAboBrAayAawB8wfyAfMCJgVHASYBlAEgAf8BAAH/ASgBmQEv
-        BVYCLwH/AfQF8wL0CFMBmgEsAf8hAAH/ASABlAImAUcC/wEbAUcEJgEXBCYHRwImAZQBIAH/AQAB/wGK
-        AdwBrAWyAqwB8wHyBfEB8gHzAiYERwImAZQBIAH/AQAB/wEoAZkBLwZQAS4B/wfzAfQIUwGaASwB/yEA
-        Af8BIAGUAyYB4wP/ARYBFwH5ARcB4wImCUcCJgGUASAB/wEAAf8BigHcCKwBGwfxARkCJgRHAiYBlAEg
-        Af8BAAH/AQIBmQEvBlABLgH/B/MB9AhTAZoBLAH/IQAB/wEgAZQEJgFHAZoE/wGUAiYKRwImAZQBIAH/
-        AQAB/wGKAQkIrAEbBvEB8AEZAiYERwImAZQBIAH/AQAB/wECAQgBLwZQAS4B9AfzAfQIUwGaASwB/yEA
-        Af8BIAGaBiYD+RAmAZoBIAH/AQAB/wGKAQkIrAHyB/AB8gH5ByYBmgEgAf8BAAH/AQIBCAEvBlABLgH0
-        B/MB9AhTARoBLAH/IQAB/wEgAb0B+QUmA/kPJgH5Ab0BIAH/AQAB/wGKAQkIrAHxB/AB8QH5BiYB+QG9
-        ASAB/wEAAf8BAgEICC4B9AHzBfIC8wEyB1MBGgEsAf8hAAH/ASAbvQEgAf8BAAH/AYoJCQH2B/QB/wGa
-        CL0BIAH/AQAB/wEoAcIICAn/CRoBLAH/IQAB/wFGGyABFgH/AQAB/wGtCYoBvAcHAbwJIAEWAf8BAAH/
-        AU8BKAgCCQcJLAGUAf//ACEAAUIBTQE+BwABPgMAASgDAAGAAwABIAMAAQEBAAEBBgABAhYAA/8BAAz/
-        BAAM/wQAAf8BgAEAAv8BgAEAAv8BgAEAAf8EAAH/AYABAAL/AYABAAL/AYABAAH/BAAB/wGAAQAC/wGA
-        AQAC/wGAAQAB/wQAAf8BgAEAAv8BgAEAAv8BgAEAAf8EAAH/AYABAAL/AYABAAL/AYABAAH/BAAB/wGA
-        AQAC/wGAAQAC/wGAAQAB/wQAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGA
-        AwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGA
-        AwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGA
-        AwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGA
-        AwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcADP8EAAz/BAAL
-</value>
-  </data>
-  <data name="frenchRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="frenchRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>361, 196</value>
-  </data>
-  <data name="frenchRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 32</value>
-  </data>
-  <data name="frenchRadioButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="frenchRadioButton.Text" xml:space="preserve">
-    <value>Français
-French</value>
-  </data>
-  <data name="frenchRadioButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="&gt;&gt;frenchRadioButton.Name" xml:space="preserve">
-    <value>frenchRadioButton</value>
-  </data>
-  <data name="&gt;&gt;frenchRadioButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;frenchRadioButton.Parent" xml:space="preserve">
-    <value>languageSelect</value>
-  </data>
-  <data name="&gt;&gt;frenchRadioButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="turkishRadioButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="turkishRadioButton.ImageKey" xml:space="preserve">
-    <value>flag_turkey.png</value>
-  </data>
-  <data name="turkishRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="turkishRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 196</value>
-  </data>
-  <data name="turkishRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 32</value>
-  </data>
-  <data name="turkishRadioButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="turkishRadioButton.Text" xml:space="preserve">
-    <value>Türkçe
-Turkish</value>
-  </data>
-  <data name="turkishRadioButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="&gt;&gt;turkishRadioButton.Name" xml:space="preserve">
-    <value>turkishRadioButton</value>
-  </data>
-  <data name="&gt;&gt;turkishRadioButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;turkishRadioButton.Parent" xml:space="preserve">
-    <value>languageSelect</value>
-  </data>
-  <data name="&gt;&gt;turkishRadioButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="englishRadioButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="englishRadioButton.ImageKey" xml:space="preserve">
-    <value>flag_ireland.png</value>
-  </data>
-  <data name="englishRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="englishRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 196</value>
-  </data>
-  <data name="englishRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 32</value>
-  </data>
-  <data name="englishRadioButton.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="englishRadioButton.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="englishRadioButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="&gt;&gt;englishRadioButton.Name" xml:space="preserve">
-    <value>englishRadioButton</value>
-  </data>
-  <data name="&gt;&gt;englishRadioButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;englishRadioButton.Parent" xml:space="preserve">
-    <value>languageSelect</value>
-  </data>
-  <data name="&gt;&gt;englishRadioButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="languageSelect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 51</value>
-  </data>
-  <data name="languageSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>487, 259</value>
-  </data>
-  <data name="languageSelect.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="languageSelect.Text" xml:space="preserve">
-    <value>Select a Language</value>
-  </data>
-  <data name="&gt;&gt;languageSelect.Name" xml:space="preserve">
-    <value>languageSelect</value>
-  </data>
-  <data name="&gt;&gt;languageSelect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languageSelect.Parent" xml:space="preserve">
-    <value>languageTab</value>
-  </data>
-  <data name="&gt;&gt;languageSelect.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="languageTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="languageTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="languageTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>611, 343</value>
-  </data>
-  <data name="languageTab.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="languageTab.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="&gt;&gt;languageTab.Name" xml:space="preserve">
-    <value>languageTab</value>
-  </data>
-  <data name="&gt;&gt;languageTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languageTab.Parent" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="&gt;&gt;languageTab.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Language.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="Language.Size" type="System.Drawing.Size, System.Drawing">
-    <value>619, 386</value>
-  </data>
-  <data name="Language.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Language.Name" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="&gt;&gt;Language.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Language.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Language.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="countryComboBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="countryComboBox.Items" xml:space="preserve">
     <value>AF:Afghanistan</value>
   </data>
@@ -1425,12 +852,14 @@ Turkish</value>
   <data name="countryComboBox.Items243" xml:space="preserve">
     <value>ZW:Zimbabwe</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="countryComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 196</value>
   </data>
   <data name="countryComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 21</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="countryComboBox.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
@@ -1623,6 +1052,7 @@ Turkish</value>
   <data name="academicYearLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="academicYearLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1913,6 +1343,357 @@ Turkish</value>
   </data>
   <data name="&gt;&gt;insNameLabel.ZOrder" xml:space="preserve">
     <value>17</value>
+  </data>
+  <data name="insDetailsTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="insDetailsTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="insDetailsTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>611, 343</value>
+  </data>
+  <data name="insDetailsTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="insDetailsTab.Text" xml:space="preserve">
+    <value>Institution details</value>
+  </data>
+  <data name="&gt;&gt;insDetailsTab.Name" xml:space="preserve">
+    <value>insDetailsTab</value>
+  </data>
+  <data name="&gt;&gt;insDetailsTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;insDetailsTab.Parent" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;insDetailsTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="languageSelectLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="languageSelectLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="languageSelectLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="languageSelectLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="languageSelectLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 15</value>
+  </data>
+  <data name="languageSelectLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="languageSelectLabel.Text" xml:space="preserve">
+    <value>Timetable Package cureently supports 3 languages.Select a language you would like to use.</value>
+  </data>
+  <data name="&gt;&gt;languageSelectLabel.Name" xml:space="preserve">
+    <value>languageSelectLabel</value>
+  </data>
+  <data name="&gt;&gt;languageSelectLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageSelectLabel.Parent" xml:space="preserve">
+    <value>languageTab</value>
+  </data>
+  <data name="&gt;&gt;languageSelectLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="languagesFlagsPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="languagesFlagsPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 19</value>
+  </data>
+  <data name="languagesFlagsPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 149</value>
+  </data>
+  <data name="languagesFlagsPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="languagesFlagsPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;languagesFlagsPictureBox.Name" xml:space="preserve">
+    <value>languagesFlagsPictureBox</value>
+  </data>
+  <data name="&gt;&gt;languagesFlagsPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languagesFlagsPictureBox.Parent" xml:space="preserve">
+    <value>languageSelect</value>
+  </data>
+  <data name="&gt;&gt;languagesFlagsPictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="frenchRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="frenchRadioButton.ImageKey" xml:space="preserve">
+    <value>flag_france.png</value>
+  </data>
+  <metadata name="languageSelectionImages.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="languageSelectionImages.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADS
+        EAAAAk1TRnQBSQFMAgEBAwEAARgBAAEYAQABIAEAASABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABgAMAASADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8ACwAP/xEAD/8RAA//
+        MQAB/wH0C/IB9AH/EQAB/wH0C/IB9AH/EQAB/wH0C/IB9AH/MQAB/wHsCxQB7AH/EQAB/wHsCxQB7AH/
+        EQAB/wHsCxQB7AH/MQAB/wEUC/8BFAH/EQAB/wEUC/8BFAH/EQAB/wEUC/8BFAH/MQAB/wEUAv8BEQL/
+        AREC/wERAv8BFAH/EQAB/wEUAf8BEQT/AREC/wERAf8BFAH/EQAB/wEUAv8BEQH/A0MBEQP/ARQB/zEA
+        Af8BFAL/AREC/wFDAv8BEQL/ARQB/xEAAf8BFAH/AUME/wFDAv8BEQH/ARQB/xEAAf8BFAL/AREB/wFD
+        Bv8BFAH/KQAI/wH0ARQC/wERAv8DQwP/ARQB9Aj/AQAI/wH0ARQB/wEVAUMBEQL/A0MC/wEUAfQI/wEA
+        CP8B9AEUAv8BQwH/AhUBEQT/ARQB9Aj/IQAB/wH0B/IBFAL/AUMC/wFDAv8BEQL/ARQH8gH0Af8BAAH/
+        AfQH8gEUAf8BQwT/AUMC/wERAf8BFAfyAfQB/wEAAf8B9AfyARQC/wERAf8BQwb/ARUH8gH0Af8hAAH/
+        AW8GIAH5ARQB/wERAUMBEQH/AewCQwHsAv8BFAH5BiABbwH/AQAB/wG0BooBrAEUAf8B7AJDAREB/wHs
+        AkMB7AH/ARQB+QYgAW8B/wEAAf8BcgEuBSgBAgEUAv8BEQH/A0MBEQP/ARUBLAZNAXQB/yEAAf8BIAdN
+        ARQL/wEUB00BIAH/AQAB/wGKB7IBFAv/ARQHTQEgAf8BAAH/AS4BVwY1ARQL/wEVBlkBegFNAf8hAAH/
+        ASAGTQFHAUUEFAIVAhQCFQEUAUUBRwZNASAB/wEAAf8BigeyAWwBFAEVCEMBFQFFAUcGTQEgAf8BAAH/
+        ASgBVwY1AUoBFQJDAREEQwERAUMBFQFLBlkBegFNAf8hAAH/ASABTQVHByYNRwFNASAB/wEAAf8BigGz
+        CLIJ/wEmB0cBTQEgAf8BAAH/ASgBVwg1Cf8BUwFZBlMBegFNAf8hAAH/ASABTQNHAiYBFgMaAb0B4w5H
+        AU0BIAH/AQAB/wGKAbMIsgn/ASYHRwFNASAB/wEAAf8BKAFXCDUJ/whTAXoBTQH/IQAB/wEgAU0CRwEm
+        AU0BGwL/ARoBlAHjAZQB4w1HAU0BIAH/AQAB/wGKAbMIsgH2B/QB/wEmB0cBTQEgAf8BAAH/ASgBVwg1
+        Cf8IUwF6AU0B/yEAAf8BIAHjA0cB9AL/AeMEJgFNASYMRwHjASAB/wEAAf8BigGzCLIB9gf0Af8BJgdH
+        AeMBIAH/AQAB/wEoAVcINQL/BfQC/whTAXoBTQH/IQAB/wEgAeMBRwEmAZQC/wHjASYDRwEmARsBTQIm
+        AU0JRwHjASAB/wEAAf8BigGzCLIB9gH0BfMB9AH/ASYHRwHjASAB/wEAAf8BKAF4CDUC/wX0Av8IUwF6
+        AU0B/yEAAf8BIAF1AiYC/wH0ASYDRwImARoB9AGaAf8BTQlHAXUBIAH/AQAB/wGKAboIsgH2B/MB/wEm
+        B0cBdQEgAf8BAAH/ASgBeAg1Av8G9AH/CFMBegFNAf8hAAH/ASABFgImAv8BmgEmA0cB4wGaAfQC/wEW
+        ASYIRwEmARYBIAH/AQAB/wGKAboIsgH2B/MB9AEmBkcBJgEWASAB/wEAAf8BKAF4AjUEVgI1Af8H9AH/
+        CFMBmgFNAf8hAAH/ASABdQImAv8BlAEmAkcBJgHjAZoB9AL/ARYBJghHASYBdQEgAf8BAAH/AYoBugey
+        AawB9gHzBfIB8wH0ASYGRwEmAXUBIAH/AQAB/wEoAXgBNQVWATUBLwH/B/QB/whTAZoBTQH/IQAB/wEg
+        AXUCJgL/ARsCJgJHAiYBvQH0AZQB/wEXASYHRwEmAXUBIAH/AQAB/wGKAboHsgGsAfQG8gHzAfQBJgZH
+        ASYBdQEgAf8BAAH/ASgBeAI1BFYBNQEvAf8B9AXzAvQIUwGaASwB/yEAAf8BIAGUAiYBmgL/AUcFJgEb
+        ARcCJgFHASYHRwEmAZQBIAH/AQAB/wGKAboBrAayAawB8wfyAfMCJgVHASYBlAEgAf8BAAH/ASgBmQEv
+        BVYCLwH/AfQF8wL0CFMBmgEsAf8hAAH/ASABlAImAUcC/wEbAUcEJgEXBCYHRwImAZQBIAH/AQAB/wGK
+        AdwBrAWyAqwB8wHyBfEB8gHzAiYERwImAZQBIAH/AQAB/wEoAZkBLwZQAS4B/wfzAfQIUwGaASwB/yEA
+        Af8BIAGUAyYB4wP/ARYBFwH5ARcB4wImCUcCJgGUASAB/wEAAf8BigHcCKwBGwfxARkCJgRHAiYBlAEg
+        Af8BAAH/AQIBmQEvBlABLgH/B/MB9AhTAZoBLAH/IQAB/wEgAZQEJgFHAZoE/wGUAiYKRwImAZQBIAH/
+        AQAB/wGKAQkIrAEbBvEB8AEZAiYERwImAZQBIAH/AQAB/wECAQgBLwZQAS4B9AfzAfQIUwGaASwB/yEA
+        Af8BIAGaBiYD+RAmAZoBIAH/AQAB/wGKAQkIrAHyB/AB8gH5ByYBmgEgAf8BAAH/AQIBCAEvBlABLgH0
+        B/MB9AhTARoBLAH/IQAB/wEgAb0B+QUmA/kPJgH5Ab0BIAH/AQAB/wGKAQkIrAHxB/AB8QH5BiYB+QG9
+        ASAB/wEAAf8BAgEICC4B9AHzBfIC8wEyB1MBGgEsAf8hAAH/ASAbvQEgAf8BAAH/AYoJCQH2B/QB/wGa
+        CL0BIAH/AQAB/wEoAcIICAn/CRoBLAH/IQAB/wFGGyABFgH/AQAB/wGtCYoBvAcHAbwJIAEWAf8BAAH/
+        AU8BKAgCCQcJLAGUAf//ACEAAUIBTQE+BwABPgMAASgDAAGAAwABIAMAAQEBAAEBBgABAhYAA/8BAAz/
+        BAAM/wQAAf8BgAEAAv8BgAEAAv8BgAEAAf8EAAH/AYABAAL/AYABAAL/AYABAAH/BAAB/wGAAQAC/wGA
+        AQAC/wGAAQAB/wQAAf8BgAEAAv8BgAEAAv8BgAEAAf8EAAH/AYABAAL/AYABAAL/AYABAAH/BAAB/wGA
+        AQAC/wGAAQAC/wGAAQAB/wQAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGA
+        AwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGA
+        AwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGA
+        AwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGA
+        AwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcAAYADAAGAAwABgAcADP8EAAz/BAAL
+</value>
+  </data>
+  <data name="frenchRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="frenchRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 196</value>
+  </data>
+  <data name="frenchRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 32</value>
+  </data>
+  <data name="frenchRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="frenchRadioButton.Text" xml:space="preserve">
+    <value>Français
+French</value>
+  </data>
+  <data name="frenchRadioButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;frenchRadioButton.Name" xml:space="preserve">
+    <value>frenchRadioButton</value>
+  </data>
+  <data name="&gt;&gt;frenchRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frenchRadioButton.Parent" xml:space="preserve">
+    <value>languageSelect</value>
+  </data>
+  <data name="&gt;&gt;frenchRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="turkishRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="turkishRadioButton.ImageKey" xml:space="preserve">
+    <value>flag_turkey.png</value>
+  </data>
+  <data name="turkishRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="turkishRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 196</value>
+  </data>
+  <data name="turkishRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 32</value>
+  </data>
+  <data name="turkishRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="turkishRadioButton.Text" xml:space="preserve">
+    <value>Türkçe
+Turkish</value>
+  </data>
+  <data name="turkishRadioButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;turkishRadioButton.Name" xml:space="preserve">
+    <value>turkishRadioButton</value>
+  </data>
+  <data name="&gt;&gt;turkishRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;turkishRadioButton.Parent" xml:space="preserve">
+    <value>languageSelect</value>
+  </data>
+  <data name="&gt;&gt;turkishRadioButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="englishRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="englishRadioButton.ImageKey" xml:space="preserve">
+    <value>flag_ireland.png</value>
+  </data>
+  <data name="englishRadioButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="englishRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 196</value>
+  </data>
+  <data name="englishRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 32</value>
+  </data>
+  <data name="englishRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="englishRadioButton.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="englishRadioButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;englishRadioButton.Name" xml:space="preserve">
+    <value>englishRadioButton</value>
+  </data>
+  <data name="&gt;&gt;englishRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishRadioButton.Parent" xml:space="preserve">
+    <value>languageSelect</value>
+  </data>
+  <data name="&gt;&gt;englishRadioButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="languageSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 51</value>
+  </data>
+  <data name="languageSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 259</value>
+  </data>
+  <data name="languageSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="languageSelect.Text" xml:space="preserve">
+    <value>Select a Language</value>
+  </data>
+  <data name="&gt;&gt;languageSelect.Name" xml:space="preserve">
+    <value>languageSelect</value>
+  </data>
+  <data name="&gt;&gt;languageSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageSelect.Parent" xml:space="preserve">
+    <value>languageTab</value>
+  </data>
+  <data name="&gt;&gt;languageSelect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="languageTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="languageTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="languageTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>611, 343</value>
+  </data>
+  <data name="languageTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="languageTab.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;languageTab.Name" xml:space="preserve">
+    <value>languageTab</value>
+  </data>
+  <data name="&gt;&gt;languageTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageTab.Parent" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;languageTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Language.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="Language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 386</value>
+  </data>
+  <data name="Language.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Language.Name" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;Language.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Language.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Language.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="settingsFormSaveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3642,9 +3423,6 @@ Turkish</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAA
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
