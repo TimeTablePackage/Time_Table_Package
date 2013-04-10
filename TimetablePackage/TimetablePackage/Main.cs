@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TimetablePackage.Properties;
+using System.Threading;
 
 namespace TimetablePackage
 {
@@ -14,9 +16,13 @@ namespace TimetablePackage
     {
         public String buildingName;
         public Int16 noOfRooms;
-
+       
         public Main()
         {
+            Thread t = new Thread(new ThreadStart(SplashScreen));
+            t.Start();
+            Thread.Sleep(5000);
+            t.Abort();
             InitializeComponent();
             this.pictureBox00.Click += new System.EventHandler(this.changeIcon);
             this.pictureBox01.Click += new System.EventHandler(this.changeIcon);
@@ -82,10 +88,15 @@ namespace TimetablePackage
             this.pictureBox67.Click += new System.EventHandler(this.changeIcon);
             this.pictureBox68.Click += new System.EventHandler(this.changeIcon);
 
-            
-           
 
+
+            
         }
+        public void SplashScreen()
+        {
+            Application.Run(new SplashScreen());
+        }
+
         /// <summary>
         /// An on click method for the pictureboxes to change the icon displayed
         /// </summary>
@@ -124,9 +135,14 @@ namespace TimetablePackage
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
-            SettingsForm settings = new SettingsForm();
+            SettingsForm settings;
+            settings = new SettingsForm();
             settings.ShowDialog();
+        }
 
+        private void Main_Load(object sender, EventArgs e)
+        {
+            this.Text = Settings.Default["MainTitle"].ToString();
 
         }
 

@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="MainTitle" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Timetable Package</Value>
     </Setting>
   </Settings>
 </SettingsFile>
