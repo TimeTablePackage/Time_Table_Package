@@ -16,14 +16,33 @@ namespace TimetablePackage
     {
         public String buildingName;
         public Int16 noOfRooms;
-       
+        SettingsForm settings;
         public Main()
         {
             Thread t = new Thread(new ThreadStart(SplashScreen));
             t.Start();
             Thread.Sleep(5000);
             t.Abort();
+            //Check Which Language to Start with.
+            if (Settings.Default["isTurkish"].Equals(true) )
+            {
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("tr-TR"); ;
+                Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("tr-TR"); ;
+            }
+            else if (Settings.Default["isDefault"].Equals(true))
+            {
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en"); ;
+                Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en"); ;
+            }
+            else
+            {
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("fr"); ;
+                Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr"); ;
+            }
             InitializeComponent();
+            
+            settings = new SettingsForm(this);
+             
             this.pictureBox00.Click += new System.EventHandler(this.changeIcon);
             this.pictureBox01.Click += new System.EventHandler(this.changeIcon);
             this.pictureBox02.Click += new System.EventHandler(this.changeIcon);
@@ -135,8 +154,7 @@ namespace TimetablePackage
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
-            SettingsForm settings;
-            settings = new SettingsForm();
+            
             settings.ShowDialog();
         }
 

@@ -142,5 +142,41 @@ namespace TimetablePackage.Properties {
                 this["AcademicYearInfo"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool isTurkish {
+            get {
+                return ((bool)(this["isTurkish"]));
+            }
+            set {
+                this["isTurkish"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool isDefault {
+            get {
+                return ((bool)(this["isDefault"]));
+            }
+            set {
+                this["isDefault"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool isFrench {
+            get {
+                return ((bool)(this["isFrench"]));
+            }
+            set {
+                this["isFrench"] = value;
+            }
+        }
     }
 }

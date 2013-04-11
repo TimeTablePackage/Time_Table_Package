@@ -117,70 +117,90 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="iconImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC4
+        EAAAAk1TRnQBSQFMAgEBAwEAAagBAAGoAQABIAEAASABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABgAMAASADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/0YABP8OAAT/SQAF/xsA
+        Av8C8wH0Af8MAAH/AfQC8wH0Af9IAAH/AfQC8wP/GAAC/wHzAkYB8gH0Af8KAAH/AfQB8gJGAfIC/y0A
+        BP8WAAH/AkwBkwHzAfQC/xYAAv8B8wFGAuMBRgHyAfQB/wgAAv8B8gFGAuMBRgHzAv8rAAL/AvMC/xUA
+        Af8BmQH2ARoBTAHxAfQC/xQAAv8B8wFGBOMBRgHyAfQB/wYAAv8B8wFGBOMBRgHzAv8pAAL/AfMCLgHz
+        Av8UAAH/AfMBkwL2AW8B8QH0C/8JAAL/AfMBRgbjAUYB8gH0Af8EAAL/AfMBRgbjAUYB8wL/JwAC/wHz
+        AS4CNgEuAfMC/xQAAf8BbwP2AXQB8QfyAvMB9AP/BwAB/wHzAUYI4wFGAfIB9AH/AgAC/wHzAUYI4wFG
+        AfMB/yYAAv8B8wEuBDYBLgHzAv8TAAH/AUwB9gPDAUwBbwZMAW8BkwG8AfIB8wP/BQAB/wFGCuMBRgHy
+        AfQD/wHzAUYK4wFGAf8lAAL/AfMBLgE1BDYBNQEuAfMC/xEAAf8B9AF0BMMCGgb2ARoBmgF0AUwBkwHy
+        AfQC/wQAAf8BRgvjAUYB8gL0AfMBRgvjAUYB/yQAAv8B8wEuCDYBLgHzAv8PAAL/AfMBlBDDAZoBTAGT
+        AfMC/wQAAf8BRgvjAUYB8QHyAUYL4wFGAf8kAAL/AfMBLgo2AS4B8wL/DQAC/wHzAW8BmhLDAXQBbwHz
+        Av8EAAH/AUYL4wJGC+MBRgH/JAAC/wHzAS4MNgEuAfMC/wsAAv8B8wFvAZoIwwGaAnUBmgjDAZoBbwHz
+        Av8EAAH/AUYBFgnjAkwJ4wEWAUYB/yQAAv8B8wEuDjYBLgHzAv8KAAH/AfQBbwGaCcMB4wJ1AeMJwwGa
+        AW8B9AH/BQAB/wFGARYSFwEWAUYB/yQAAv8B8wEuEDYBLgHzAv8IAAL/AQcBdQrDAU0CdQHjCsMBdQEH
+        Av8FAAH/AUYBFhAXARYBRgH/JQAB/wHzAS4INgJYCDYBLgHzAv8HAAH/AfMBbwvDAZoC4wGaC8MBbwHz
+        Af8GAAH/AUYBFg4XARYBRgH/JgAB/wEuCDYBXQIuAV0INgEuAfMC/wYAAf8BkwGUGsMBlAGTAf8HAAH/
+        AUYBFgwXARYBRgH/JwAB/wEuAV0GNgFdAS4C/wEuAV0INgEuAfMC/wUAAf8BdAEaC8MBmgJMAZoLwwEa
+        AXQB/wcAAf8B9AFGARYKFwEWAUYB9AH/KAAB/wEuAV0ENgFdAS4B/wIAAf8BLgFdCDYBLgHzAv8EAAH/
+        AUwCwwGgCcMBmgJMAZoJwwGgAsMBTAH/BgAC/wHzAUYBFgoXARYBRgHzAv8oAAH/AS4BXQI2AV0BLgH/
+        BAAB/wEuAV0INgEuAfMC/wMAAf8BTALDCqABmgFMAW8BdAGgAcMIoALDAUwB/wUAAv8B8wFGAZQMFwGU
+        AUYB8wL/KAAB/wEuAl0BLgH/BgAB/wEuAV0INgEuAfMC/wIAAf8BTAHDC6ABwwF0AkwBdAGaCaABwwFM
+        Af8EAAL/AfMBRgGUDk0BlAFGAfMC/ygAAf8CLgH/CAAB/wEuAX4HNgEwAS4B8wL/AQAB/wFNAcMNoAF0
+        A0wBmgigAcMBTQH/AwAC/wHzAUYBlBBNAZQBRgHzAv8oAAH/CwAB/wEuAX4HNgEwAS4B8wP/AXQBGgHD
+        B5oGoAF0AkwBdAGgBpoBwwEaAXQB/wIAAv8B8wFGAZQSTQGUAUYB8wL/NAAB/wEuAX4HNgEwAS4B8wL/
+        ARoBmgHDBpoBoAGaAXUBmgSgAW8CTAGgBpoBwwGaARoB/wEAAv8B8wFGAZQJTQJGCU0BlAFGAfMC/zQA
+        Af8BLgF+BzYBMAEuAf8BAAH/AXUCwwWaAaADTASgAW8CTAGgBZoCwwF1Af8BAAL/AfMBRgGUCUcBlAJG
+        AZQJRwGUAUYB8wL/NAAB/wEuAX4GNgF+AS4B/wEAAf8BGgF1AcMBoASaAaABbwJMAXQCmgF0A0wBoASa
+        AaABwwF1ARoB/wEAAf8B8wFGAZQJRgGUAUYC/wFGAZQJRgGUAUYB8wH/NQAB/wEuAZ8ENgGfAS4B/wMA
+        Af8BdQGaAcMGmghMBpoBwwGaAXUB/wIAAf8BRgGUCUYBlAFGAf8CAAH/AUYBlAlGAZQBRgH/NgAB/wEu
+        AaACNgGgAS4B/wUAAf8BdQGaAsMFmgF0BEwBdAWaAsMBmgF1Af8DAAH/AUYBmghGAZoBRgH/BAAB/wFG
+        AZoIRgGaAUYB/zcAAf8BLgKgAS4B/wcAAf8CdQLDAaAEmgSgBJoBoALDAnUB/wUAAf8BRgGaBkYBmgFG
+        Af8GAAH/AUYBmgZGAZoBRgH/OQAB/wIuAf8JAAH/ARoBdQGaA8MBoAaaAaADwwGaAXUBGgH/BwAB/wFG
+        Ab0ERgG9AUYB/wgAAf8BRgG9BEYBvQFGAf9JAAH/AZoCdQGaARoGwwEaAZoCdQGaAf8KAAH/AUYBvQJG
+        Ab0BRgH/CgAB/wFGAb0CRgG9AUYB/0wAAf8B8wGaCHUBmgHzAf8NAAH/AUYCvQFGAf8MAAH/AUYCvQFG
+        Af9pAAH/AkYB/w4AAf8CRgH/JQABQgFNAT4HAAE+AwABKAMAAYADAAEgAwABAQEAAQEGAAECFgAD/wEA
+        CP8B+AF/Af4BHwQABP8B8AF/Av8B8AE/AfwBDwQABP8B8AEfAv8B4AEfAfgBBwQAAf8BwwL/AfABDwL/
+        AcABDwHwAQMEAAH/AYEC/wHwAQcC/wGAAQcB4AEBBAAB/wEAAv8B8AEAAQEB/wEAAQMBwAUAAf4BAAF/
+        Af8B+AIAAX8BAAEBAYAFAAH8AQABPwH/AfgCAAEfCAAB+AEAAR8B/wHwAgABDwgAAfABAAEPAf8B4AIA
+        AQcBgAIAAQEEAAHgAQABBwH/AcACAAEDAcACAAEDBAABwAEAAQMB/wGAAgABAQHgAgABBwQAAYABAAEB
+        Af8BgAIAAQEB8AIAAQ8HAAH/BAAB+AIAAR8HAAF/BAAB/AIAAT8HAAE/BAAB/gIAAX8HAAEfBAAB/gIA
+        AX8EAAGAARgBAAEPBAAB/AIAAT8EAAHAATwBAAEHBAAB+AIAAR8EAAHgAX4BAAEDBAAB8AIAAQ8EAAHw
+        Af8BAAEBBAAB4AIAAQcEAAH7Af8BgAUAAcACAAEDBAAC/wHABQABgAIAAQEEAAL/AeABAAGAAgABAQgA
+        Av8B8AEAAYACAAEBCAAC/wH4AQEBwAIAAQMBAAEBAYAFAAL/AfwBAwHgAgABBwEAAQMBwAUAAv8B/gEH
+        AfACAAEPAYABBwHgAQEEAAP/AQ8B+AIAAR8BwAEPAfABAwQABP8B/gIAAX8B4AEfAfgBBwQABf8BgAEB
+        Af8B8AE/AfwBDwQACP8B+AF/Af4BHwQACw==
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 39</value>
-  </data>
-  <data name="versionInfoLabel.Text" xml:space="preserve">
-    <value>Version 1.0</value>
-  </data>
-  <data name="pictureBox03.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;versionInfoLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="pictureBox46.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox57.TabIndex" type="System.Int32, mscorlib">
-    <value>60</value>
-  </data>
-  <data name="pictureBox57.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox26.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox57.Name" xml:space="preserve">
-    <value>pictureBox57</value>
-  </data>
-  <data name="statusStrip3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="licenceInfoLink.Text" xml:space="preserve">
-    <value>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Ireland License.</value>
-  </data>
-  <data name="pictureBox62.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 26</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LecturerTab.Name" xml:space="preserve">
-    <value>LecturerTab</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LecturerInfoPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;pictureBox25.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="toolStripButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
   <data name="toolStripNewButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAASUSURBVFhHxZfpblNXFIXzo/1ZqX/Ke/QV2lcrbYFX6EBV
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASUSURBVFhHxZfpblNXFIXzo/1ZqX/Ke/QV2lcrbYFX6EBV
         FZwQYkMjCIMKLSWFQphCmpDBUzzb19dj4jh2Vvd37OsExXYsQumRtuIc7/WtdQZbvlNTU1MfXQmH5yPX
         IpqLhF2F/6MK+HjhibfV1CdMVHYP5Df3VQlqx16/z+pznYd54Yk3AT4jGW/8/OCNLj2k1nVpcUO/LG72
         a8v+vkv19LAc09h44IUn3gQ4wz+sPLS4rtlHm5p9HNXcwj1dnZ3RlSvTpyoYsGDCxgOvfoAzbwWgIfJk
@@ -203,292 +223,13 @@
         YvX+AcR1BwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="&gt;&gt;pictureBox47.Name" xml:space="preserve">
-    <value>pictureBox47</value>
-  </data>
-  <data name="pictureBox53.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox27.Name" xml:space="preserve">
-    <value>pictureBox27</value>
-  </data>
-  <data name="statusStrip4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 542</value>
-  </data>
-  <data name="pictureBox21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="licenceInfo1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 478</value>
-  </data>
-  <data name="&gt;&gt;pictureBox25.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox12.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox13.Name" xml:space="preserve">
-    <value>pictureBox13</value>
-  </data>
-  <data name="homeTabToolStrip.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;HomeTab.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureBox16.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;MainTabControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pictureBox27.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox62.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;statusStrip3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox17.Name" xml:space="preserve">
-    <value>pictureBox17</value>
-  </data>
-  <data name="&gt;&gt;pictureBox62.ZOrder" xml:space="preserve">
-    <value>58</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox06.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 6</value>
-  </data>
-  <data name="pictureBox25.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox14.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox28.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="LecturerInfoPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>861, 561</value>
-  </data>
-  <data name="pictureBox21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 72</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox67.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox23.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox45.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
-  </data>
-  <data name="&gt;&gt;pictureBox52.Name" xml:space="preserve">
-    <value>pictureBox52</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="statusStrip3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 542</value>
-  </data>
-  <data name="pictureBox28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
-  </data>
-  <data name="pictureBox64.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;LecturerInfoPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MainTabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1053, 610</value>
-  </data>
-  <data name="pictureBox23.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="pictureBox20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="pictureBox36.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="HelpTab.ImageKey" xml:space="preserve">
-    <value>help.png</value>
-  </data>
-  <data name="&gt;&gt;pictureBox42.Name" xml:space="preserve">
-    <value>pictureBox42</value>
-  </data>
-  <data name="developersTitleLabel.Text" xml:space="preserve">
-    <value>Project Developers</value>
-  </data>
-  <data name="pictureBox23.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox22.Name" xml:space="preserve">
-    <value>pictureBox22</value>
-  </data>
-  <data name="pictureBox57.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox28.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="pictureBox20.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox31.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="HomeTab.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="&gt;&gt;pictureBox60.ZOrder" xml:space="preserve">
-    <value>60</value>
-  </data>
-  <data name="pictureBox05.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox30.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="pictureBox35.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;toolStripNewButton.Name" xml:space="preserve">
-    <value>toolStripNewButton</value>
-  </data>
-  <data name="&gt;&gt;pictureBox07.Name" xml:space="preserve">
-    <value>pictureBox07</value>
-  </data>
-  <data name="&gt;&gt;pictureBox37.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox12.Name" xml:space="preserve">
-    <value>pictureBox12</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>LecturerInfoPanel</value>
-  </data>
-  <data name="TimetableTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="pictureBox02.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox06.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox52.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 171</value>
-  </data>
-  <data name="&gt;&gt;pictureBox34.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="pictureBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 39</value>
-  </data>
-  <data name="MainTabControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox58.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox47.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox53.TabIndex" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="toolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="pictureBox04.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="LecturerInfoPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="supervisorTitleLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 340</value>
-  </data>
-  <data name="&gt;&gt;pictureBox05.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
-    <value>imageList1</value>
-  </data>
-  <data name="&gt;&gt;statusStrip2.Name" xml:space="preserve">
-    <value>statusStrip2</value>
-  </data>
-  <data name="pictureBox46.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="pictureBox34.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="pictureBox40.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pictureBox36.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="&gt;&gt;pictureBox02.Name" xml:space="preserve">
-    <value>pictureBox02</value>
-  </data>
-  <data name="pictureBox55.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 171</value>
-  </data>
-  <data name="&gt;&gt;statusStrip3.Name" xml:space="preserve">
-    <value>statusStrip3</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Main</value>
-  </data>
-  <data name="&gt;&gt;pictureBox37.Name" xml:space="preserve">
-    <value>pictureBox37</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox65.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="LecterOptionPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="projectNameLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 28pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;pictureBox61.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
+  <data name="toolStripNewButton.Text" xml:space="preserve">
+    <value>Yeni</value>
   </data>
   <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAVPSURBVFhHvZfrT1NnHMdddnm3xCWTbH/CgCJIfLFXS7bs
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVPSURBVFhHvZfrT1NnHMdddnm3xCWTbH/CgCJIfLFXS7bs
         hXHj4kQkY4TFTkWHgJcsMczNbQJyccgIXhCKRUCqUC6WUqAIBZzcyqUtUDoJLRQoiOUiBgjw3e85UMXR
         c9rFhCf5pu1zzunzeX6353d27Hg13tt7Tg3f2KpKmnpn0/y2ff3A73QtIiU6eJ+sKKFV3962lTcW8hDF
         1KB2aAYX5f0QnVSN0fy72wnh4XVKharBZ8jUmPHzPQO8Tyms2wnh4RW9DiAu6EGG2oT44h54x2wfxAaA
@@ -514,303 +255,327 @@
         i798/f8XPrsDj37FzQYAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 542</value>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 52</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAfESURBVFhHrVd7UNTXFY5AaurEsYBQsT6mqbGTVFMrpmYS
+        StJkWqV5jElAbf+ptTMqRumACywssLAsxBdIfQZBRF2e++ApsOyy7G4AAd88EhN5WV7yMBjotHaqfj3n
+        yuISeZnpb+ab3/Dbe+/3ne+ce+7lmWdm+Pht2zZPEhKWHCSJ+fexE8koKCyCscKESrMFKafSEBgcbKGl
+        nAgO0QplsEKp7JbHKHH0eDIi5QpERSsQHhmpDQqSLqcxs2ZIK4Y5hoZHnOQFrl67jocPHoCfru5uaLQ6
+        /P3IMfjv3l1J45YS5iqVyt60tLNobW/H8MgIvh0eFu+BwUHUXKhDbNxe7Nix4+czFeEYEibTabR5uH//
+        Ph48fIiR4RGKvhh7gkPh4/Pup17e3jtpsVWEhbFErtbkoa9/AOXGSpxVZUGVmYPMbDWMlRbx/R+dneRI
+        DGj87OlccJSGRejUOp2IeHDwDr6+2YLklFPYJQkZoMlvEX5BWExw3hMs3cGR9/X3IytXK4izcjQ0Po3s
+        j0EEkcoi5YRokQ6eM5UAxzBZBEWeL8g7bnWi+csbOP7ZSQRJQrpo4uuERYQ5o3mfI5fH32bbOfJHUWuQ
+        S27sP3iIydYT3rHD6qkEEHmUTpdXIMjbO27hekMjvrzxFXLUGmzb5l80Sv6sXQTO0Yo4jIz8U9iekZWL
+        bHJBl1+EAwlCAOfc3Q4c/Q8mcsApIkpemJdfKMhb29qp8BpRV38Jl69eE9+48PaEhLIIrnjb484V393T
+        i7MZ2SLnanKvuKTMJoDJZ/TMjZTHjpK3Efk11NZdhNVaDb2hAhZrlfgtNEzGUc21FxAVHYu+vgGcIwE5
+        ah0KiorFnAMJSTx2RgK46DT5BUUikstXrqGmth5my+diocLiEpFTQ0UlQqThvKibvQBZRGRPbW0d9OUV
+        ZH2hiN5Yacb+A4nTCnBSxMcXc7WW6Q1oaWmlBlMpIq+kiJm8oKhUWMp5jd97EKfS0qFQxOlIgOOoCNeA
+        wCArz/nq6xZBXlZuFOKzczViywaHhgmweGl4BIsaq4G5cZ/uF9byU2EyIyU1DanU3TjaovOl0OoKhID9
+        B5OQmHQYd+9+i462FiTFx6ppodmx4aHq2uoaDA0NoZJIeY6ZxFfV1KL+0hU0NDbTFm6lgu5ADX3bI5G0
+        0rwf2Rx0DQ2XmXPVWjQ2fUHdqpYEnMahpCOijcpjFIRYsXcTEpNgooZSYTCgt7cHnoetcJGfvy9Xncd/
+        R+6iuqoaJWV6SpUOBqMJDQ1NuH69kXZREy5dvkr1kYXwiCh4enpusBfAxfQK9/KU1HSYLFay3YhjJ04i
+        ICCwYu3atf5eXt47+b3Z19eUm6FCOaVqxd4SnGr8D7aX38Hq1CZsOGGA1aCHSpWBv/p/0kVW/yuY7KZz
+        QaSAsXX79mri8iJw8xpLAW+n+YTVLOL4ZylUcKWiZ9O3tYSfEZaMvl/18/Ut+eV+PVIa7uFvFUPYVNCL
+        j/L7sCShFjuTVNi6dWsfjeWm8xbhbXd39w9G/36T3qsIHpw2wrgDiYtJiJBIpNVcE1KplNWyUh7MImfP
+        efPPq5YlWJHWdA8BRO6X34MPdd14X9uDd3J6sUBexKK5S7Jg3iU/JiwYffP67LZ9/6A/Hz82Ea/QJ7aJ
+        +7xtr89y23l02ZqjNdDfAkX+zRj5e+purMvtwYrkZvz6eA32KeT5NO85u3Wf6uhldUzqaqd21jz/xBfW
+        HKlGWQcQYGTybhE5k68n8pVE/lJcEQb6etHZdhNJyhjeHbYtOi7Kp/3DwSU0a4vP6SsonYDch8h/lfIF
+        Vu4rhYkK12Isx72hfvzxTBU4VfMji/Omsnw6MQ4uIRl/8c1sQlUvsNtwB355jyNn8jWpzZgfZ4Sfn59e
+        k6lCjcmI9Unn4XOuAfWDgG8m/R6hs29Y03GO/e4wT6La8nFGEz4n8l1E7vsd8ldp6y1UluHZ5Ws20Szv
+        LZs3mdYlFeM9IjX3AVE1w7D2AB9TAE8rwslZptOF6jvFArsMgxOS/0RZiudWeG8k8hcICwmeyw9fQP0w
+        sLmwD+9rOrHbeEcEwC7OVISjc5hOp7D0wdwNfDIF+Q9f9vIlUr4HcsVz8S5yCc6wLD14Aa+d6cLvsjvx
+        obaLtuvMRTg5h2vzxsjLJ4/c9U+RSiL86Si5bZuJjuoemGZZlngBb5zrwu9zumYswtFVpj0tLe96FPkT
+        5N14Le0G2HbXzeFxRMRXa76O2e/xsY7qQSJeZBGqmYt4fnF8uaj28eRd8Mntxm/OtmFJvJ7Iwzhyvl5x
+        tA4TlPRYR51MBHNszGqGW2T+uFvV/LdT6qFrBT6iBrNBy03mMfliIveQnOF/PF6agtymZ3IRtHag6Rtc
+        pC3qrigZd6tyfznRjHxqsx9oHnU4W+SCnCyl1VcR+DI5UeTfNeMJEV6UjnXk5qbC23j95CW4h5wz0yQX
+        20Q3V5m6PeFiPzYWDuAP6tt4I/2msN09KN1Kg/gazYfJpAfJtOk4VAvvzF6sOFIHLlQu2FE3xdR5BE83
+        mfaWR2ypKLZFcWXwCEgpsSP/Pr19zIkFkvTqpftM4PdEAfEdn49NT8JvCXyeexNWfo/IJ0uH7ZTlN7v5
+        REAsgp3gc5yv0Tzo+YkGTmD3dJ9spyznfMo7wXQL/d9//x+0K7tI3RcktQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 52</value>
+  </data>
+  <data name="toolStripButton2.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP9SURBVFhHrZffb1NlGMe5WLjbBRftv8CFf4QXThxRb2TR
+        S8EfkayymOi6zfW0Pc5MRcAQQNTopXeGGByWocvcLyhrN2y3SZiGsRULdh0oIko0+fp+3vaYrUu39hyf
+        5Judnj3P5/v09D3nPO+OHfWj5ZnBs0NPDZzTXvcr7U02KVNDLQxj0bKFT91/tT5tAEEDhnFo9dNAiG9O
+        fH1dShmdb1DkUkPAMOYhPw2E281lJ0aXpfEVaaJBkUsNAcOYhwM1cLkoZW5J2QZFLjX/WwP5VWnOaL5B
+        kUtN4AaecIcsZPFORT82KC+fWhi+f4LH3ZRtoHDPn6iF4aeBnW48pjb3vG2g/Ke0+qA5UUPAgGWa2NnM
+        QtzVFelU28AFC3nwj3T/7+ZEjW3AMGAZ8131GmhJJBJD8XhcsVjMKpmI652BpPYMflehBAgYsGB6fLzw
+        9J6QrZyojYMHO9X1apeee7ZDHR371LGvSZkaamHAqg08vSdkyHFi+uvhQ32fm1MuP69riz+pO9qnmJOU
+        E3cDCQYsmLDxwAtP7wkZdhxHt38pKZOdVXbmivJzC3prYFDvvndEh98/FkgwYMGEjQdeeHp3h21gfuGq
+        JqfSmrqYNomzOn7iQ53++FN99MlngQQDFkzYeOC1qYFff7un1XJZ5bU1/X7/D0V7+sylTyqecAMJBiyY
+        sPHAa1MDa3fu6oszZ3XmyyGdS13QSy+/oohZQIe6XgskGLBgwsYDr00NlEplm5Qa/lbfjIzp6NEP9Pob
+        Udt9D+ptUqaGWhiwYMLGA68NDcTjjorF2yZpVCOjYxodm9DE1CWdOHVaPX396ut3fIlaGLBgwsYDLzz/
+        W4Tck4XCzxobn9L4xEUrFsuldEaXp2c0nZn1JWphwPK4eOBVfQ7YOSHMh+WVgk1G6XTWGs7M5pXLLZhb
+        6AdfohYGLJgeH6+aBhwt3Sgow31qNHMlpzlzqxw+ckzP7z+g/QdeNHrBHDcmcqmhFgYsmB4fr00/wY3l
+        gvLz5psaXb22qJMnT+lQJKJIZ8Q+SnvfjFXVb/5upUoeNdTCgAXT4+O14Qokk0kVb5V0fWnFXIkV3bxZ
+        VG93t9reHgnwGqq+DQ0DFkzYeOCFp7cIQ9FodJITdIXcZEKDrmPe5cOWkloyE7HRcIMil5rKPDBsWTA9
+        Pl54eu8CZvZHjB41emyd2r2JaJqh1CjboMilhqhORO01bLzwtPsFdi0cMLtzW3javcetbEyamQe9uZEa
+        AoZh7q5h44XnljumcHt1KF0141WpiZHM5lZHMhh+ZkL7fGBvFzRg+G0g9GT/55Ps7ezm1IeoheEttnoz
+        Yb3z9Rbn+oW63fGGxdZsA/UW5/qFut3xtovtXzFQ8NuY3IiTAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolStripButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 52</value>
+  </data>
+  <data name="toolStripButton3.Text" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="HomeTab.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="HomeTab.ImageKey" xml:space="preserve">
+    <value>house.png</value>
+  </data>
+  <data name="HomeTab.Text" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="TimetableTab.Text" xml:space="preserve">
+    <value>Ders Programı</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox68.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox58.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox57.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox08.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="pictureBox56.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox58.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 171</value>
+  <data name="pictureBox55.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox02.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 6</value>
+  <data name="pictureBox54.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox62.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox53.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="TimetableTab.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="pictureBox52.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox65.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="pictureBox51.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox58.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="pictureBox50.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;LecterOptionPanel.Name" xml:space="preserve">
-    <value>LecterOptionPanel</value>
+  <data name="pictureBox48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;statusStrip2.Parent" xml:space="preserve">
-    <value>TimetableTab</value>
+  <data name="pictureBox47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;supervisorNameLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="pictureBox46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="TimetableTab.ImageKey" xml:space="preserve">
-    <value>calendar.png</value>
+  <data name="pictureBox45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;licenseInfoLabel.Parent" xml:space="preserve">
-    <value>AboutTab</value>
+  <data name="pictureBox44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox16.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="pictureBox43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox65.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="pictureBox42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox43.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 138</value>
+  <data name="pictureBox41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;projectNameLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="pictureBox40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox52.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox00.Name" xml:space="preserve">
-    <value>pictureBox00</value>
+  <data name="pictureBox37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox57.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 171</value>
+  <data name="pictureBox36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="developerNamesLabel.Text" xml:space="preserve">
-    <value>Ayhan Sahin-C00145773
-Thomas Nolan-C00146771</value>
+  <data name="pictureBox35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="pictureBox68" Row="6" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox58" Row="5" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox57" Row="5" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox56" Row="5" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox55" Row="5" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox54" Row="5" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox53" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox52" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox51" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox50" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox48" Row="4" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox47" Row="4" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox46" Row="4" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox45" Row="4" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox44" Row="4" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox43" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox42" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox41" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox40" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox38" Row="3" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox37" Row="3" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox36" Row="3" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox35" Row="3" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox34" Row="3" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox33" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox32" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox31" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox30" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox28" Row="2" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox27" Row="2" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox26" Row="2" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox25" Row="2" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox24" Row="2" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox23" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox22" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox21" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox20" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox18" Row="1" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox17" Row="1" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox16" Row="1" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox15" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox14" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox13" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox12" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox11" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox10" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox08" Row="0" RowSpan="1" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox07" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox06" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox05" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox04" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox03" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox02" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox63" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox66" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox65" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox64" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox67" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox62" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox61" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox60" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox01" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox00" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,11.11111,Percent,11.11111,Percent,11.11111,Percent,11.11111,Percent,11.11111,Percent,11.11111,Percent,11.11111,Percent,11.11111,Percent,11.11111" /&gt;&lt;Rows Styles="Percent,14.28571,Percent,14.28571,Percent,14.28571,Percent,14.28571,Percent,14.28571,Percent,14.28571,Percent,14.28571,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  <data name="pictureBox34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox48.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="pictureBox33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox14.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+  <data name="pictureBox32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="licenceInfoLink.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="pictureBox31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox08.ZOrder" xml:space="preserve">
-    <value>46</value>
+  <data name="pictureBox30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;HelpTab.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
+  <data name="pictureBox28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;licenseInfoLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="pictureBox27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;toolStripButton2.Name" xml:space="preserve">
-    <value>toolStripButton2</value>
+  <data name="pictureBox26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 72</value>
+  <data name="pictureBox25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox53.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="pictureBox24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox03.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
+  <data name="pictureBox23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="versionInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>567, 185</value>
+  <data name="pictureBox22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox04.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 6</value>
+  <data name="pictureBox21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox31.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
+  <data name="pictureBox20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;splitLSideTopBottom.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="pictureBox18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="licenceInfo1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="pictureBox17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox67.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 204</value>
+  <data name="pictureBox16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox14.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
+  <data name="pictureBox15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="projectNameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="pictureBox14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox32.Name" xml:space="preserve">
-    <value>pictureBox32</value>
+  <data name="pictureBox13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;AboutTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox60.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox33.ZOrder" xml:space="preserve">
-    <value>24</value>
+  <data name="pictureBox10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="StatusBarMessage.Text" xml:space="preserve">
-    <value>.:Welcome to Timetable Package:.</value>
+  <data name="pictureBox08.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox22.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
+  <data name="pictureBox07.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="supervisorNameLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+  <data name="pictureBox06.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="homeTabToolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="pictureBox05.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="HomeTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 567</value>
+  <data name="pictureBox04.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox18.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
+  <data name="pictureBox03.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox08.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 6</value>
+  <data name="pictureBox02.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;HelpTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox63.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox05.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="pictureBox66.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox65.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;statusStrip5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox64.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;SplitScreenLR.Name" xml:space="preserve">
-    <value>SplitScreenLR</value>
+  <data name="pictureBox67.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="SplitScreenLR.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="pictureBox62.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
+  <data name="pictureBox61.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox24.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+  <data name="pictureBox60.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;MainTabControl.Name" xml:space="preserve">
-    <value>MainTabControl</value>
+  <data name="pictureBox01.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox66.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox00.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;licenseInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LecturerTab.Text" xml:space="preserve">
+    <value>Öğretmenler</value>
   </data>
-  <data name="pictureBox51.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="AddBuildingBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox35.Name" xml:space="preserve">
-    <value>pictureBox35</value>
+  <data name="BuildingsTab.Text" xml:space="preserve">
+    <value>Binalar</value>
   </data>
-  <data name="&gt;&gt;statusStrip6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="HelpTab.Text" xml:space="preserve">
+    <value>Yardım</value>
   </data>
-  <data name="&gt;&gt;LecturerListPanel.Name" xml:space="preserve">
-    <value>LecturerListPanel</value>
+  <data name="supervisorNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox07.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 6</value>
+  <data name="supervisorTitleLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox52.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
+  <data name="developersTitleLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="developerNamesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureBox33.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
+  <data name="versionInfoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="HomeTabLogoPictureBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="licenceInfoLink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox04.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="licenceInfo1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="projectNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pictureBox66.ZOrder" xml:space="preserve">
-    <value>54</value>
-  </data>
-  <data name="&gt;&gt;pictureBox27.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="pictureBox60.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;statusStrip5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox56.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureBox52.TabIndex" type="System.Int32, mscorlib">
-    <value>55</value>
-  </data>
-  <data name="&gt;&gt;LecturerTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TimetableTab.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="pictureBox51.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 171</value>
-  </data>
-  <data name="&gt;&gt;pictureBox54.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pictureBox21.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="pictureBox62.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 204</value>
-  </data>
-  <data name="pictureBox18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox46.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox62.Name" xml:space="preserve">
-    <value>pictureBox62</value>
-  </data>
-  <data name="&gt;&gt;pictureBox02.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox65.ZOrder" xml:space="preserve">
-    <value>55</value>
-  </data>
-  <data name="licenseInfoLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pictureBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 39</value>
-  </data>
-  <data name="pictureBox02.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="pictureBox10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox61.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1039, 22</value>
+  <data name="licenseInfoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="HomeTabLogoPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1203,234 +968,18 @@ Thomas Nolan-C00146771</value>
         pX9JY/QK1wnevwTs6495hR74P5IDdzvVsA7TAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox47.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox31.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 105</value>
-  </data>
-  <data name="&gt;&gt;pictureBox50.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="LecturerTab.Text" xml:space="preserve">
-    <value>Lecturer</value>
-  </data>
-  <data name="pictureBox13.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;licenceInfo1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox35.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox61.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox05.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox51.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;supervisorTitleLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="statusStrip2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 22</value>
-  </data>
-  <data name="&gt;&gt;pictureBox26.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox12.ZOrder" xml:space="preserve">
-    <value>43</value>
-  </data>
-  <data name="pictureBox64.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 204</value>
-  </data>
-  <data name="projectNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>397, 44</value>
-  </data>
-  <data name="AboutTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="pictureBox17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="pictureBox66.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="pictureBox48.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
-  </data>
-  <data name="pictureBox32.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox04.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Panel1.Name" xml:space="preserve">
-    <value>splitLSideTopBottom.Panel1</value>
-  </data>
-  <data name="pictureBox00.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="pictureBox00.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox64.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox31.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox54.Name" xml:space="preserve">
-    <value>pictureBox54</value>
-  </data>
-  <data name="supervisorNameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pictureBox64.Name" xml:space="preserve">
-    <value>pictureBox64</value>
-  </data>
-  <data name="pictureBox58.TabIndex" type="System.Int32, mscorlib">
-    <value>61</value>
-  </data>
-  <data name="&gt;&gt;pictureBox16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LecterOptionPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LecturerListPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 468</value>
-  </data>
-  <data name="pictureBox17.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Timetable Package</value>
-  </data>
-  <data name="toolStripNewButton.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;LecturerListPanel.Parent" xml:space="preserve">
-    <value>splitLSideTopBottom.Panel2</value>
-  </data>
-  <data name="statusStrip2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Panel1.Name" xml:space="preserve">
-    <value>SplitScreenLR.Panel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox65.Name" xml:space="preserve">
-    <value>pictureBox65</value>
-  </data>
-  <data name="pictureBox25.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="pictureBox55.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>474, 238</value>
-  </data>
-  <data name="&gt;&gt;pictureBox12.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;AddBuildingBtn.Parent" xml:space="preserve">
-    <value>BuildingsTab</value>
-  </data>
-  <data name="pictureBox01.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox10.ZOrder" xml:space="preserve">
-    <value>45</value>
-  </data>
-  <data name="&gt;&gt;pictureBox06.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="versionInfoLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pictureBox47.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="splitLSideTopBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="supervisorNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 24</value>
-  </data>
-  <data name="statusStrip5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 22</value>
-  </data>
-  <data name="pictureBox41.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="AddBuildingBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pictureBox45.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 138</value>
-  </data>
-  <data name="&gt;&gt;pictureBox44.Name" xml:space="preserve">
-    <value>pictureBox44</value>
-  </data>
-  <data name="toolStripNewButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="&gt;&gt;pictureBox34.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox55.Name" xml:space="preserve">
-    <value>pictureBox55</value>
-  </data>
-  <data name="&gt;&gt;pictureBox40.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;pictureBox24.Name" xml:space="preserve">
-    <value>pictureBox24</value>
-  </data>
-  <data name="&gt;&gt;developerNamesLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pictureBox51.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox00.ZOrder" xml:space="preserve">
-    <value>62</value>
-  </data>
-  <data name="pictureBox40.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="licenceInfo1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="pictureBox06.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;pictureBox45.Name" xml:space="preserve">
-    <value>pictureBox45</value>
-  </data>
-  <data name="statusStrip6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 545</value>
+  <data name="HomeTabLogoPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AboutTab.Text" xml:space="preserve">
+    <value>Hakkında</value>
   </data>
   <data name="MainTabImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACQ
-        IAAAAk1TRnQBSQFMAgEBBgEAAXABAAGEAQABIAEAASABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACO
+        IAAAAk1TRnQBSQFMAgEBBgEAAYgBAAGIAQABIAEAASABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABgAMAAUADAAEBAQABCAYAASAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -1568,1086 +1117,8 @@ Thomas Nolan-C00146771</value>
         AQ8EAAHwAgABDwHwAgABHwH4AgABHwQAAfACAAEPAfACAAEfAfgCAAE/BAAB8AIAAQ8B8AIAAR8B+AIA
         AT8EAAHwAgABDwHwAgABHwH4AgABPwQAAfACAAEPAfACAAEfAfgCAAE/BAAB+AIAAQ8B8AIAAR8B/wHA
         AQABPwQAAfwCAAEPAfACAAEfAf8B4AEAAT8EAAL/AQABDwHwAgABHwH/AfABAAE/BAAC/wEAAQ8B8AIA
-        AR8B/wH4ARABPwQAAv8BgAEfAfACAAEfAf8B/AE/Af8EAAL/AcABPwHwAgABHwT/BAAE/wHwAgABHxYA
-        Cw==
+        AR8B/wH4ARABPwQAAv8BgAEfAfACAAEfAf8B/AE/Af8EAAL/AcABPwHwAgABHwT/BAAE/wHwAgABHws=
 </value>
-  </data>
-  <data name="&gt;&gt;pictureBox44.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox25.Name" xml:space="preserve">
-    <value>pictureBox25</value>
-  </data>
-  <data name="&gt;&gt;pictureBox14.Name" xml:space="preserve">
-    <value>pictureBox14</value>
-  </data>
-  <data name="SplitScreenLR.SplitterDistance" type="System.Int32, mscorlib">
-    <value>174</value>
-  </data>
-  <data name="&gt;&gt;pictureBox18.ZOrder" xml:space="preserve">
-    <value>37</value>
-  </data>
-  <data name="pictureBox08.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
-  </data>
-  <data name="pictureBox67.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 26</value>
-  </data>
-  <data name="pictureBox54.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox10.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox15.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="pictureBox55.TabIndex" type="System.Int32, mscorlib">
-    <value>58</value>
-  </data>
-  <data name="&gt;&gt;pictureBox01.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 39</value>
-  </data>
-  <data name="&gt;&gt;pictureBox21.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="&gt;&gt;pictureBox15.Name" xml:space="preserve">
-    <value>pictureBox15</value>
-  </data>
-  <data name="HomeTabLogoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 131</value>
-  </data>
-  <data name="pictureBox43.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox53.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox07.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;AboutTab.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;TimetableTab.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pictureBox40.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox63.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 26</value>
-  </data>
-  <data name="pictureBox53.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 171</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox50.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox18.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="MainTabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pictureBox26.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;BuildingsTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="developerNamesLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="&gt;&gt;pictureBox55.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox60.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 204</value>
-  </data>
-  <data name="LecturerInfoPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pictureBox01.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;LecturerInfoPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureBox20.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;statusStrip4.Parent" xml:space="preserve">
-    <value>BuildingsTab</value>
-  </data>
-  <data name="&gt;&gt;iconImageList.Name" xml:space="preserve">
-    <value>iconImageList</value>
-  </data>
-  <data name="&gt;&gt;pictureBox05.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox04.Name" xml:space="preserve">
-    <value>pictureBox04</value>
-  </data>
-  <data name="licenseInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 30</value>
-  </data>
-  <data name="&gt;&gt;pictureBox36.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox12.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="pictureBox36.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="supervisorTitleLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pictureBox45.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox63.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox13.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox26.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 72</value>
-  </data>
-  <data name="&gt;&gt;statusStrip6.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1053, 610</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>LecturerTab</value>
-  </data>
-  <data name="SplitScreenLR.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pictureBox10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1039, 561</value>
-  </data>
-  <data name="&gt;&gt;pictureBox56.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="supervisorTitleLabel.Text" xml:space="preserve">
-    <value>Project Supervisor</value>
-  </data>
-  <data name="&gt;&gt;pictureBox43.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox01.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;homeTabToolStrip.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureBox21.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;pictureBox53.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="StatusBarMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 17</value>
-  </data>
-  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;pictureBox20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox28.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripButton1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="pictureBox03.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 6</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Parent" xml:space="preserve">
-    <value>SplitScreenLR.Panel1</value>
-  </data>
-  <data name="pictureBox55.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="HomeTab.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox25.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox53.Name" xml:space="preserve">
-    <value>pictureBox53</value>
-  </data>
-  <data name="supervisorTitleLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 24</value>
-  </data>
-  <data name="pictureBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 39</value>
-  </data>
-  <data name="&gt;&gt;pictureBox55.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox50.TabIndex" type="System.Int32, mscorlib">
-    <value>53</value>
-  </data>
-  <data name="&gt;&gt;pictureBox31.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox32.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox05.ZOrder" xml:space="preserve">
-    <value>49</value>
-  </data>
-  <data name="HomeTabLogoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>461, 3</value>
-  </data>
-  <data name="supervisorNameLabel.Text" xml:space="preserve">
-    <value>David Kelly</value>
-  </data>
-  <data name="&gt;&gt;pictureBox10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox26.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;pictureBox38.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="toolStripButton2.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="pictureBox24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox43.Name" xml:space="preserve">
-    <value>pictureBox43</value>
-  </data>
-  <data name="&gt;&gt;pictureBox15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox34.Name" xml:space="preserve">
-    <value>pictureBox34</value>
-  </data>
-  <data name="licenseInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 505</value>
-  </data>
-  <data name="pictureBox18.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="developersTitleLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 24</value>
-  </data>
-  <data name="&gt;&gt;MainTabImageList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="developersTitleLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 52</value>
-  </data>
-  <data name="TimetableTab.Text" xml:space="preserve">
-    <value>Timetable</value>
-  </data>
-  <data name="HomeTab.ImageIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pictureBox61.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="pictureBox41.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 138</value>
-  </data>
-  <data name="&gt;&gt;HomeTabLogoPictureBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox01.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="toolStripButton1.Text" xml:space="preserve">
-    <value>Open</value>
-  </data>
-  <data name="pictureBox02.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox00.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="AboutTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 567</value>
-  </data>
-  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox16.ZOrder" xml:space="preserve">
-    <value>39</value>
-  </data>
-  <data name="&gt;&gt;pictureBox67.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BuildingsTab.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Panel1.Parent" xml:space="preserve">
-    <value>splitLSideTopBottom</value>
-  </data>
-  <data name="LecterOptionPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;pictureBox64.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox23.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;pictureBox46.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;pictureBox68.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Panel1.Parent" xml:space="preserve">
-    <value>SplitScreenLR</value>
-  </data>
-  <data name="&gt;&gt;pictureBox13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox06.ZOrder" xml:space="preserve">
-    <value>48</value>
-  </data>
-  <data name="pictureBox46.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="pictureBox04.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox57.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;supervisorNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox15.ZOrder" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="&gt;&gt;pictureBox54.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="HelpTab.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="&gt;&gt;LecterOptionPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="supervisorTitleLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="toolStripButton3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;pictureBox53.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox32.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;LecturerTab.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox45.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;pictureBox47.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip6.Name" xml:space="preserve">
-    <value>statusStrip6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox67.ZOrder" xml:space="preserve">
-    <value>57</value>
-  </data>
-  <data name="&gt;&gt;pictureBox03.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox16.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox24.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;pictureBox44.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 39</value>
-  </data>
-  <data name="&gt;&gt;pictureBox66.Name" xml:space="preserve">
-    <value>pictureBox66</value>
-  </data>
-  <data name="&gt;&gt;BuildingsTab.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pictureBox22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 72</value>
-  </data>
-  <data name="statusStrip6.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="supervisorNameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;pictureBox24.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox38.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="splitLSideTopBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 561</value>
-  </data>
-  <data name="pictureBox34.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="&gt;&gt;projectNameLabel.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="&gt;&gt;BuildingsTab.Name" xml:space="preserve">
-    <value>BuildingsTab</value>
-  </data>
-  <data name="pictureBox54.TabIndex" type="System.Int32, mscorlib">
-    <value>57</value>
-  </data>
-  <data name="pictureBox68.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 26</value>
-  </data>
-  <data name="pictureBox63.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 204</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
-    <value>HomeTab</value>
-  </data>
-  <data name="&gt;&gt;pictureBox15.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;statusStrip2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureBox44.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 138</value>
-  </data>
-  <data name="&gt;&gt;pictureBox32.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;pictureBox27.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="pictureBox22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;HelpTab.Name" xml:space="preserve">
-    <value>HelpTab</value>
-  </data>
-  <data name="pictureBox37.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox48.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;developerNamesLabel.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="&gt;&gt;pictureBox24.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AboutTab.Name" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="&gt;&gt;AboutTab.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="toolStripNewButton.ToolTipText" xml:space="preserve">
-    <value>New</value>
-  </data>
-  <data name="&gt;&gt;pictureBox68.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox30.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox62.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 72</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox30.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;pictureBox17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="statusStrip2.Text" xml:space="preserve">
-    <value>statusStrip2</value>
-  </data>
-  <data name="licenceInfoLink.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 478</value>
-  </data>
-  <data name="&gt;&gt;developersTitleLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox38.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="&gt;&gt;pictureBox14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox17.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox40.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox58.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="developerNamesLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="supervisorTitleLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
-  </data>
-  <data name="&gt;&gt;HomeTabLogoPictureBox.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="pictureBox64.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;versionInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox33.Name" xml:space="preserve">
-    <value>pictureBox33</value>
-  </data>
-  <data name="pictureBox44.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="HomeTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Panel2.Name" xml:space="preserve">
-    <value>SplitScreenLR.Panel2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox42.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;pictureBox07.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="developerNamesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 48</value>
-  </data>
-  <data name="pictureBox00.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox48.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;licenceInfoLink.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="toolStripNewButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="statusStrip2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 545</value>
-  </data>
-  <data name="statusStrip1.Text" xml:space="preserve">
-    <value>statusStrip1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox33.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox50.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox38.Name" xml:space="preserve">
-    <value>pictureBox38</value>
-  </data>
-  <data name="&gt;&gt;pictureBox58.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pictureBox05.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox13.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="BuildingsTab.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;licenceInfoLink.Name" xml:space="preserve">
-    <value>licenceInfoLink</value>
-  </data>
-  <data name="BuildingsTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 567</value>
-  </data>
-  <data name="&gt;&gt;StatusBarMessage.Name" xml:space="preserve">
-    <value>StatusBarMessage</value>
-  </data>
-  <data name="&gt;&gt;pictureBox62.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox61.ZOrder" xml:space="preserve">
-    <value>59</value>
-  </data>
-  <data name="pictureBox06.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox07.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="pictureBox48.TabIndex" type="System.Int32, mscorlib">
-    <value>52</value>
-  </data>
-  <data name="TimetableTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 567</value>
-  </data>
-  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="splitLSideTopBottom.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="statusStrip5.Text" xml:space="preserve">
-    <value>statusStrip5</value>
-  </data>
-  <data name="&gt;&gt;StatusBarMessage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripNewButton.Text" xml:space="preserve">
-    <value>New</value>
-  </data>
-  <data name="&gt;&gt;homeTabToolStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox45.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox35.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="pictureBox36.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 105</value>
-  </data>
-  <data name="pictureBox38.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox44.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox11.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="licenceInfo1.Text" xml:space="preserve">
-    <value>This work is licensed under a </value>
-  </data>
-  <data name="toolStripButton1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;developersTitleLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="statusStrip3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1039, 22</value>
-  </data>
-  <data name="pictureBox45.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1069, 648</value>
-  </data>
-  <data name="&gt;&gt;pictureBox32.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox40.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 138</value>
-  </data>
-  <data name="&gt;&gt;pictureBox60.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox56.Name" xml:space="preserve">
-    <value>pictureBox56</value>
-  </data>
-  <data name="pictureBox13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 39</value>
-  </data>
-  <data name="pictureBox33.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox08.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox66.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 26</value>
-  </data>
-  <data name="&gt;&gt;developersTitleLabel.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox30.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;licenceInfo1.Name" xml:space="preserve">
-    <value>licenceInfo1</value>
-  </data>
-  <data name="pictureBox41.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox37.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip4.Name" xml:space="preserve">
-    <value>statusStrip4</value>
-  </data>
-  <data name="homeTabToolStrip.Text" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox46.Name" xml:space="preserve">
-    <value>pictureBox46</value>
-  </data>
-  <data name="&gt;&gt;pictureBox42.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox15.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 72</value>
-  </data>
-  <data name="&gt;&gt;pictureBox26.Name" xml:space="preserve">
-    <value>pictureBox26</value>
-  </data>
-  <data name="&gt;&gt;MainTabControl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="statusStrip6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 22</value>
-  </data>
-  <data name="&gt;&gt;licenceInfoLink.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="pictureBox37.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="splitLSideTopBottom.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;supervisorNameLabel.Name" xml:space="preserve">
-    <value>supervisorNameLabel</value>
-  </data>
-  <data name="&gt;&gt;supervisorTitleLabel.Name" xml:space="preserve">
-    <value>supervisorTitleLabel</value>
-  </data>
-  <data name="pictureBox65.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 26</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox52.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;statusStrip5.Name" xml:space="preserve">
-    <value>statusStrip5</value>
-  </data>
-  <data name="homeTabToolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1039, 55</value>
-  </data>
-  <data name="&gt;&gt;AddBuildingBtn.Name" xml:space="preserve">
-    <value>AddBuildingBtn</value>
-  </data>
-  <data name="&gt;&gt;pictureBox16.Name" xml:space="preserve">
-    <value>pictureBox16</value>
-  </data>
-  <data name="pictureBox44.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox30.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox43.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
-  </data>
-  <data name="&gt;&gt;statusStrip3.Parent" xml:space="preserve">
-    <value>LecturerTab</value>
-  </data>
-  <data name="&gt;&gt;licenceInfo1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pictureBox66.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox66.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 204</value>
-  </data>
-  <data name="splitLSideTopBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pictureBox61.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 26</value>
-  </data>
-  <data name="toolStripNewButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 52</value>
-  </data>
-  <data name="&gt;&gt;pictureBox57.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox65.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 204</value>
-  </data>
-  <data name="pictureBox56.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox40.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox01.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox28.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="pictureBox54.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 171</value>
-  </data>
-  <data name="&gt;&gt;projectNameLabel.Name" xml:space="preserve">
-    <value>projectNameLabel</value>
-  </data>
-  <data name="developerNamesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 271</value>
-  </data>
-  <data name="LecturerListPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="pictureBox22.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;supervisorTitleLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox68.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox41.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox52.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;pictureBox28.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox64.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 26</value>
-  </data>
-  <data name="pictureBox47.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="&gt;&gt;HomeTab.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="projectNameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;TimetableTab.Name" xml:space="preserve">
-    <value>TimetableTab</value>
-  </data>
-  <data name="&gt;&gt;pictureBox63.ZOrder" xml:space="preserve">
-    <value>53</value>
-  </data>
-  <data name="pictureBox31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="AboutTab.ImageKey" xml:space="preserve">
-    <value>information.png</value>
-  </data>
-  <data name="BuildingsTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="versionInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 15</value>
-  </data>
-  <data name="&gt;&gt;pictureBox36.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;pictureBox06.Name" xml:space="preserve">
-    <value>pictureBox06</value>
-  </data>
-  <data name="AddBuildingBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox38.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox24.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox32.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 105</value>
-  </data>
-  <data name="&gt;&gt;pictureBox41.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox43.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;projectNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="developersTitleLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pictureBox14.ZOrder" xml:space="preserve">
-    <value>41</value>
-  </data>
-  <data name="homeTabToolStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;licenceInfoLink.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox30.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 105</value>
-  </data>
-  <data name="&gt;&gt;developerNamesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LecturerTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 567</value>
-  </data>
-  <data name="&gt;&gt;pictureBox32.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox35.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;pictureBox64.ZOrder" xml:space="preserve">
-    <value>56</value>
-  </data>
-  <data name="&gt;&gt;pictureBox50.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="SplitScreenLR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1039, 561</value>
-  </data>
-  <data name="AddBuildingBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="SplitScreenLR.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;AddBuildingBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox47.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="pictureBox60.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 26</value>
-  </data>
-  <data name="&gt;&gt;pictureBox07.ZOrder" xml:space="preserve">
-    <value>47</value>
-  </data>
-  <data name="pictureBox30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox11.ZOrder" xml:space="preserve">
-    <value>44</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Name" xml:space="preserve">
-    <value>splitLSideTopBottom</value>
-  </data>
-  <data name="pictureBox41.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="pictureBox11.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox35.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 105</value>
-  </data>
-  <data name="versionInfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="LecturerTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="pictureBox34.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 105</value>
-  </data>
-  <data name="pictureBox33.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;statusStrip3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox60.Name" xml:space="preserve">
-    <value>pictureBox60</value>
-  </data>
-  <data name="&gt;&gt;MainTabControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BuildingsTab.ImageKey" xml:space="preserve">
-    <value>building.png</value>
-  </data>
-  <data name="AddBuildingBtn.Text" xml:space="preserve">
-    <value>Add</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4315,830 +2786,4 @@ Thomas Nolan-C00146771</value>
         AAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="AboutTab.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="projectNameLabel.Text" xml:space="preserve">
-    <value>Time Table Package </value>
-  </data>
-  <data name="pictureBox38.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox36.Name" xml:space="preserve">
-    <value>pictureBox36</value>
-  </data>
-  <data name="pictureBox38.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 105</value>
-  </data>
-  <data name="HelpTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="licenseInfoLabel.Text" xml:space="preserve">
-    <value>           Copyright 2013©
-Institute of Technology Carlow</value>
-  </data>
-  <data name="AboutTab.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
-  </data>
-  <data name="&gt;&gt;LecturerListPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="toolStripButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 52</value>
-  </data>
-  <data name="&gt;&gt;HomeTabLogoPictureBox.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;pictureBox51.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox61.Name" xml:space="preserve">
-    <value>pictureBox61</value>
-  </data>
-  <data name="&gt;&gt;pictureBox50.Name" xml:space="preserve">
-    <value>pictureBox50</value>
-  </data>
-  <data name="pictureBox37.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox66.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="toolStripButton2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="licenceInfo1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 15</value>
-  </data>
-  <data name="pictureBox46.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 138</value>
-  </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 291</value>
-  </data>
-  <data name="&gt;&gt;licenceInfo1.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="LecturerTab.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="pictureBox61.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 204</value>
-  </data>
-  <data name="statusStrip4.Text" xml:space="preserve">
-    <value>statusStrip4</value>
-  </data>
-  <data name="pictureBox37.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 105</value>
-  </data>
-  <data name="&gt;&gt;pictureBox08.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox40.Name" xml:space="preserve">
-    <value>pictureBox40</value>
-  </data>
-  <data name="&gt;&gt;pictureBox51.Name" xml:space="preserve">
-    <value>pictureBox51</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1069, 648</value>
-  </data>
-  <data name="pictureBox15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 39</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pictureBox31.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="HelpTab.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="pictureBox67.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox34.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="pictureBox52.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="developersTitleLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 249</value>
-  </data>
-  <data name="&gt;&gt;pictureBox04.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="LecturerTab.ImageKey" xml:space="preserve">
-    <value>group.png</value>
-  </data>
-  <data name="&gt;&gt;pictureBox22.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;pictureBox41.Name" xml:space="preserve">
-    <value>pictureBox41</value>
-  </data>
-  <data name="pictureBox67.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="toolStripButton3.Text" xml:space="preserve">
-    <value>Print</value>
-  </data>
-  <data name="&gt;&gt;supervisorTitleLabel.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="&gt;&gt;pictureBox63.Name" xml:space="preserve">
-    <value>pictureBox63</value>
-  </data>
-  <data name="&gt;&gt;pictureBox21.Name" xml:space="preserve">
-    <value>pictureBox21</value>
-  </data>
-  <data name="&gt;&gt;pictureBox10.Name" xml:space="preserve">
-    <value>pictureBox10</value>
-  </data>
-  <data name="pictureBox08.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;developerNamesLabel.Name" xml:space="preserve">
-    <value>developerNamesLabel</value>
-  </data>
-  <data name="pictureBox27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox22.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 39</value>
-  </data>
-  <data name="toolStripButton1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="toolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 52</value>
-  </data>
-  <data name="licenseInfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="projectNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>387, 137</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Panel2.Name" xml:space="preserve">
-    <value>splitLSideTopBottom.Panel2</value>
-  </data>
-  <data name="pictureBox54.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAP9SURBVFhHrZffb1NlGMe5WLjbBRftv8CFf4QXThxRb2TR
-        S8EfkayymOi6zfW0Pc5MRcAQQNTopXeGGByWocvcLyhrN2y3SZiGsRULdh0oIko0+fp+3vaYrUu39hyf
-        5Judnj3P5/v09D3nPO+OHfWj5ZnBs0NPDZzTXvcr7U02KVNDLQxj0bKFT91/tT5tAEEDhnFo9dNAiG9O
-        fH1dShmdb1DkUkPAMOYhPw2E281lJ0aXpfEVaaJBkUsNAcOYhwM1cLkoZW5J2QZFLjX/WwP5VWnOaL5B
-        kUtN4AaecIcsZPFORT82KC+fWhi+f4LH3ZRtoHDPn6iF4aeBnW48pjb3vG2g/Ke0+qA5UUPAgGWa2NnM
-        QtzVFelU28AFC3nwj3T/7+ZEjW3AMGAZ8131GmhJJBJD8XhcsVjMKpmI652BpPYMflehBAgYsGB6fLzw
-        9J6QrZyojYMHO9X1apeee7ZDHR371LGvSZkaamHAqg08vSdkyHFi+uvhQ32fm1MuP69riz+pO9qnmJOU
-        E3cDCQYsmLDxwAtP7wkZdhxHt38pKZOdVXbmivJzC3prYFDvvndEh98/FkgwYMGEjQdeeHp3h21gfuGq
-        JqfSmrqYNomzOn7iQ53++FN99MlngQQDFkzYeOC1qYFff7un1XJZ5bU1/X7/D0V7+sylTyqecAMJBiyY
-        sPHAa1MDa3fu6oszZ3XmyyGdS13QSy+/oohZQIe6XgskGLBgwsYDr00NlEplm5Qa/lbfjIzp6NEP9Pob
-        Udt9D+ptUqaGWhiwYMLGA68NDcTjjorF2yZpVCOjYxodm9DE1CWdOHVaPX396ut3fIlaGLBgwsYDLzz/
-        W4Tck4XCzxobn9L4xEUrFsuldEaXp2c0nZn1JWphwPK4eOBVfQ7YOSHMh+WVgk1G6XTWGs7M5pXLLZhb
-        6AdfohYGLJgeH6+aBhwt3Sgow31qNHMlpzlzqxw+ckzP7z+g/QdeNHrBHDcmcqmhFgYsmB4fr00/wY3l
-        gvLz5psaXb22qJMnT+lQJKJIZ8Q+SnvfjFXVb/5upUoeNdTCgAXT4+O14Qokk0kVb5V0fWnFXIkV3bxZ
-        VG93t9reHgnwGqq+DQ0DFkzYeOCFp7cIQ9FodJITdIXcZEKDrmPe5cOWkloyE7HRcIMil5rKPDBsWTA9
-        Pl54eu8CZvZHjB41emyd2r2JaJqh1CjboMilhqhORO01bLzwtPsFdi0cMLtzW3javcetbEyamQe9uZEa
-        AoZh7q5h44XnljumcHt1KF0141WpiZHM5lZHMhh+ZkL7fGBvFzRg+G0g9GT/55Ps7ezm1IeoheEttnoz
-        Yb3z9Rbn+oW63fGGxdZsA/UW5/qFut3xtovtXzFQ8NuY3IiTAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="&gt;&gt;pictureBox11.Name" xml:space="preserve">
-    <value>pictureBox11</value>
-  </data>
-  <data name="pictureBox26.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="statusStrip4.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="HomeTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox46.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox03.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="HomeTabLogoPictureBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox35.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox41.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="tableLayoutPanel1.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
-    <value>OutsetPartial</value>
-  </data>
-  <data name="pictureBox00.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="toolStripButton3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="&gt;&gt;pictureBox01.ZOrder" xml:space="preserve">
-    <value>61</value>
-  </data>
-  <data name="&gt;&gt;pictureBox20.ZOrder" xml:space="preserve">
-    <value>36</value>
-  </data>
-  <data name="AboutTab.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;HomeTabLogoPictureBox.Name" xml:space="preserve">
-    <value>HomeTabLogoPictureBox</value>
-  </data>
-  <data name="&gt;&gt;pictureBox51.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="pictureBox16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="pictureBox14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;supervisorNameLabel.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="&gt;&gt;pictureBox20.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;LecturerListPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox07.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;LecturerTab.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="pictureBox68.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 204</value>
-  </data>
-  <data name="statusStrip5.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;AddBuildingBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox17.ZOrder" xml:space="preserve">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;pictureBox63.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="LecterOptionPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 89</value>
-  </data>
-  <data name="&gt;&gt;statusStrip2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;statusStrip5.Parent" xml:space="preserve">
-    <value>HelpTab</value>
-  </data>
-  <data name="pictureBox56.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox11.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;statusStrip6.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;HelpTab.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox68.Name" xml:space="preserve">
-    <value>pictureBox68</value>
-  </data>
-  <data name="&gt;&gt;MainTabImageList.Name" xml:space="preserve">
-    <value>MainTabImageList</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitLSideTopBottom.Panel2.Parent" xml:space="preserve">
-    <value>splitLSideTopBottom</value>
-  </data>
-  <data name="developersTitleLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;pictureBox01.Name" xml:space="preserve">
-    <value>pictureBox01</value>
-  </data>
-  <data name="developerNamesLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pictureBox56.TabIndex" type="System.Int32, mscorlib">
-    <value>59</value>
-  </data>
-  <data name="licenceInfoLink.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;pictureBox05.Name" xml:space="preserve">
-    <value>pictureBox05</value>
-  </data>
-  <data name="&gt;&gt;pictureBox57.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="pictureBox35.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;TimetableTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox42.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox06.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox56.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="LecturerListPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pictureBox42.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 138</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pictureBox50.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 171</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox68.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="BuildingsTab.Text" xml:space="preserve">
-    <value>Buildings</value>
-  </data>
-  <data name="statusStrip3.Text" xml:space="preserve">
-    <value>statusStrip3</value>
-  </data>
-  <data name="&gt;&gt;HomeTab.Name" xml:space="preserve">
-    <value>HomeTab</value>
-  </data>
-  <data name="&gt;&gt;statusStrip4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox33.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox48.Name" xml:space="preserve">
-    <value>pictureBox48</value>
-  </data>
-  <data name="MainTabControl.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LecturerInfoPanel.Name" xml:space="preserve">
-    <value>LecturerInfoPanel</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox28.Name" xml:space="preserve">
-    <value>pictureBox28</value>
-  </data>
-  <data name="pictureBox13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="toolStripButton2.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageAboveText</value>
-  </data>
-  <data name="pictureBox63.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;pictureBox02.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox55.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pictureBox65.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox30.Name" xml:space="preserve">
-    <value>pictureBox30</value>
-  </data>
-  <data name="pictureBox63.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox20.Name" xml:space="preserve">
-    <value>pictureBox20</value>
-  </data>
-  <data name="&gt;&gt;pictureBox54.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox43.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;LecterOptionPanel.Parent" xml:space="preserve">
-    <value>splitLSideTopBottom.Panel1</value>
-  </data>
-  <data name="pictureBox60.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="statusStrip6.Text" xml:space="preserve">
-    <value>statusStrip6</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox18.Name" xml:space="preserve">
-    <value>pictureBox18</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Panel2.Parent" xml:space="preserve">
-    <value>SplitScreenLR</value>
-  </data>
-  <data name="&gt;&gt;HomeTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox68.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox21.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;toolStripNewButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox31.Name" xml:space="preserve">
-    <value>pictureBox31</value>
-  </data>
-  <data name="&gt;&gt;iconImageList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox17.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 72</value>
-  </data>
-  <data name="toolStripNewButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="supervisorNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>472, 374</value>
-  </data>
-  <data name="pictureBox42.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
-  <data name="pictureBox48.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 138</value>
-  </data>
-  <data name="pictureBox12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;versionInfoLabel.Parent" xml:space="preserve">
-    <value>AboutTab</value>
-  </data>
-  <data name="&gt;&gt;pictureBox03.Name" xml:space="preserve">
-    <value>pictureBox03</value>
-  </data>
-  <data name="&gt;&gt;pictureBox13.ZOrder" xml:space="preserve">
-    <value>42</value>
-  </data>
-  <data name="pictureBox25.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 72</value>
-  </data>
-  <data name="pictureBox48.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;pictureBox00.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox34.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="BuildingsTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="&gt;&gt;pictureBox43.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="pictureBox28.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 72</value>
-  </data>
-  <data name="&gt;&gt;pictureBox58.Name" xml:space="preserve">
-    <value>pictureBox58</value>
-  </data>
-  <data name="HelpTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1045, 567</value>
-  </data>
-  <data name="&gt;&gt;pictureBox45.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox03.ZOrder" xml:space="preserve">
-    <value>51</value>
-  </data>
-  <data name="pictureBox27.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="LecterOptionPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="toolStripButton3.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="pictureBox47.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 138</value>
-  </data>
-  <data name="&gt;&gt;pictureBox23.Name" xml:space="preserve">
-    <value>pictureBox23</value>
-  </data>
-  <data name="&gt;&gt;SplitScreenLR.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;homeTabToolStrip.Parent" xml:space="preserve">
-    <value>HomeTab</value>
-  </data>
-  <data name="pictureBox07.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox03.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="pictureBox27.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="iconImageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC4
-        EAAAAk1TRnQBSQFMAgEBAwEAAZABAAGkAQABIAEAASABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
-        AwABgAMAASADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
-        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
-        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
-        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
-        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
-        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
-        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
-        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
-        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
-        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
-        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
-        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
-        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
-        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
-        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
-        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
-        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
-        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
-        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
-        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
-        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
-        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
-        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
-        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
-        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
-        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
-        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
-        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/0YABP8OAAT/SQAF/xsA
-        Av8C8wH0Af8MAAH/AfQC8wH0Af9IAAH/AfQC8wP/GAAC/wHzAkYB8gH0Af8KAAH/AfQB8gJGAfIC/y0A
-        BP8WAAH/AkwBkwHzAfQC/xYAAv8B8wFGAuMBRgHyAfQB/wgAAv8B8gFGAuMBRgHzAv8rAAL/AvMC/xUA
-        Af8BmQH2ARoBTAHxAfQC/xQAAv8B8wFGBOMBRgHyAfQB/wYAAv8B8wFGBOMBRgHzAv8pAAL/AfMCLgHz
-        Av8UAAH/AfMBkwL2AW8B8QH0C/8JAAL/AfMBRgbjAUYB8gH0Af8EAAL/AfMBRgbjAUYB8wL/JwAC/wHz
-        AS4CNgEuAfMC/xQAAf8BbwP2AXQB8QfyAvMB9AP/BwAB/wHzAUYI4wFGAfIB9AH/AgAC/wHzAUYI4wFG
-        AfMB/yYAAv8B8wEuBDYBLgHzAv8TAAH/AUwB9gPDAUwBbwZMAW8BkwG8AfIB8wP/BQAB/wFGCuMBRgHy
-        AfQD/wHzAUYK4wFGAf8lAAL/AfMBLgE1BDYBNQEuAfMC/xEAAf8B9AF0BMMCGgb2ARoBmgF0AUwBkwHy
-        AfQC/wQAAf8BRgvjAUYB8gL0AfMBRgvjAUYB/yQAAv8B8wEuCDYBLgHzAv8PAAL/AfMBlBDDAZoBTAGT
-        AfMC/wQAAf8BRgvjAUYB8QHyAUYL4wFGAf8kAAL/AfMBLgo2AS4B8wL/DQAC/wHzAW8BmhLDAXQBbwHz
-        Av8EAAH/AUYL4wJGC+MBRgH/JAAC/wHzAS4MNgEuAfMC/wsAAv8B8wFvAZoIwwGaAnUBmgjDAZoBbwHz
-        Av8EAAH/AUYBFgnjAkwJ4wEWAUYB/yQAAv8B8wEuDjYBLgHzAv8KAAH/AfQBbwGaCcMB4wJ1AeMJwwGa
-        AW8B9AH/BQAB/wFGARYSFwEWAUYB/yQAAv8B8wEuEDYBLgHzAv8IAAL/AQcBdQrDAU0CdQHjCsMBdQEH
-        Av8FAAH/AUYBFhAXARYBRgH/JQAB/wHzAS4INgJYCDYBLgHzAv8HAAH/AfMBbwvDAZoC4wGaC8MBbwHz
-        Af8GAAH/AUYBFg4XARYBRgH/JgAB/wEuCDYBXQIuAV0INgEuAfMC/wYAAf8BkwGUGsMBlAGTAf8HAAH/
-        AUYBFgwXARYBRgH/JwAB/wEuAV0GNgFdAS4C/wEuAV0INgEuAfMC/wUAAf8BdAEaC8MBmgJMAZoLwwEa
-        AXQB/wcAAf8B9AFGARYKFwEWAUYB9AH/KAAB/wEuAV0ENgFdAS4B/wIAAf8BLgFdCDYBLgHzAv8EAAH/
-        AUwCwwGgCcMBmgJMAZoJwwGgAsMBTAH/BgAC/wHzAUYBFgoXARYBRgHzAv8oAAH/AS4BXQI2AV0BLgH/
-        BAAB/wEuAV0INgEuAfMC/wMAAf8BTALDCqABmgFMAW8BdAGgAcMIoALDAUwB/wUAAv8B8wFGAZQMFwGU
-        AUYB8wL/KAAB/wEuAl0BLgH/BgAB/wEuAV0INgEuAfMC/wIAAf8BTAHDC6ABwwF0AkwBdAGaCaABwwFM
-        Af8EAAL/AfMBRgGUDk0BlAFGAfMC/ygAAf8CLgH/CAAB/wEuAX4HNgEwAS4B8wL/AQAB/wFNAcMNoAF0
-        A0wBmgigAcMBTQH/AwAC/wHzAUYBlBBNAZQBRgHzAv8oAAH/CwAB/wEuAX4HNgEwAS4B8wP/AXQBGgHD
-        B5oGoAF0AkwBdAGgBpoBwwEaAXQB/wIAAv8B8wFGAZQSTQGUAUYB8wL/NAAB/wEuAX4HNgEwAS4B8wL/
-        ARoBmgHDBpoBoAGaAXUBmgSgAW8CTAGgBpoBwwGaARoB/wEAAv8B8wFGAZQJTQJGCU0BlAFGAfMC/zQA
-        Af8BLgF+BzYBMAEuAf8BAAH/AXUCwwWaAaADTASgAW8CTAGgBZoCwwF1Af8BAAL/AfMBRgGUCUcBlAJG
-        AZQJRwGUAUYB8wL/NAAB/wEuAX4GNgF+AS4B/wEAAf8BGgF1AcMBoASaAaABbwJMAXQCmgF0A0wBoASa
-        AaABwwF1ARoB/wEAAf8B8wFGAZQJRgGUAUYC/wFGAZQJRgGUAUYB8wH/NQAB/wEuAZ8ENgGfAS4B/wMA
-        Af8BdQGaAcMGmghMBpoBwwGaAXUB/wIAAf8BRgGUCUYBlAFGAf8CAAH/AUYBlAlGAZQBRgH/NgAB/wEu
-        AaACNgGgAS4B/wUAAf8BdQGaAsMFmgF0BEwBdAWaAsMBmgF1Af8DAAH/AUYBmghGAZoBRgH/BAAB/wFG
-        AZoIRgGaAUYB/zcAAf8BLgKgAS4B/wcAAf8CdQLDAaAEmgSgBJoBoALDAnUB/wUAAf8BRgGaBkYBmgFG
-        Af8GAAH/AUYBmgZGAZoBRgH/OQAB/wIuAf8JAAH/ARoBdQGaA8MBoAaaAaADwwGaAXUBGgH/BwAB/wFG
-        Ab0ERgG9AUYB/wgAAf8BRgG9BEYBvQFGAf9JAAH/AZoCdQGaARoGwwEaAZoCdQGaAf8KAAH/AUYBvQJG
-        Ab0BRgH/CgAB/wFGAb0CRgG9AUYB/0wAAf8B8wGaCHUBmgHzAf8NAAH/AUYCvQFGAf8MAAH/AUYCvQFG
-        Af9pAAH/AkYB/w4AAf8CRgH/JQABQgFNAT4HAAE+AwABKAMAAYADAAEgAwABAQEAAQEGAAECFgAD/wEA
-        CP8B+AF/Af4BHwQABP8B8AF/Av8B8AE/AfwBDwQABP8B8AEfAv8B4AEfAfgBBwQAAf8BwwL/AfABDwL/
-        AcABDwHwAQMEAAH/AYEC/wHwAQcC/wGAAQcB4AEBBAAB/wEAAv8B8AEAAQEB/wEAAQMBwAUAAf4BAAF/
-        Af8B+AIAAX8BAAEBAYAFAAH8AQABPwH/AfgCAAEfCAAB+AEAAR8B/wHwAgABDwgAAfABAAEPAf8B4AIA
-        AQcBgAIAAQEEAAHgAQABBwH/AcACAAEDAcACAAEDBAABwAEAAQMB/wGAAgABAQHgAgABBwQAAYABAAEB
-        Af8BgAIAAQEB8AIAAQ8HAAH/BAAB+AIAAR8HAAF/BAAB/AIAAT8HAAE/BAAB/gIAAX8HAAEfBAAB/gIA
-        AX8EAAGAARgBAAEPBAAB/AIAAT8EAAHAATwBAAEHBAAB+AIAAR8EAAHgAX4BAAEDBAAB8AIAAQ8EAAHw
-        Af8BAAEBBAAB4AIAAQcEAAH7Af8BgAUAAcACAAEDBAAC/wHABQABgAIAAQEEAAL/AeABAAGAAgABAQgA
-        Av8B8AEAAYACAAEBCAAC/wH4AQEBwAIAAQMBAAEBAYAFAAL/AfwBAwHgAgABBwEAAQMBwAUAAv8B/gEH
-        AfACAAEPAYABBwHgAQEEAAP/AQ8B+AIAAR8BwAEPAfABAwQABP8B/gIAAX8B4AEfAfgBBwQABf8BgAEB
-        Af8B8AE/AfwBDwQACP8B+AF/Af4BHxoACw==
-</value>
-  </data>
-  <data name="&gt;&gt;LecturerInfoPanel.Parent" xml:space="preserve">
-    <value>SplitScreenLR.Panel2</value>
-  </data>
-  <data name="licenceInfoLink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>426, 15</value>
-  </data>
-  <data name="imageList1.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="pictureBox58.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox08.Name" xml:space="preserve">
-    <value>pictureBox08</value>
-  </data>
-  <data name="statusStrip4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1039, 22</value>
-  </data>
-  <data name="&gt;&gt;licenseInfoLabel.Name" xml:space="preserve">
-    <value>licenseInfoLabel</value>
-  </data>
-  <data name="pictureBox51.TabIndex" type="System.Int32, mscorlib">
-    <value>54</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="&gt;&gt;versionInfoLabel.Name" xml:space="preserve">
-    <value>versionInfoLabel</value>
-  </data>
-  <data name="splitLSideTopBottom.SplitterDistance" type="System.Int32, mscorlib">
-    <value>89</value>
-  </data>
-  <data name="pictureBox42.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="pictureBox50.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;developersTitleLabel.Name" xml:space="preserve">
-    <value>developersTitleLabel</value>
-  </data>
-  <data name="LecturerTab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="LecturerListPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="&gt;&gt;homeTabToolStrip.Name" xml:space="preserve">
-    <value>homeTabToolStrip</value>
-  </data>
-  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAAAfESURBVFhHrVd7UNTXFY5AaurEsYBQsT6mqbGTVFMrpmYS
-        StJkWqV5jElAbf+ptTMqRumACwsssLAsxBdIfQZBRF2e++Apr10WdgMI+OaRmMjLwoILGAx0WjtVv55z
-        ZXGJvMz0N/PNb/jtvff7znfOPffyzDMzfPy2bZsnCQlLDpbG/PvYiWQUFBbBUGlEVbUJKafSEBgcbKKl
-        nAgO0QplsEKptMhjlDh6PBmRcgWiohUIj4zUBgWFLqcxs2ZIK4Y5SsMjTvICV69dx8MHD8BPj8UCjVaH
-        vx85Bv/du6to3FLCXKVS2ZeWdhbtnZ0YHhnBt8PD4j0wOIi6Cw2IjduLHTt2/HymIhxDwmQ6jTYP9+/f
-        x4OHDzEyPELRF2NPsBQ+Pu9+6uXtvZMWW0VYGEvkak0erP0DqDBU4awqC6rMHGRmq2GoMonv/+juJkdi
-        QONnT+eCY2hYhE6t04mIBwfv4OubbUhOOYVdkpABmvwW4ReExQTnPcGhOzhya38/snK1gjgrR0Pj08j+
-        GEQQqSxSTogW6eA5UwlwDJNFUOT5grzrVjdav7yB45+dRJAkpIcmvk5YRJgzmvc5cnn8bbadI38UtQa5
-        5Mb+g4eYbD3hHTusnkoAkUfpdHkFgryz6xauNzXjyxtfIUetwbZt/kWj5M/aReAcrYjDyMg/he0ZWbnI
-        Jhd0+UU4kCAEcM7d7cDR/2AiB5wiouSFefmFgry9o5MKrxkNjZdw+eo18Y0Lb0+IlEVwxdsed654S28f
-        zmZki5yryb3ikjKbACaf0TM3Uh47St5B5NdQ33ARZnMtyvWVMJlrxG/SMBlHNddeQFR0LKzWAZwjATlq
-        HQqKisWcAwlJPHZGArjoNPkFRSKSy1euoa6+EdWmz8VChcUlIqf6yiqEhIbzom72AmQRkb319Q0or6gk
-        6wtF9Iaqauw/kDitACdFfHwxV2tZuR5tbe3UYKpE5FUUMZMXFJUKSzmv8XsP4lRaOhSKOB0JcBwV4RoQ
-        GGTmOV993SbIyyoMQnx2rkZs2WBpmACLDw2PYFFjNTA37tP9wlp+Ko3VSElNQyp1N4626HwptLoCIWD/
-        wSQkJh3G3bvfoqujDUnxsWpaaHZsuFRdX1uHoaEhVBEpz6km8TV19Wi8dAVNza20hdupoLtQR9/2SCTt
-        NO9HNgddpeGy6ly1Fs0tX1C3qicBp3Eo6Yhoo/IYBSFW7N2ExCQYqaFU6vXo6+uF52EzXOTn78tV5/Hf
-        kbuoralFSVk5pUoHvcGIpqYWXL/eTLuoBZcuX6X6yEJ4RBQ8PT032AvgYnqFe3lKajqMJjPZbsCxEycR
-        EBBYuXbtWn8vL++d/N7s62vMzVChglK1Ym8JTjX/B9sr7mB1ags2nNDDrC+HSpWBv/p/0kNW/yuY7KZz
-        QaSAsXX79lri8iJw8xpLAW+n+YTVLOL4ZylUcKWiZ9O3tYSfEZaMvl/18/Ut+eX+cqQ03cPfKoewqaAP
-        H+VbsSShHjuTVNi6dauVxnLTeYvwtru7+wejf79J71UED04bYdyBxMUkREgkobVcE6GhoayWlfJgFjl7
-        zpt/XrUswYy0lnsIIHK//F58qLPgfW0v3snpwwJ5EYvmLsmCeZf8mLBg9M3rs9v2/YP+fPzYRLxCn9gm
-        7vO2vT7LbefRZWuO1qH8Fijyb8bI31NbsC63FyuSW/Hr43XYp5Dn07zn7NZ9qqOX1TGpq53aWfP8E19Y
-        c6QWZV1AgIHJLSJyJl9P5CuJ/KW4IgxY+9DdcRNJyhjeHbYtOi7Kp/3DwUWatcXn9BWUTkDuQ+S/SvkC
-        K/eVwkiFazJU4N5QP/54pgacqvmRxXlTWT6dGAeXkIy/+Ga2oKYP2K2/A7+8x5Ez+ZrUVsyPM8DPz69c
-        k6lCndGA9Unn4XOuCY2DgG8m/R6hs29Y03GO/e4wT6La8nFGCz4n8l1E7vsd8ldp6y1UluHZ5Ws20Szv
-        LZs3GdclFeM9Iq22AlF1wzD3Ah9TAE8rwslZptNJy7vFArv0gxOS/0RZiudWeG8k8hcICwmeyw9fQOMw
-        sLnQivc13dhtuCMCYBdnKsLROUynU5isqLYAn0xB/sOXvXyJlO+BXPFcvItcgjNMSw9ewGtnevC77G58
-        qO2h7TpzEU7O4dq8MfKKySN3/VOkkgh/Okpu22aio7oHppmWJV7AG+d68PucnhmLcHSVaU+HVvQ8ivwJ
-        cgteS7sBtt11c3gcEfHVmq9j9nt8rKN6kIgXWYRq5iKeXxxfIap9PHkPfHIt+M3ZDiyJLyfyMI6cr1cc
-        rcMEJT3WUScTwRwbs1rhFpk/7lY1/+2URujagY+owWzQcpN5TL6YyD0kZ/gfj5emILfpmVwErR1o/AYX
-        aYu6K0rG3arcX06sRj612Q80jzqcLXJBTpbS6qsIfJmcKPLvmvGECC9Kxzpyc1Phbbx+8hLcQ85V0yQX
-        20Q3V5m6M+FiPzYWDuAP6tt4I/2msN09KN1Mg/gazYfJpAfJtOk4VA/vzD6sONIALlQu2FE3xdR5BE83
-        mfaWR2ypKLZFcWXwCEgpsSP/Pr19zIkFkvTapfuM4PdEAfEdn49NT8JvCXyeexNWfo/IJ0uH7ZTlN7v5
-        REAsgp3gc5yv0Tzo+YkGTmD3dJ9spyznfMo7wXQL/d9//x8T0btOJU6DoAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="statusStrip5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 545</value>
-  </data>
-  <data name="pictureBox10.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;pictureBox44.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;pictureBox37.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="pictureBox23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 24</value>
-  </data>
-  <data name="&gt;&gt;pictureBox04.ZOrder" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="&gt;&gt;pictureBox67.Name" xml:space="preserve">
-    <value>pictureBox67</value>
-  </data>
-  <data name="&gt;&gt;pictureBox02.ZOrder" xml:space="preserve">
-    <value>52</value>
-  </data>
-  <data name="pictureBox42.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
-    <value>toolStripButton1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox36.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="pictureBox56.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 171</value>
-  </data>
-  <data name="pictureBox33.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 105</value>
-  </data>
-  <data name="&gt;&gt;pictureBox26.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;toolStripButton3.Name" xml:space="preserve">
-    <value>toolStripButton3</value>
-  </data>
-  <metadata name="statusStrip5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>759, 17</value>
-  </metadata>
-  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>295, 17</value>
-  </metadata>
-  <metadata name="homeTabToolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>991, 17</value>
-  </metadata>
-  <metadata name="statusStrip6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>875, 17</value>
-  </metadata>
-  <metadata name="statusStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>411, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>56</value>
-  </metadata>
-  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>59, 56</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>tr-TR</value>
-  </metadata>
-  <metadata name="iconImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="MainTabImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>144, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="statusStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>285, 56</value>
-  </metadata>
-  <metadata name="statusStrip4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>643, 17</value>
-  </metadata>
 </root>
