@@ -64,19 +64,31 @@ namespace TimetablePackage
 
         public String GetData(String sqlStatment)
         {
-            string outputString = "null";
-            OpenConection();
-            cmd = new OleDbCommand(sqlStatment, conn);
-            reader = cmd.ExecuteReader();
-            while (reader.Read())
-            {
-                outputString = reader["Lec_Name"].ToString();
-                outputString += "$" + reader["Initials"].ToString();
-                outputString += "$" + reader["Email"].ToString();
-                outputString += "$" ;
-            }
-            CloseConnection();
+            try
+                string outputString = "null";
+                OpenConection();
+                cmd = new OleDbCommand(sqlStatment, conn);
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    outputString = reader["Lec_Name"].ToString();
+                    outputString += "$" + reader["Initials"].ToString();
+                    outputString += "$" + reader["Email"].ToString();
+                    outputString += "$" + reader["MaxHours"].ToString();
+                    outputString += "$" + reader["MaxConsecHours"].ToString();
+                    outputString += "$" + reader["MinSlotsPerDay"].ToString();
+                    outputString += "$" ;
+                }
+                CloseConnection();
             return outputString;
+        }
+
+        public void insertString(String sqlString)
+        {
+            OpenConection();
+            cmd = new OleDbCommand(sqlString, conn);
+            cmd.ExecuteNonQuery();
+            CloseConnection();
         }
     }
 }

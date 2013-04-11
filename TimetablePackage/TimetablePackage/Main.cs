@@ -92,6 +92,13 @@ namespace TimetablePackage
             datastring = datastring.Substring(datastring.IndexOf('$') + 1);
             emailtextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
             datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+            numericUpDown1.Value =  Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+            numericUpDown2.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+            numericUpDown3.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+           
             //Lec_Name,Initials,Email
            
         }

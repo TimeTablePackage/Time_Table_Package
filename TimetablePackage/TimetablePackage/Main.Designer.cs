@@ -135,7 +135,7 @@
             this.HomeTab.Controls.Add(this.statusStrip1);
             this.HomeTab.ImageIndex = 0;
             this.HomeTab.Location = new System.Drawing.Point(4, 39);
-            this.HomeTab.Name = "HomeTab";
+            this.HomeTab.Name = "HomeTab"; 
             this.HomeTab.Padding = new System.Windows.Forms.Padding(3);
             this.HomeTab.Size = new System.Drawing.Size(1045, 567);
             this.HomeTab.TabIndex = 0;
