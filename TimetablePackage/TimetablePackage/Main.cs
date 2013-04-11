@@ -9,13 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TimetablePackage.Properties;
 using System.Threading;
+using System.Data.OleDb;
 
 namespace TimetablePackage
 {
     public partial class Main : Form
     {
-        public String buildingName;
-        public Int16 noOfRooms;
+
+        private DataBase myDataBase = new DataBase();
        
         public Main()
         {
@@ -24,73 +25,6 @@ namespace TimetablePackage
             Thread.Sleep(5000);
             t.Abort();
             InitializeComponent();
-            this.pictureBox00.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox01.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox02.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox03.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox04.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox05.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox06.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox07.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox08.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox10.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox11.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox12.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox13.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox14.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox15.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox16.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox17.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox18.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox20.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox21.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox22.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox23.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox24.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox25.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox26.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox27.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox28.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox30.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox31.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox32.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox33.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox34.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox35.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox36.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox37.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox38.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox40.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox41.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox42.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox43.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox44.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox45.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox46.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox47.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox48.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox50.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox51.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox52.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox53.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox54.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox55.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox56.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox57.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox58.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox60.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox61.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox62.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox63.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox64.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox65.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox66.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox67.Click += new System.EventHandler(this.changeIcon);
-            this.pictureBox68.Click += new System.EventHandler(this.changeIcon);
-
-
-
-            
         }
         public void SplashScreen()
         {
@@ -143,6 +77,27 @@ namespace TimetablePackage
         private void Main_Load(object sender, EventArgs e)
         {
             this.Text = Settings.Default["MainTitle"].ToString();
+            LecturerNameList.DataSource = myDataBase.GetTableData("SELECT Lec_name FROM Lecturer");
+
+        }
+
+        private void LecturerNameList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           
+            string sql = "SELECT * FROM Lecturer WHERE Lec_Name LIKE '"+LecturerNameList.CurrentCell.Value.ToString()+"'";
+            string datastring = myDataBase.GetData(sql);
+            Lec_NametextBox.Text = datastring.Substring(0,datastring.IndexOf('$'));
+            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+            InitialstextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
+            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+            emailtextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
+            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+            //Lec_Name,Initials,Email
+           
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
 
         }
 
