@@ -13,8 +13,10 @@ using System.Globalization;
 
 namespace TimetablePackage
 {
+
     public partial class SettingsForm : Form
     {
+        DialogResult dresult;
         Main m_form;
         public SettingsForm(Main main)
         {
@@ -33,7 +35,6 @@ namespace TimetablePackage
         {
 
             Settings.Default["MainTitle"] = insNameTextBox.Text;
-
             Settings.Default["InstitutionName"] = insNameTextBox.Text;
             Settings.Default["AddressLine1"] = addLine1TextBox.Text;
             Settings.Default["AddressLine2"] = addLine2TextBox.Text;
@@ -47,68 +48,52 @@ namespace TimetablePackage
 
 
             
-            // Application.Run(new SettingsForm());
-            // Application.Run(new Main());
-
-            if (englishRadioButton.Checked == true )
-            {
-                Settings.Default["isDefault"] = true;
-                Settings.Default["isTurkish"] = false;
-                Settings.Default["isFrench"] = false;
-                //SwitchTo("en");
-               // Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en"); ;
-               // Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en"); ;
-            }
-            else if (turkishRadioButton.Checked == true)
-            {
-              //  Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("tr-TR"); ;
-              //  Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("tr-TR"); ;
+              if (englishRadioButton.Checked == true )
+                {
+                    Settings.Default["isDefault"] = true;
+                    Settings.Default["isTurkish"] = false;
+                    Settings.Default["isFrench"] = false;
+                }
+               else if (turkishRadioButton.Checked == true)
+                {
                 Settings.Default["isTurkish"] = true ;
                 Settings.Default["isDefault"] = false;
                 Settings.Default["isFrench"] = false;
-                //SwitchTo("tr-TR");
-            }
-            else if (frenchRadioButton.Checked == true)
-            {
+                }
+             else if (frenchRadioButton.Checked == true)
+               {
                 Settings.Default["isFrench"] = true ;
                 Settings.Default["isTurkish"] = false;
-                Settings.Default["isDefault"] = false;
-                
-               // Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("fr-FR"); ;
-               // Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr-FR"); ;
-               // SwitchTo("fr");
-            }
+                Settings.Default["isDefault"] = false;  
+               }
             Properties.Settings.Default.Save();
-            Application.ExitThread();
-            Application.Run();
+            //If the application language is changed,restart needed to apply the changes.
+            if (englishRadioButton.Checked == true || turkishRadioButton.Checked == true || frenchRadioButton.Checked == true)
+            {
+
+            dresult = MessageBox.Show("Change of Application Language requires application restart,Choose yes to restart now", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            }
+            if ( dresult == DialogResult.Yes)
+            {
+                Application.Restart();
+            }
         }
             
         
 
-        //private void SwitchTo(string selectedLang)
-        //{
-        //    Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(selectedLang); ;
-        //    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(selectedLang); ;
-        //    foreach (Form form in Application.OpenForms)
-        //    {
-        //       ComponentResourceManager resources = new ComponentResourceManager(m_form.GetType());
-        //       // ComponentResourceManager resources = new ComponentResourceManager(typeof(Main));
-        //        resources.ApplyResources(c, c.Name, new CultureInfo(selectedLang));
-        //    }
-        //}
 
         private void SettingsForm_Load(object sender, EventArgs e)
         {
-             insNameTextBox.Text=Settings.Default["InstitutionName"].ToString();
+            insNameTextBox.Text=Settings.Default["InstitutionName"].ToString();
             addLine1TextBox.Text= Settings.Default["AddressLine1"].ToString()  ;
-             addLine2TextBox.Text=Settings.Default["AddressLine2"].ToString()  ;
-             addLine3TextBox.Text=Settings.Default["AddressLine3"].ToString()  ;
+            addLine2TextBox.Text=Settings.Default["AddressLine2"].ToString()  ;
+            addLine3TextBox.Text=Settings.Default["AddressLine3"].ToString()  ;
             cityTextBox.Text =Settings.Default["CityName"].ToString()  ;
-             countryComboBox.SelectedItem= Settings.Default["Country"]  ;
+            countryComboBox.SelectedItem= Settings.Default["Country"]  ;
             websiteTextBox.Text =Settings.Default["WebSiteInfo"].ToString()  ;
             telephoneTextBox.Text = Settings.Default["Telephone"].ToString();
             academicYearTextBox.Text = Settings.Default["AcademicYearInfo"].ToString();
-           // turkishRadioButton.Checked = Settings.Default["isTurkish"].ToString();
+      
             if (Settings.Default["isTurkish"].Equals(true))
             {
                 turkishRadioButton.Checked = true;
@@ -121,12 +106,6 @@ namespace TimetablePackage
             {
                 frenchRadioButton.Checked = true;
             }
-
-
-        }
-
-
-
-       
+        }      
     }
 }
