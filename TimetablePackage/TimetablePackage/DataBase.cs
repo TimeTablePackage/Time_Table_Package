@@ -49,8 +49,9 @@ namespace TimetablePackage
             }
         }
         /// <summary>
-        ///    
+        ///    Get data back in a data table
         /// </summary>
+        /// <param name="sqlStatment"></param>
         public DataTable GetTableData(String sqlStatment)
         {
             DataTable dt = new DataTable();
@@ -61,34 +62,60 @@ namespace TimetablePackage
             CloseConnection();
             return dt ;
         }
-
+        /// <summary>
+        ///    Get data back in string form
+        /// </summary>
+        /// <param name="sqlStatment"></param>
         public String GetData(String sqlStatment)
         {
+            string outputString = "null";
             try
-                string outputString = "null";
+            {
                 OpenConection();
                 cmd = new OleDbCommand(sqlStatment, conn);
                 reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    outputString = reader["Lec_Name"].ToString();
-                    outputString += "$" + reader["Initials"].ToString();
-                    outputString += "$" + reader["Email"].ToString();
-                    outputString += "$" + reader["MaxHours"].ToString();
-                    outputString += "$" + reader["MaxConsecHours"].ToString();
-                    outputString += "$" + reader["MinSlotsPerDay"].ToString();
-                    outputString += "$" ;
+                    if (reader["Deleted"].ToString().Equals("False"))
+                    {
+                        outputString = reader["Lec_Name"].ToString();
+                        outputString += "$" + reader["Initials"].ToString();
+                        outputString += "$" + reader["Email"].ToString();
+                        outputString += "$" + reader["MaxHours"].ToString();
+                        outputString += "$" + reader["MaxConsecHours"].ToString();
+                        outputString += "$" + reader["MinSlotsPerDay"].ToString();
+                        outputString += "$";
+                    }
+                    else
+                    {
+                        outputString = "N/A";
+                    }
                 }
                 CloseConnection();
+            }
+            catch
+            {
+                MessageBox.Show("Failed to get data from source");
+            }
             return outputString;
         }
-
+        /// <summary>
+        ///    insert data to a database
+        /// </summary>
+        /// <param name="sqlStatment"></param>
         public void insertString(String sqlString)
         {
-            OpenConection();
-            cmd = new OleDbCommand(sqlString, conn);
-            cmd.ExecuteNonQuery();
-            CloseConnection();
+            try
+            {
+                OpenConection();
+                cmd = new OleDbCommand(sqlString, conn);
+                cmd.ExecuteNonQuery();
+                CloseConnection();
+            }
+            catch
+            {
+                MessageBox.Show("Failed insert data");
+            }
         }
     }
 }

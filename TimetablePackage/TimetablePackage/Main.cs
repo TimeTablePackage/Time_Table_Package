@@ -82,25 +82,27 @@ namespace TimetablePackage
         }
 
         private void LecturerNameList_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-           
+        { 
             string sql = "SELECT * FROM Lecturer WHERE Lec_Name LIKE '"+LecturerNameList.CurrentCell.Value.ToString()+"'";
             string datastring = myDataBase.GetData(sql);
-            Lec_NametextBox.Text = datastring.Substring(0,datastring.IndexOf('$'));
-            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
-            InitialstextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
-            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
-            emailtextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
-            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
-            numericUpDown1.Value =  Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
-            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
-            numericUpDown2.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
-            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
-            numericUpDown3.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
-            datastring = datastring.Substring(datastring.IndexOf('$') + 1);
-           
-            //Lec_Name,Initials,Email
-           
+            if (datastring.Equals("N/A"))
+            {
+                MessageBox.Show("That user seems to be deleted");
+            } else {
+                Lec_NametextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                InitialstextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                emailtextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                numericUpDown1.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                numericUpDown2.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                numericUpDown3.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1); 
+            }
+                
         }
 
         private void button1_Click_1(object sender, EventArgs e)
