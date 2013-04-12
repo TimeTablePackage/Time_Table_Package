@@ -9,14 +9,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TimetablePackage.Properties;
 using System.Threading;
+using System.Data.OleDb;
 
 namespace TimetablePackage
 {
     public partial class Main : Form
     {
+<<<<<<< HEAD
         public String buildingName;
         public Int16 noOfRooms;
         SettingsForm settings;
+=======
+
+        private DataBase myDataBase = new DataBase();
+       
+>>>>>>> origin/Tom
         public Main()
         {
             Thread t = new Thread(new ThreadStart(SplashScreen));
@@ -40,6 +47,7 @@ namespace TimetablePackage
                 Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr"); ;
             }
             InitializeComponent();
+<<<<<<< HEAD
             
             settings = new SettingsForm(this);
              
@@ -110,6 +118,8 @@ namespace TimetablePackage
 
 
             
+=======
+>>>>>>> origin/Tom
         }
         public void SplashScreen()
         {
@@ -161,6 +171,36 @@ namespace TimetablePackage
         private void Main_Load(object sender, EventArgs e)
         {
             this.Text = Settings.Default["MainTitle"].ToString();
+            LecturerNameList.DataSource = myDataBase.GetTableData("SELECT Lec_name FROM Lecturer");
+
+        }
+
+        private void LecturerNameList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        { 
+            string sql = "SELECT * FROM Lecturer WHERE Lec_Name LIKE '"+LecturerNameList.CurrentCell.Value.ToString()+"'";
+            string datastring = myDataBase.GetData(sql);
+            if (datastring.Equals("N/A"))
+            {
+                MessageBox.Show("That user seems to be deleted");
+            } else {
+                Lec_NametextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                InitialstextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                emailtextBox.Text = datastring.Substring(0, datastring.IndexOf('$'));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                numericUpDown1.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                numericUpDown2.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1);
+                numericUpDown3.Value = Convert.ToInt16(datastring.Substring(0, datastring.IndexOf('$')));
+                datastring = datastring.Substring(datastring.IndexOf('$') + 1); 
+            }
+                
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
 
         }
 
