@@ -1,4 +1,5 @@
-﻿namespace TimetablePackage
+﻿using WeifenLuo.WinFormsUI.Docking;
+namespace TimetablePackage
 {
     partial class Main
     {
@@ -18,6 +19,9 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
+
+            timetable f4 = new timetable();
+            f4.Show(dockPanel, DockState.DockLeft);
         }
 
         #region Windows Form Designer generated code
@@ -31,20 +35,21 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.MainTab = new System.Windows.Forms.RibbonTab();
             this.homePanel = new System.Windows.Forms.RibbonPanel();
+            this.Open = new System.Windows.Forms.RibbonButton();
+            this.New = new System.Windows.Forms.RibbonButton();
+            this.settingsButton = new System.Windows.Forms.RibbonButton();
             this.timetableTab = new System.Windows.Forms.RibbonTab();
             this.lecturersTab = new System.Windows.Forms.RibbonTab();
             this.buildingsTab = new System.Windows.Forms.RibbonTab();
             this.departmentTab = new System.Windows.Forms.RibbonTab();
             this.helpTab = new System.Windows.Forms.RibbonTab();
             this.Help = new System.Windows.Forms.RibbonPanel();
-            this.ribbon1 = new System.Windows.Forms.Ribbon();
-            this.Open = new System.Windows.Forms.RibbonButton();
-            this.New = new System.Windows.Forms.RibbonButton();
-            this.settingsButton = new System.Windows.Forms.RibbonButton();
             this.About_Button = new System.Windows.Forms.RibbonButton();
             this.userManualButton = new System.Windows.Forms.RibbonButton();
+            this.ribbon1 = new System.Windows.Forms.Ribbon();
             this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
             this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
+            this.ribbonUpDown1 = new System.Windows.Forms.RibbonUpDown();
             this.SuspendLayout();
             // 
             // MainTab
@@ -58,6 +63,30 @@
             this.homePanel.Items.Add(this.New);
             this.homePanel.Items.Add(this.settingsButton);
             this.homePanel.Text = "Home";
+            // 
+            // Open
+            // 
+            this.Open.Image = global::TimetablePackage.Properties.Resources.open_folder;
+            this.Open.MaximumSize = new System.Drawing.Size(0, 0);
+            this.Open.MinimumSize = new System.Drawing.Size(0, 0);
+            this.Open.SmallImage = ((System.Drawing.Image)(resources.GetObject("Open.SmallImage")));
+            this.Open.Text = "Open";
+            // 
+            // New
+            // 
+            this.New.Image = global::TimetablePackage.Properties.Resources.document_empty;
+            this.New.MaximumSize = new System.Drawing.Size(0, 0);
+            this.New.MinimumSize = new System.Drawing.Size(0, 0);
+            this.New.SmallImage = ((System.Drawing.Image)(resources.GetObject("New.SmallImage")));
+            this.New.Text = "New";
+            // 
+            // settingsButton
+            // 
+            this.settingsButton.Image = global::TimetablePackage.Properties.Resources.setting_tools;
+            this.settingsButton.MaximumSize = new System.Drawing.Size(0, 0);
+            this.settingsButton.MinimumSize = new System.Drawing.Size(0, 0);
+            this.settingsButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("settingsButton.SmallImage")));
+            this.settingsButton.Text = "Settings";
             // 
             // timetableTab
             // 
@@ -85,6 +114,27 @@
             this.Help.Items.Add(this.About_Button);
             this.Help.Items.Add(this.userManualButton);
             this.Help.Text = "Help";
+            // 
+            // About_Button
+            // 
+            this.About_Button.Image = global::TimetablePackage.Properties.Resources.information;
+            this.About_Button.MaximumSize = new System.Drawing.Size(0, 0);
+            this.About_Button.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
+            this.About_Button.MinimumSize = new System.Drawing.Size(0, 0);
+            this.About_Button.SmallImage = ((System.Drawing.Image)(resources.GetObject("About_Button.SmallImage")));
+            this.About_Button.Text = "About";
+            this.About_Button.TextAlignment = System.Windows.Forms.RibbonItem.RibbonItemTextAlignment.Center;
+            // 
+            // userManualButton
+            // 
+            this.userManualButton.Image = global::TimetablePackage.Properties.Resources.book_picture;
+            this.userManualButton.MaximumSize = new System.Drawing.Size(0, 0);
+            this.userManualButton.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
+            this.userManualButton.MinimumSize = new System.Drawing.Size(0, 0);
+            this.userManualButton.MinSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
+            this.userManualButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("userManualButton.SmallImage")));
+            this.userManualButton.Text = "User Manual";
+            this.userManualButton.TextAlignment = System.Windows.Forms.RibbonItem.RibbonItemTextAlignment.Center;
             // 
             // ribbon1
             // 
@@ -119,51 +169,6 @@
             this.ribbon1.TabsMargin = new System.Windows.Forms.Padding(12, 26, 20, 0);
             this.ribbon1.Text = "RibbonControl";
             // 
-            // Open
-            // 
-            this.Open.Image = global::TimetablePackage.Properties.Resources.open_folder;
-            this.Open.MaximumSize = new System.Drawing.Size(0, 0);
-            this.Open.MinimumSize = new System.Drawing.Size(0, 0);
-            this.Open.SmallImage = ((System.Drawing.Image)(resources.GetObject("Open.SmallImage")));
-            this.Open.Text = "Open";
-            // 
-            // New
-            // 
-            this.New.Image = global::TimetablePackage.Properties.Resources.document_empty;
-            this.New.MaximumSize = new System.Drawing.Size(0, 0);
-            this.New.MinimumSize = new System.Drawing.Size(0, 0);
-            this.New.SmallImage = ((System.Drawing.Image)(resources.GetObject("New.SmallImage")));
-            this.New.Text = "New";
-            // 
-            // settingsButton
-            // 
-            this.settingsButton.Image = global::TimetablePackage.Properties.Resources.setting_tools;
-            this.settingsButton.MaximumSize = new System.Drawing.Size(0, 0);
-            this.settingsButton.MinimumSize = new System.Drawing.Size(0, 0);
-            this.settingsButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("settingsButton.SmallImage")));
-            this.settingsButton.Text = "Settings";
-            // 
-            // About_Button
-            // 
-            this.About_Button.Image = global::TimetablePackage.Properties.Resources.information;
-            this.About_Button.MaximumSize = new System.Drawing.Size(0, 0);
-            this.About_Button.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
-            this.About_Button.MinimumSize = new System.Drawing.Size(0, 0);
-            this.About_Button.SmallImage = ((System.Drawing.Image)(resources.GetObject("About_Button.SmallImage")));
-            this.About_Button.Text = "About";
-            this.About_Button.TextAlignment = System.Windows.Forms.RibbonItem.RibbonItemTextAlignment.Center;
-            // 
-            // userManualButton
-            // 
-            this.userManualButton.Image = global::TimetablePackage.Properties.Resources.book_picture;
-            this.userManualButton.MaximumSize = new System.Drawing.Size(0, 0);
-            this.userManualButton.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
-            this.userManualButton.MinimumSize = new System.Drawing.Size(0, 0);
-            this.userManualButton.MinSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
-            this.userManualButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("userManualButton.SmallImage")));
-            this.userManualButton.Text = "User Manual";
-            this.userManualButton.TextAlignment = System.Windows.Forms.RibbonItem.RibbonItemTextAlignment.Center;
-            // 
             // ribbonTab1
             // 
             this.ribbonTab1.Text = "ribbonTab1";
@@ -172,12 +177,18 @@
             // 
             this.ribbonTab2.Text = null;
             // 
+            // ribbonUpDown1
+            // 
+            this.ribbonUpDown1.TextBoxText = "";
+            this.ribbonUpDown1.TextBoxWidth = 50;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 562);
             this.Controls.Add(this.ribbon1);
+            this.IsMdiContainer = true;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
@@ -203,6 +214,9 @@
         private System.Windows.Forms.RibbonTab ribbonTab1;
         private System.Windows.Forms.RibbonTab ribbonTab2;
         private System.Windows.Forms.RibbonTab lecturersTab;
+        private System.Windows.Forms.RibbonUpDown ribbonUpDown1;
 
+
+        public DockPane dockPanel { get; set; }
     }
 }
