@@ -6,12 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using DigitalRune.Windows.Docking;
 
 
 
 namespace TimetablePackage
 {
-    public partial class timetable : Form
+    public partial class timetable : DockableForm
     {
         public timetable()
         {

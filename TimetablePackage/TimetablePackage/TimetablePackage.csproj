@@ -167,6 +167,9 @@
     <EmbeddedResource Include="TimeSlotOff.resx">
       <DependentUpon>TimeSlotOff.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="timetable.resx">
+      <DependentUpon>timetable.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
