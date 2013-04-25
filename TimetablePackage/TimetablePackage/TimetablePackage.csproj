@@ -51,6 +51,9 @@
     <StartupObject>TimetablePackage.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DigitalRune.Windows.Docking">
+      <HintPath>..\..\..\..\..\Downloads\DigitalRune-Docking-Windows\Bin\DigitalRune.Windows.Docking.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />

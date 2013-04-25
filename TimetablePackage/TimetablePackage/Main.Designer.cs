@@ -1,4 +1,4 @@
-﻿using WeifenLuo.WinFormsUI.Docking;
+﻿
 namespace TimetablePackage
 {
     partial class Main
@@ -20,8 +20,6 @@ namespace TimetablePackage
             }
             base.Dispose(disposing);
 
-            timetable f4 = new timetable();
-            f4.Show(dockPanel, DockState.DockLeft);
         }
 
         #region Windows Form Designer generated code
@@ -50,6 +48,7 @@ namespace TimetablePackage
             this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
             this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
             this.ribbonUpDown1 = new System.Windows.Forms.RibbonUpDown();
+            this.dockPanel1 = new DigitalRune.Windows.Docking.DockPanel();
             this.SuspendLayout();
             // 
             // MainTab
@@ -182,11 +181,22 @@ namespace TimetablePackage
             this.ribbonUpDown1.TextBoxText = "";
             this.ribbonUpDown1.TextBoxWidth = 50;
             // 
+            // dockPanel1
+            // 
+            this.dockPanel1.ActiveAutoHideContent = null;
+            this.dockPanel1.DefaultFloatingWindowSize = new System.Drawing.Size(300, 300);
+            this.dockPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dockPanel1.Location = new System.Drawing.Point(0, 128);
+            this.dockPanel1.Name = "dockPanel1";
+            this.dockPanel1.Size = new System.Drawing.Size(1008, 434);
+            this.dockPanel1.TabIndex = 2;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 562);
+            this.Controls.Add(this.dockPanel1);
             this.Controls.Add(this.ribbon1);
             this.IsMdiContainer = true;
             this.Name = "Main";
@@ -215,8 +225,9 @@ namespace TimetablePackage
         private System.Windows.Forms.RibbonTab ribbonTab2;
         private System.Windows.Forms.RibbonTab lecturersTab;
         private System.Windows.Forms.RibbonUpDown ribbonUpDown1;
+        private DigitalRune.Windows.Docking.DockPanel dockPanel1;
 
 
-        public DockPane dockPanel { get; set; }
+     
     }
 }
