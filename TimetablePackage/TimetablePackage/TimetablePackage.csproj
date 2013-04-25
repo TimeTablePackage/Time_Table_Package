@@ -47,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TimetablePackage.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -187,6 +190,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\flood_it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\book_picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\open_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\document_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\setting_tools.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

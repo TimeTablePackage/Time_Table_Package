@@ -2,22 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Domain;
+using System.Threading;
+using System.Windows.Forms;
 
-namespace ConsoleApplication2
+namespace TimetablePackage
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            DataBase mybd = new DataBase();
-            Institute itc = new Institute("it carlow");
-            itc.setBuildingList(mybd.loadBuildingList(itc));
-            itc.setDeptList(mybd.loadDepartmentList(itc));
-
-            Console.Read();
-
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Main());
         }
     }
 }
