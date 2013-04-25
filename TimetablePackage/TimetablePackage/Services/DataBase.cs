@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
@@ -7,14 +8,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain
+namespace Services
 {   
     class DataBase
     {
 
+        /// <summary>
+        /// A string for the OleDbConnection object to connect to the access database
+        /// </summary>
         private string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=ttp.accdb";
+        /// <summary>
+        /// A OleDbConnection object to connect to the access database
+        /// </summary>
         private OleDbConnection conn ;
+        /// <summary>
+        /// A string for the OleDbCommand object to excute SQL commands on the access database
+        /// </summary>
         private OleDbCommand cmd;
+        /// <summary>
+        /// A OleDbDataReader to read the results of the SQL commands
+        /// </summary>
         private OleDbDataReader reader;
         
         /// <summary>
@@ -50,9 +63,9 @@ namespace Domain
             }
         }
         /// <summary>
-        ///    insert data to a database
+        ///    Excute non-Query command on database i.e. INSERT or UPDATE
         /// </summary>
-        /// <param name="sqlStatment"></param>
+        /// <param name="sqlStatment">The SQL Command</param>
         private void excuteNonQuery(String sqlString)
         {
             try
@@ -69,9 +82,9 @@ namespace Domain
             }
         }
         /// <summary>
-        ///     update a lecturer in the database
+        ///     Update a Lecturer in the database
         /// </summary>
-        /// <param name="lecturers"></param>
+        /// <param name="lecturers">The updated Lecturer</param>
         private void updateLecturer(Lecturer lecturer)
         {
             string sql;
@@ -87,9 +100,9 @@ namespace Domain
             excuteNonQuery(sql);
         }
         /// <summary>
-        ///     Add a new lecturer to the database
+        ///     Add a new Lecturer to the database
         /// </summary>
-        /// <param name="lecturer"></param>
+        /// <param name="lecturer">The new Lecturer</param>
         private void insertLecturer(Lecturer lecturer)
         {
             string sql;
@@ -104,9 +117,9 @@ namespace Domain
             excuteNonQuery(sql);
         }
         /// <summary>
-        ///     update a module in the database
+        ///     Update a Module in the database
         /// </summary>
-        /// <param name="module"></param>
+        /// <param name="module">The updated Module</param>
         private void updateModule(Module module)
         {
             string sql;
@@ -121,9 +134,9 @@ namespace Domain
             excuteNonQuery(sql);
         }
         /// <summary>
-        ///     insert a new module into the database
+        ///     Insert a new Module into the database
         /// </summary>
-        /// <param name="module"></param>
+        /// <param name="module">The new Module</param>
         private void insertModule(Module module)
         {
             string sql;
@@ -137,9 +150,9 @@ namespace Domain
             excuteNonQuery(sql);
         }
         /// <summary>
-        ///     update a room in the database
+        ///     Update a Room in the database
         /// </summary>
-        /// <param name="room"></param>
+        /// <param name="room">The updated Room</param>
         private void updateRoom(Room room)
         {
             string sql;
@@ -152,9 +165,9 @@ namespace Domain
             excuteNonQuery(sql);
         }
         /// <summary>
-        ///  insert room to the database
+        ///  Insert Room to the database
         /// </summary>
-        /// <param name="room"></param>
+        /// <param name="room">The Room to be inserted</param>
         private void insertRoom(Room room)
         {
             string sql;
@@ -166,9 +179,9 @@ namespace Domain
             excuteNonQuery(sql);
         }
         /// <summary>
-        ///     update a department
+        ///     Update a Department
         /// </summary>
-        /// <param name="dept"></param>
+        /// <param name="dept">The updated Department</param>
         private void updateDept(Department dept)
         {
             string sql;
@@ -179,18 +192,17 @@ namespace Domain
         /// <summary>
         ///     Insert a department into the database
         /// </summary>
-        /// <param name="dept"></param>
+        /// <param name="dept">The Department to be inserted</param>
         private void insertDept(Department dept)
         {
             string sql = "INSERT INTO Department VALUES('"+ dept.getName() + "')";
             excuteNonQuery(sql);
         }
-
         /// <summary>
-        ///     returns a lecturer object corresponding to the ID given
+        ///     returns a Lecturer Object corresponding to the ID given
         /// </summary>
-        /// <param name="lecturerId"></param>
-        /// <returns></returns> 
+        /// <param name="lecturerId">The Lecturer ID</param>
+        /// <returns>A Lecturer with the given ID</returns> 
         public Lecturer loadLecturer(string lecturerId)
         {
             Lecturer newLec = new Lecturer();
@@ -225,7 +237,8 @@ namespace Domain
         /// <summary>
         ///    Get data back in a data table
         /// </summary>
-        /// <param name="sqlStatment"></param>
+        /// <param name="sqlStatment">The SQL Query</param>
+        /// <returns>Results in a DataTable</returns>
         public DataTable GetTableData(String sqlStatment)
         {
             DataTable dt = new DataTable();
@@ -237,9 +250,10 @@ namespace Domain
             return dt ;
         }
         /// <summary>
-        ///    Get data back in string form
+        ///     Get result of a Query in String form
         /// </summary>
-        /// <param name="sqlStatment"></param>
+        /// <param name="sqlStatment">The SQL Query</param>
+        /// <returns>Result of Query in a String</returns>
         public String GetData(String sqlStatment)
         {
             string outputString = "null";
@@ -274,10 +288,10 @@ namespace Domain
             return outputString;
         }
         /// <summary>
-        ///  Load all the lecturers for a given department
+        ///  Load all the Lecturers for a given Department
         /// </summary>
-        /// <param name="dept"></param>
-        /// <returns></returns>
+        /// <param name="dept">The Department the Lecturers are in</param>
+        /// <returns>LinkedList of Lecturer</returns>
         public LinkedList loadLectuerList(Department dept)
         {
             LinkedList lectureList = new LinkedList();
@@ -315,10 +329,10 @@ namespace Domain
             return lectureList;
         }
         /// <summary>
-        ///     returns the lectures that teach a module
+        ///     Returns the Lectures that teach a Module
         /// </summary>
-        /// <param name="module"></param>
-        /// <returns></returns>
+        /// <param name="module">The Module that the Lecturers teach</param>
+        /// <returns>LinkedList of lecturer</returns>
         public LinkedList loadLectuerList(Module module)
         {
             LinkedList lectureList = new LinkedList();
@@ -356,10 +370,10 @@ namespace Domain
             return lectureList;
         }
         /// <summary>
-        ///     Load course list for a department
+        ///     Load LinkedList of Course for a Department
         /// </summary>
-        /// <param name="dept"></param>
-        /// <returns></returns>
+        /// <param name="dept">The Department the Courses are in</param>
+        /// <returns>A LinkedList of Course</returns>
         public LinkedList loadCourseList(Department dept)
         {
             LinkedList courses = new LinkedList();
@@ -395,10 +409,10 @@ namespace Domain
             return courses ;
         }
         /// <summary>
-        ///     Load the list of room for a building
+        ///     Load the LinkedList of Room for a Building
         /// </summary>
-        /// <param name="building"></param>
-        /// <returns></returns>
+        /// <param name="building">The Building the Rooms are in</param>
+        /// <returns>Linked List of rooms</returns>
         public LinkedList loadRoomList(Building building)
         {
             LinkedList roomList = new LinkedList();
@@ -431,10 +445,10 @@ namespace Domain
             return roomList;
         }
         /// <summary>
-        ///     returns a list of departments
+        ///     Returns a list of Departments
         /// </summary>
-        /// <param name="institute"></param>
-        /// <returns></returns>
+        /// <param name="institute">The Institute the Departments are in</param>
+        /// <returns>A LinkedList of Departments</returns>
         public LinkedList loadDepartmentList(Institute institute)
         {
             LinkedList deptList = new LinkedList();
@@ -467,10 +481,10 @@ namespace Domain
             return deptList;
         }
         /// <summary>
-        ///     returns a list of buildings
+        ///     Returns a list of buildings
         /// </summary>
-        /// <param name="institute"></param>
-        /// <returns></returns>
+        /// <param name="institute">The Institute the Buildings are in</param>
+        /// <returns>A LinkedList of Buildings</returns>
         public LinkedList loadBuildingList(Institute institute)
         {
             LinkedList buildingList = new LinkedList();
@@ -501,10 +515,10 @@ namespace Domain
             return buildingList;
         }
         /// <summary>
-        ///     load all the modules of a course
+        ///     Loads a LinkedList of Module from a Course
         /// </summary>
-        /// <param name="course"></param>
-        /// <returns></returns>
+        /// <param name="course">The Course the Modules are in</param>
+        /// <returns>A LinkedList of Modules</returns>
         public LinkedList LoadModuleList(Course course)
         {
             LinkedList moduleList = new LinkedList();
@@ -541,9 +555,9 @@ namespace Domain
 
         }
         /// <summary>
-        ///     save list of lecturers to the database
+        ///     Save list of Lecturer to the database
         /// </summary>
-        /// <param name="lecturers"></param>
+        /// <param name="lecturers">The LinkedList of Lecturer</param>
         public void saveLecturers(LinkedList lecturers)
         {
             Node temp = lecturers.head;
@@ -565,9 +579,9 @@ namespace Domain
             }
         }
         /// <summary>
-        ///     save's the list of modules to the module
+        ///     Save's the list of Module to the database
         /// </summary>
-        /// <param name="modules"></param>
+        /// <param name="modules">the LinkedList of Module</param>
         public void saveModules(LinkedList modules)
         {
             Node temp = modules.head;
@@ -589,9 +603,9 @@ namespace Domain
             }
         }
         /// <summary>
-        ///     saves a list of rooms to the database
+        ///     Saves a list of Room to the database
         /// </summary>
-        /// <param name="rooms"></param>
+        /// <param name="rooms">The LinkedList of Room</param>
         public void saveRoom(LinkedList rooms)
         {
             Node temp = rooms.head;
@@ -612,9 +626,9 @@ namespace Domain
             }
         }
         /// <summary>
-        ///     save a list of departments to the database
+        ///     Save a list of Department to the database
         /// </summary>
-        /// <param name="depts"></param>
+        /// <param name="depts">The LinkedList of Department</param>
         public void saveDepartments(LinkedList depts)
         {
             Node temp = depts.head;

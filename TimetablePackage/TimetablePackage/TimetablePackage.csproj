@@ -73,9 +73,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Building.cs" />
-    <Compile Include="Course.cs" />
-    <Compile Include="Department.cs" />
+    <Compile Include="Domain\Building.cs" />
+    <Compile Include="Domain\Course.cs" />
+    <Compile Include="Domain\Department.cs" />
+    <Compile Include="Domain\DomainContoller.cs" />
+    <Compile Include="Domain\Generate.cs" />
+    <Compile Include="Domain\Institute.cs" />
+    <Compile Include="Domain\Lecturer.cs" />
+    <Compile Include="Domain\Lesson.cs" />
+    <Compile Include="Domain\Module.cs" />
+    <Compile Include="Domain\Room.cs" />
+    <Compile Include="Domain\TimeTable.cs" />
     <Compile Include="GlobalStrings.tr-TR.Designer.cs">
       <DependentUpon>GlobalStrings.tr-TR.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -86,25 +94,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GlobalStrings.resx</DependentUpon>
     </Compile>
-    <Compile Include="DataBase.cs" />
     <Compile Include="Add_Building.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Add_Building.Designer.cs">
       <DependentUpon>Add_Building.cs</DependentUpon>
     </Compile>
-    <Compile Include="Institute.cs" />
-    <Compile Include="Lecturer.cs" />
-    <Compile Include="Lesson.cs" />
-    <Compile Include="LinkedList.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Module.cs" />
-    <Compile Include="Room.cs" />
+    <Compile Include="Services\DataBase.cs" />
+    <Compile Include="Services\LinkedList.cs" />
     <Compile Include="SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
