@@ -65,20 +65,20 @@
             // SoftwareNameLabel
             // 
             this.SoftwareNameLabel.AutoSize = true;
-            this.SoftwareNameLabel.Font = new System.Drawing.Font("Kootenay", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SoftwareNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SoftwareNameLabel.Location = new System.Drawing.Point(113, 176);
             this.SoftwareNameLabel.Name = "SoftwareNameLabel";
-            this.SoftwareNameLabel.Size = new System.Drawing.Size(259, 29);
+            this.SoftwareNameLabel.Size = new System.Drawing.Size(283, 29);
             this.SoftwareNameLabel.TabIndex = 2;
             this.SoftwareNameLabel.Text = "TIMETABLE PACKAGE";
             // 
             // versionLabel
             // 
             this.versionLabel.AutoSize = true;
-            this.versionLabel.Font = new System.Drawing.Font("Kootenay", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.versionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.versionLabel.Location = new System.Drawing.Point(303, 205);
             this.versionLabel.Name = "versionLabel";
-            this.versionLabel.Size = new System.Drawing.Size(60, 14);
+            this.versionLabel.Size = new System.Drawing.Size(60, 13);
             this.versionLabel.TabIndex = 3;
             this.versionLabel.Text = "Version 1.0";
             // 
@@ -109,6 +109,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashScreen";
+
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using DigitalRune.Windows.Docking;
+using System.Threading;
+
 
 namespace TimetablePackage
 {
@@ -14,7 +16,16 @@ namespace TimetablePackage
     {
         public Main()
         {
+            Thread t = new Thread(new ThreadStart(Splashscreen));
+            t.Start();
+            Thread.Sleep(2500);
             InitializeComponent();
+            t.Abort();
+        }
+
+        public void Splashscreen()
+        {
+            Application.Run(new SplashScreen());
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -31,6 +42,13 @@ namespace TimetablePackage
             {
                 document.Show(dockPanel1);
             }
+        }
+
+        private void aboutButton_Click(object sender, EventArgs e)
+        {
+            about aboutbox = new about();
+
+            aboutbox.Show();
         }
 
        
