@@ -76,7 +76,7 @@
     <Compile Include="Domain\Building.cs" />
     <Compile Include="Domain\Course.cs" />
     <Compile Include="Domain\Department.cs" />
-    <Compile Include="Domain\DomainContoller.cs" />
+    <Compile Include="Domain\DomainController.cs" />
     <Compile Include="Domain\Generate.cs" />
     <Compile Include="Domain\Institute.cs" />
     <Compile Include="Domain\Lecturer.cs" />
@@ -105,6 +105,12 @@
     </Compile>
     <Compile Include="Add_Building.Designer.cs">
       <DependentUpon>Add_Building.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lecturer.Designer.cs">
+      <DependentUpon>Lecturer.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -153,6 +159,9 @@
     </Compile>
     <EmbeddedResource Include="Add_Building.resx">
       <DependentUpon>Add_Building.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lecturer.resx">
+      <DependentUpon>Lecturer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>

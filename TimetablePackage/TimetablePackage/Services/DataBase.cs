@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Odbc;
 
 namespace Services
 {   
@@ -16,7 +17,7 @@ namespace Services
         /// <summary>
         /// A string for the OleDbConnection object to connect to the access database
         /// </summary>
-        private string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=ttp.accdb";
+        private string connectionString = "Provider=Microsoft.ACE.OLEDB.14.0;Data Source=ttp.accdb";
         /// <summary>
         /// A OleDbConnection object to connect to the access database
         /// </summary>

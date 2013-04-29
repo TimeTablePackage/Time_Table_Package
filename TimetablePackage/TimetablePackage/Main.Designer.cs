@@ -151,6 +151,7 @@ namespace TimetablePackage
             this.settingButton.MinimumSize = new System.Drawing.Size(0, 0);
             this.settingButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("settingButton.SmallImage")));
             this.settingButton.Text = "Settings";
+            this.settingButton.Click += new System.EventHandler(this.settingButton_Click);
             // 
             // timetableTab
             // 
@@ -188,6 +189,7 @@ namespace TimetablePackage
             this.ribbonButton1.MinimumSize = new System.Drawing.Size(0, 0);
             this.ribbonButton1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton1.SmallImage")));
             this.ribbonButton1.Text = "Lecturer List";
+            this.ribbonButton1.Click += new System.EventHandler(this.ribbonButton1_Click);
             // 
             // addLecturer
             // 

@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Data;
+using System.Data.OleDb;
 
 
 namespace Domain
@@ -140,6 +142,10 @@ namespace Domain
             //to be constructed!
         }
 
+        public DataTable GetTableData(String sqlStatment)
+        {
+            return dataBaseHelper.GetTableData(sqlStatment);
+        }
 
 
     }//class

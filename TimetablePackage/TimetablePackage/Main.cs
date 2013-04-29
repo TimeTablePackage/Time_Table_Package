@@ -51,6 +51,18 @@ namespace TimetablePackage
             aboutbox.Show();
         }
 
+        private void settingButton_Click(object sender, EventArgs e)
+        { //Open the settingsForm when the user clicks "Settings" button
+            SettingsForm settings = new SettingsForm();
+            settings.ShowDialog();
+        }
+
+        private void ribbonButton1_Click(object sender, EventArgs e)
+        {
+            Lecturer listLecturer = new Lecturer();
+            listLecturer.ShowDialog();
+        }
+
        
 
         
