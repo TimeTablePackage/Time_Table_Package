@@ -198,6 +198,7 @@ namespace TimetablePackage
             this.addLecturer.MinimumSize = new System.Drawing.Size(0, 0);
             this.addLecturer.SmallImage = ((System.Drawing.Image)(resources.GetObject("addLecturer.SmallImage")));
             this.addLecturer.Text = "Add a Lecturer";
+            this.addLecturer.Click += new System.EventHandler(this.addLecturer_Click);
             // 
             // departmentTab
             // 

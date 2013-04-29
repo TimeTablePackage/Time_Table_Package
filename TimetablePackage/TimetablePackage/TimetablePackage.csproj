@@ -73,6 +73,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addLecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addLecturer.Designer.cs">
+      <DependentUpon>addLecturer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Domain\Building.cs" />
     <Compile Include="Domain\Course.cs" />
     <Compile Include="Domain\Department.cs" />
@@ -147,6 +153,9 @@
     </Compile>
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addLecturer.resx">
+      <DependentUpon>addLecturer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GlobalStrings.tr-TR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
