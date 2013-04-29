@@ -108,13 +108,11 @@ namespace Domain
         /// <param name="minSlotsPerDay">Minimum Lessons a day a teaches wants to teach</param>
         /// <param name="slotsOff">Times Lecturer Wants Off</param>
         /// <param name="deptId">The Id of the Dept the Lecturer is in</param>
-        public void addLecturer(string name, string initials, string email, int maxHours, 
-                                    int maxConsecHours, int minSlotsPerDay, string slotsOff , string deptId)
+        public void addLecturer(Lecturer theLec)
         {
-            Lecturer lecturer = new Lecturer(name, initials, email, maxHours, maxConsecHours, minSlotsPerDay, slotsOff);
             Node deptNode = institute.getDeptList().head;
-            Department dept = institute.getDeptById(deptId);
-            dept.addLecturer(lecturer);
+            Department dept = institute.getDeptById(theLec.getdeptId());
+            dept.addLecturer(theLec);
            
         }
 
@@ -133,7 +131,7 @@ namespace Domain
         {
             Department department = institute.getDeptById(deptId);
             Lecturer lecturer = department.getLecById(lecId);
-            lecturer.update(name, initials, email, maxHours, maxConsecHours, minSlotsPerDay, slotsOff);
+            lecturer.update(name, initials, email, maxHours, maxConsecHours, minSlotsPerDay, slotsOff, deptId);
         }
 
 
