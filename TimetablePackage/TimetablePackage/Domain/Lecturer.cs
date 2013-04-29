@@ -44,6 +44,8 @@ namespace Domain
         /// <summary>
         ///     The method constructs new object without setting properties
         /// </summary>
+
+        private string deptId;
         public Lecturer()
         {
             setId("000");
@@ -59,7 +61,7 @@ namespace Domain
        /// <param name="maxConsecHours">Integer value for maximum consecutive hours a lecturer can teach</param>
        /// <param name="minSlotsPerDay">Integer value for the minimum amount of hours that a Lecturer can teach.</param>
        /// <param name="slotsOff">String value for the time slots that a lecturer is not available.</param>
-        public Lecturer(string name, string initials, string email, int maxHours, int maxConsecHours, int minSlotsPerDay, string slotsOff)
+        public Lecturer(string name, string initials, string email, int maxHours, int maxConsecHours, int minSlotsPerDay, string slotsOff, string deptId)
         {
             setId("000");
             setName(name);
@@ -69,6 +71,7 @@ namespace Domain
             setMaxConsecHours(maxConsecHours);
             setMinSlotsPerDay(minSlotsPerDay);
             setSlotsOff(slotsOff);
+            setdeptId(deptId);
         }
         /// <summary>
         ///    This method is used when loading from database
@@ -80,7 +83,8 @@ namespace Domain
         /// <param name="maxConsecHours">Integer value for maximum consecutive hours a lecturer can teach</param>
         /// <param name="minSlotsPerDay">Integer value for the minimum amount of hours that a Lecturer can teach.</param>
         /// <param name="slotsOff">String value for the time slots that a lecturer is not available.</param>
-        public Lecturer(string id ,string name, string initials, string email, int maxHours, int maxConsecHours, int minSlotsPerDay, string slotsOff)
+        public Lecturer(string id ,string name, string initials, string email, int maxHours, int maxConsecHours, 
+            int minSlotsPerDay, string slotsOff, string deptId)
         {
             setId(id);
             setName(name);
@@ -90,6 +94,7 @@ namespace Domain
             setMaxConsecHours(maxConsecHours);
             setMinSlotsPerDay(minSlotsPerDay);
             setSlotsOff(slotsOff);
+            setdeptId(deptId);
         }
 
         //other methods
@@ -103,7 +108,8 @@ namespace Domain
         /// <param name="maxConsecHours">Integer value for maximum consecutive hours a lecturer can teach</param>
         /// <param name="minSlotsPerDay">Integer value for the minimum amount of hours that a Lecturer can teach.</param>
         /// <param name="slotsOff">String value for the time slots that a lecturer is not available.</param>
-        public void update(string name, string initials, string email, int maxHours, int maxConsecHours, int minSlotsPerDay, string slotsOff)
+        public void update(string name, string initials, string email, int maxHours, int maxConsecHours, 
+            int minSlotsPerDay, string slotsOff, string deptId)
         {
             setName(name);
             setInitials(initials);
@@ -112,6 +118,7 @@ namespace Domain
             setMaxConsecHours(maxConsecHours);
             setMinSlotsPerDay(minSlotsPerDay);
             setSlotsOff(slotsOff);
+            setdeptId(deptId);
         }
 
         //Get & set methods
@@ -243,6 +250,19 @@ namespace Domain
         public string getSlotsOff()
         {
             return this.slotsOff;
+        }
+
+        public void setdeptId(string Id)
+        {
+            this.deptId = Id;
+        }
+        /// <summary>
+        ///     The method retrieves Lecture object and returns the ID of lecturer
+        /// </summary>
+        /// <returns>String</returns>
+        public string getdeptId()
+        {
+           return this.deptId ;
         }
     }
 }
