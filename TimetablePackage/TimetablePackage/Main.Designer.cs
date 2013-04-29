@@ -75,10 +75,9 @@ namespace TimetablePackage
             // 
             this.dockPanel1.ActiveAutoHideContent = null;
             this.dockPanel1.DefaultFloatingWindowSize = new System.Drawing.Size(300, 300);
-            this.dockPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dockPanel1.Location = new System.Drawing.Point(0, 0);
+            this.dockPanel1.Location = new System.Drawing.Point(0, 146);
             this.dockPanel1.Name = "dockPanel1";
-            this.dockPanel1.Size = new System.Drawing.Size(1008, 562);
+            this.dockPanel1.Size = new System.Drawing.Size(1008, 416);
             this.dockPanel1.TabIndex = 2;
             // 
             // ribbonbar
@@ -93,8 +92,10 @@ namespace TimetablePackage
             this.ribbonbar.OrbDropDown.BorderRoundness = 8;
             this.ribbonbar.OrbDropDown.Location = new System.Drawing.Point(0, 0);
             this.ribbonbar.OrbDropDown.Name = "";
+            this.ribbonbar.OrbDropDown.Size = new System.Drawing.Size(0, 72);
             this.ribbonbar.OrbDropDown.TabIndex = 0;
             this.ribbonbar.OrbImage = global::TimetablePackage.Properties.Resources.icon3;
+            this.ribbonbar.OrbVisible = false;
             this.ribbonbar.Size = new System.Drawing.Size(1008, 146);
             this.ribbonbar.TabIndex = 4;
             this.ribbonbar.Tabs.Add(this.Home);

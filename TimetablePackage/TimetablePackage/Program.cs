@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DigitalRune.Windows.Docking;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,14 @@ namespace TimetablePackage
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+             // Set a consistent render mode for toolstrips and DockPanel.
+
+             ToolStripManager.RenderMode = ToolStripManagerRenderMode.Professional;
+             ToolStripManager.VisualStylesEnabled = false;
+             DockPanelManager.RenderMode = DockPanelRenderMode.Professional;
+
+
             Application.Run(new Main());
         }
     }
