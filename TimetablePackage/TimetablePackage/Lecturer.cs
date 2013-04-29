@@ -20,5 +20,12 @@ namespace TimetablePackage
         {
 
         }
+
+        private void Lecturer_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'ttpDataSet.Lecturer' table. You can move, or remove it, as needed.
+            this.lecturerTableAdapter.Fill(this.ttpDataSet.Lecturer);
+
+        }
     }
 }

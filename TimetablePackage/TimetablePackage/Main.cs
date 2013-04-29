@@ -63,6 +63,12 @@ namespace TimetablePackage
             listLecturer.ShowDialog();
         }
 
+        private void addLecturer_Click(object sender, EventArgs e)
+        {
+            addLecturer addALecturer = new addLecturer();
+            addALecturer.ShowDialog();
+        }
+
        
 
         
