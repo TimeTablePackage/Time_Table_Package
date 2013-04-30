@@ -18,5 +18,10 @@ namespace TimetablePackage
         {
             InitializeComponent();
         }
+
+        private void timetable_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

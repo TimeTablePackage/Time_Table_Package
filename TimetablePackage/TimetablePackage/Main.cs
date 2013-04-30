@@ -33,14 +33,14 @@ namespace TimetablePackage
             timetable  document = new timetable();
 
             // Show document
-            if (dockPanel1.DocumentStyle == DocumentStyle.SystemMdi)
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
             {
                 document.MdiParent = this;
                 document.Show();
             }
             else
             {
-                document.Show(dockPanel1);
+                document.Show(DockTabPanel);
             }
         }
 
@@ -59,13 +59,23 @@ namespace TimetablePackage
 
         private void ribbonButton1_Click(object sender, EventArgs e)
         {
-            Lecturer listLecturer = new Lecturer();
-            listLecturer.ShowDialog();
+            Lecturer document = new Lecturer();
+
+            // Show document
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
+            {
+                document.MdiParent = this;
+                document.Show();
+            }
+            else
+            {
+                document.Show(DockTabPanel);
+            }
         }
 
         private void addLecturer_Click(object sender, EventArgs e)
         {
-            addLecturer addALecturer = new addLecturer();
+            Add_Lecturer addALecturer = new Add_Lecturer();
             addALecturer.ShowDialog();
         }
 

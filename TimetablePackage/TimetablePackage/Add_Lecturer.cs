@@ -11,10 +11,10 @@ using Domain;
 namespace TimetablePackage
 {
     
-    public partial class addLecturer : Form
+    public partial class Add_Lecturer : Form
     {
         DomainControler controller = DomainControler.getInstance();
-        public addLecturer()
+        public Add_Lecturer()
         {
             InitializeComponent();
         }

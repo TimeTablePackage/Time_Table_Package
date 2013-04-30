@@ -73,11 +73,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addLecturer.cs">
+    <Compile Include="Add_Lecturer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addLecturer.Designer.cs">
-      <DependentUpon>addLecturer.cs</DependentUpon>
+    <Compile Include="Add_Lecturer.Designer.cs">
+      <DependentUpon>Add_Lecturer.cs</DependentUpon>
     </Compile>
     <Compile Include="Domain\Building.cs" />
     <Compile Include="Domain\Course.cs" />
@@ -154,8 +154,8 @@
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addLecturer.resx">
-      <DependentUpon>addLecturer.cs</DependentUpon>
+    <EmbeddedResource Include="Add_Lecturer.resx">
+      <DependentUpon>Add_Lecturer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GlobalStrings.tr-TR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -334,6 +334,9 @@
     <None Include="resources\icon.ico" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="resources\32x32\add.png" />
+    <None Include="resources\32x32\bullet_edit.png" />
+    <None Include="resources\32x32\delete.png" />
     <Content Include="ttp.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
