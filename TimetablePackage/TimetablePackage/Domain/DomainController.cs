@@ -113,6 +113,7 @@ namespace Domain
             Node deptNode = institute.getDeptList().head;
             Department dept = institute.getDeptById(theLec.getdeptId());
             dept.addLecturer(theLec);
+            dataBaseHelper.saveLecturers(institute.getDeptById(theLec.getdeptId()).getLecturerList());
            
         }
 

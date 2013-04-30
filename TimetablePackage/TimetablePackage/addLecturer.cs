@@ -30,9 +30,9 @@ namespace TimetablePackage
             String slotsOff = lecSlotsOffTextBox.Text;
             String department = lectDepartmentTextBox.Text ;
 
-            Lecturer lecture = new Lecturer(name, initials, email, maxHours, maxConsecHours, minSlotsPerday, slotsOff,department);
+            Domain.Lecturer lecturer = new Domain.Lecturer(name, initials, email, maxHours, maxConsecHours, minSlotsPerday, slotsOff, department);
 
-            controller.addLecturer(lecture);
+            controller.addLecturer(lecturer);
             
         }
     }

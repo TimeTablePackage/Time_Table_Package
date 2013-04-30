@@ -470,7 +470,7 @@ namespace Services
                         tempDept.setName(reader["Dept_Name"].ToString());
                         tempDept.setLecturerList(loadLectuerList(tempDept));
                         tempDept.setCourseList(loadCourseList(tempDept));
-                        deptList.addAtTail("tempDept");
+                        deptList.addAtTail(tempDept);
                     }
                     
                 }
