@@ -109,7 +109,7 @@ namespace Domain
         /// </summary>
         /// <param name="Id">The Id of desired Department</param>
         /// <returns>Department with given Id</returns>
-        public Department getDeptById(string Id)
+        public Department getDeptById(string Id) // id of dept wanted 001
         {
             Department tempdept = null;
             Node deptNode = this.deptList.head;
