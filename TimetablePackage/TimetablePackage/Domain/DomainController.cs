@@ -11,7 +11,7 @@ namespace Domain
 {
     public sealed class DomainControler
     {
-        private static DomainControler instance = new DomainControler();
+        public static DomainControler instance = new DomainControler();
         /// <summary>
         /// Class to load/save objects from/to the database
         /// </summary>
