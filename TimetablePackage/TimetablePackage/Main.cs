@@ -111,7 +111,23 @@ namespace TimetablePackage
             }
         }
 
-       
+        private void buildingListButton_Click(object sender, EventArgs e)
+        {
+            BuildingForm document = new BuildingForm();
+
+            // Show document
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
+            {
+                document.MdiParent = this;
+                document.Show();
+            }
+            else
+            {
+                document.Show(DockTabPanel);
+            }
+        }
+
+             
 
         
     }

@@ -297,6 +297,7 @@ namespace TimetablePackage
             this.buildingListButton.MinimumSize = new System.Drawing.Size(0, 0);
             this.buildingListButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("buildingListButton.SmallImage")));
             this.buildingListButton.Text = "Building List";
+            this.buildingListButton.Click += new System.EventHandler(this.buildingListButton_Click);
             // 
             // AddBuildingButton
             // 
