@@ -79,6 +79,38 @@ namespace TimetablePackage
             addALecturer.ShowDialog();
         }
 
+        private void moduleListButton_Click(object sender, EventArgs e)
+        {
+            ModuleForm document = new ModuleForm();
+
+            // Show document
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
+            {
+                document.MdiParent = this;
+                document.Show();
+            }
+            else
+            {
+                document.Show(DockTabPanel);
+            }
+        }
+
+        private void courseListButton_Click(object sender, EventArgs e)
+        {
+            CourseForm document = new CourseForm();
+
+            // Show document
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
+            {
+                document.MdiParent = this;
+                document.Show();
+            }
+            else
+            {
+                document.Show(DockTabPanel);
+            }
+        }
+
        
 
         

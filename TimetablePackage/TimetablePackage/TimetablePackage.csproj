@@ -79,6 +79,18 @@
     <Compile Include="Add_Lecturer.Designer.cs">
       <DependentUpon>Add_Lecturer.cs</DependentUpon>
     </Compile>
+    <Compile Include="CourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseForm.Designer.cs">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartmentForm.Designer.cs">
+      <DependentUpon>DepartmentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Domain\Building.cs" />
     <Compile Include="Domain\Course.cs" />
     <Compile Include="Domain\Department.cs" />
@@ -124,6 +136,12 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForm.Designer.cs">
+      <DependentUpon>ModuleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Services\DataBase.cs" />
     <Compile Include="Services\LinkedList.cs" />
     <Compile Include="SettingsForm.cs">
@@ -157,6 +175,12 @@
     <EmbeddedResource Include="Add_Lecturer.resx">
       <DependentUpon>Add_Lecturer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CourseForm.resx">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartmentForm.resx">
+      <DependentUpon>DepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GlobalStrings.tr-TR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GlobalStrings.tr-TR.Designer.cs</LastGenOutput>
@@ -179,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForm.resx">
+      <DependentUpon>ModuleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>

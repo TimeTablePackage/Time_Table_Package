@@ -245,6 +245,7 @@ namespace TimetablePackage
             this.courseListButton.MinimumSize = new System.Drawing.Size(0, 0);
             this.courseListButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("courseListButton.SmallImage")));
             this.courseListButton.Text = "Course List";
+            this.courseListButton.Click += new System.EventHandler(this.courseListButton_Click);
             // 
             // addCourseButton
             // 
@@ -267,6 +268,7 @@ namespace TimetablePackage
             this.moduleListButton.MinimumSize = new System.Drawing.Size(0, 0);
             this.moduleListButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("moduleListButton.SmallImage")));
             this.moduleListButton.Text = "Module List";
+            this.moduleListButton.Click += new System.EventHandler(this.moduleListButton_Click);
             // 
             // addModuleButton
             // 
