@@ -9,26 +9,32 @@ namespace Domain
 {
     class Institute
     {
+        private static int autoNumber { get; set; }
         /// <summary>
         /// The Name of the Instuite
         /// </summary>
-        private string name;
+        private string name { get; set; }
         /// <summary>
-        /// The LinkedList of Department in the Institute
+        /// id of the instutite
         /// </summary>
-        private LinkedList deptList;
-        /// <summary>
-        /// The LinkedList of Building in the Institute
-        /// </summary>
-        private LinkedList buildingList;
-        
-
+        private string Id { get; set; }
         /// <summary>
         ///     Defualt Constructer that sets name.
         /// </summary>
         /// <param name="name">the Name</param>
         public Institute(string name)
         {
+            setId(autoNumber++.ToString());
+            setName(name);
+        }
+        /// <summary>
+        /// Constructer for database
+        /// </summary>
+        /// <param name="id">The Id</param>
+        /// /// <param name="name">The Name</param>
+        public Institute(string id, string name)
+        {
+            setId(id);
             setName(name);
         }
         /// <summary>
@@ -56,6 +62,23 @@ namespace Domain
             deptList.addAtTail(dept);
         }
         //Get and Set methods
+        /// <summary>
+        ///     set the id 
+        /// </summary>
+        /// <param name="Id">The new Id</param>
+        public void setId(string Id)
+        {
+            this.Id = Id;
+        }
+        /// <summary>
+        ///     returns the id 
+        /// </summary>
+        /// <returns>The Id</returns>
+        public string getID()
+        {
+            return this.Id;
+        }
+        
         /// <summary>
         ///     Set the Institute name
         /// </summary>
@@ -109,7 +132,7 @@ namespace Domain
         /// </summary>
         /// <param name="Id">The Id of desired Department</param>
         /// <returns>Department with given Id</returns>
-        public Department getDeptById(string Id)
+        public Department getDeptById(string Id) // id of dept wanted 001
         {
             Department tempdept = null;
             Node deptNode = this.deptList.head;
@@ -127,6 +150,9 @@ namespace Domain
             }
             return tempdept;
         }
+
+
+       
 
     }//class
 }

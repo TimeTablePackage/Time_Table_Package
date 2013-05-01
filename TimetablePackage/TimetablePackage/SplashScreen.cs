@@ -19,11 +19,12 @@ namespace TimetablePackage
 
         private void splashScreenTimer_Tick(object sender, EventArgs e)
         {
-            splashScreenProgressBar.Increment(1);
+            splashScreenProgressBar.Increment(2);
             if (splashScreenProgressBar.Value == 100)
             {
                 splashScreenTimer.Stop();
             }
         }
+
     }
 }

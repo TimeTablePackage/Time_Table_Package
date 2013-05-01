@@ -29,7 +29,7 @@
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -52,13 +52,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DigitalRune.Windows.Docking">
-      <HintPath>..\..\..\..\..\Downloads\DigitalRune-Docking-Windows\Bin\DigitalRune.Windows.Docking.dll</HintPath>
+      <HintPath>resources\DigitalRune.Windows.Docking.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Windows.Forms.Ribbon35">
-      <HintPath>..\..\..\..\..\Downloads\Ribbon_24Feb2013\System.Windows.Forms.Ribbon35.dll</HintPath>
+      <HintPath>resources\System.Windows.Forms.Ribbon35.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -73,10 +73,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addLecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addLecturer.Designer.cs">
+      <DependentUpon>addLecturer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Domain\Building.cs" />
     <Compile Include="Domain\Course.cs" />
     <Compile Include="Domain\Department.cs" />
-    <Compile Include="Domain\DomainContoller.cs" />
+    <Compile Include="Domain\DomainController.cs" />
     <Compile Include="Domain\Generate.cs" />
     <Compile Include="Domain\Institute.cs" />
     <Compile Include="Domain\Lecturer.cs" />
@@ -84,6 +90,12 @@
     <Compile Include="Domain\Module.cs" />
     <Compile Include="Domain\Room.cs" />
     <Compile Include="Domain\TimeTable.cs" />
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
     <Compile Include="GlobalStrings.tr-TR.Designer.cs">
       <DependentUpon>GlobalStrings.tr-TR.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -99,6 +111,12 @@
     </Compile>
     <Compile Include="Add_Building.Designer.cs">
       <DependentUpon>Add_Building.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LecturerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecturerForm.Designer.cs">
+      <DependentUpon>LecturerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -128,6 +146,17 @@
     <Compile Include="timetable.Designer.cs">
       <DependentUpon>timetable.cs</DependentUpon>
     </Compile>
+    <Compile Include="ttpDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ttpDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addLecturer.resx">
+      <DependentUpon>addLecturer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GlobalStrings.tr-TR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>GlobalStrings.tr-TR.Designer.cs</LastGenOutput>
@@ -144,6 +173,9 @@
     </Compile>
     <EmbeddedResource Include="Add_Building.resx">
       <DependentUpon>Add_Building.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LecturerForm.resx">
+      <DependentUpon>LecturerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -179,6 +211,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ttpDataSet.xsc">
+      <DependentUpon>ttpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ttpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ttpDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ttpDataSet.xss">
+      <DependentUpon>ttpDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -232,6 +275,68 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\setting_tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\book_keeping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\group_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\table_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\book_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\report_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\books_stack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\building_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\bell_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\printer_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="licence.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ttp.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -17,11 +17,11 @@ namespace TimetablePackage
     {
         DialogResult dresult;
         Main m_form;
-        public SettingsForm(Main main)
+        public SettingsForm()
         {
             
             InitializeComponent();
-            m_form = main;
+           // m_form = main;
         }
        
 

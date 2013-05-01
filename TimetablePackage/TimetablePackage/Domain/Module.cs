@@ -10,6 +10,10 @@ namespace Domain
     class Module
     {
         /// <summary>
+        /// Generates a new Id
+        /// </summary>
+        private static int autoNumber;
+        /// <summary>
         /// ID will be used for identifying the  Module in the database.
         /// </summary>
         private string ID;
@@ -48,7 +52,7 @@ namespace Domain
         /// </summary>
         public Module()
         {
-            setId("000");
+            setId(autoNumber++.ToString());
             lecturerList = new LinkedList();
         }
 
@@ -64,7 +68,7 @@ namespace Domain
         /// <param name="slotsOff">String value contains information about timeslots that the Module can not be taught</param>
         public Module(String name, bool pratical, int hoursPerWeek, string roomType, bool doubleSlots, int maxConsecHours, string slotsOff)
         {
-            setId("000");
+            setId(autoNumber++.ToString());
             setName(name);
             setPractical(practical);
             setHoursPerWeek(hoursPerWeek);
@@ -72,11 +76,11 @@ namespace Domain
             setDoubleSlots(doubleSlots);
             setMaxConsecHours(maxConsecHours);
             setSlotsOff(slotsOff);
-
         }
         /// <summary>
-        ///     This method constructs a Module object with a set of properties as well as a List of Lecturers.
+        /// Construter for database
         /// </summary>
+        /// <param name="id">id of the module</param>
         /// <param name="name">String value will be assigned as the name of the Module</param>
         /// <param name="pratical">Boolean value specifies whether Module have a practical or not</param>
         /// <param name="hoursPerWeek">Integer value will be assigned as the number of hours the Module will be taught.</param>
@@ -85,17 +89,15 @@ namespace Domain
         /// <param name="maxConsecHours">Integer value will define the maximum consecutive hours during the day.</param>
         /// <param name="slotsOff">String value contains information about timeslots that the Module can not be taught</param>
         /// <param name="lecturerList">LinkedList with a List of Lecturers</param>
-        public Module(String name, bool pratical, int hoursPerWeek, string roomType, bool doubleSlots, int maxConsecHours, string slotsOff, LinkedList lecturerList)
+        public Module(string id, string name, bool pratical, int hoursPerWeek, string roomType, bool doubleSlots, int maxConsecHours)
         {
-            setId("000");
+            setId(id);
             setName(name);
             setPractical(practical);
             setHoursPerWeek(hoursPerWeek);
             setRoomtype(roomType);
             setDoubleSlots(doubleSlots);
             setMaxConsecHours(maxConsecHours);
-            setSlotsOff(slotsOff);
-            setLecturerList(lecturerList);
         }
 
         //other methods

@@ -7,16 +7,25 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Odbc;
 
 namespace Services
 {   
-    class DataBase
+   public class DataBase
     {
+
+        private LinkedList deptList = new LinkedList();
+        private LinkedList buildingList = new LinkedList();
+        private LinkedList roomList = new LinkedList();
+        private LinkedList moduleList = new LinkedList();
+        private LinkedList lecturerList = new LinkedList();
+        private LinkedList courseList = new LinkedList();
 
         /// <summary>
         /// A string for the OleDbConnection object to connect to the access database
         /// </summary>
         private string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=ttp.accdb";
+
         /// <summary>
         /// A OleDbConnection object to connect to the access database
         /// </summary>
@@ -157,11 +166,11 @@ namespace Services
         {
             string sql;
             sql = "UPDATE Room";
-            sql += "Number='" + room.getRoomNumber() + "', ";
-            sql += "Capacity=" + room.getCapacity() + ", ";
-            sql += "RoomType='" + room.getRoomType() + "', ";
-            sql += "SlotsOff='" + room.getSlotsOff() + "', ";
-            sql += "WHERE ID LIKE " + room.getID();
+            sql += "Number='" + room.roomNumber + "', ";
+            sql += "Capacity=" + room.capacity + ", ";
+            sql += "RoomType='" + room.roomType + "', ";
+            sql += "SlotsOff='" + room.slotsOff + "', ";
+            sql += "WHERE ID LIKE " + room.ID;
             excuteNonQuery(sql);
         }
         /// <summary>
@@ -172,10 +181,10 @@ namespace Services
         {
             string sql;
             sql = "INSERT INTO Room (Number, Capacity, RoomType, SlotsOff, Deleted) VALUES(";
-            sql += "'"+room.getRoomNumber()+"', ";
-            sql += room.getCapacity() + ", ";
-            sql += "'" + room.getRoomType() + "', ";
-            sql += "'" + room.getSlotsOff() + "', false ";
+            sql += "'"+room.roomNumber+"', ";
+            sql += room.capacity + ", ";
+            sql += "'" + room.roomType + "', ";
+            sql += "'" + room.slotsOff + "', false ";
             excuteNonQuery(sql);
         }
         /// <summary>
@@ -197,42 +206,6 @@ namespace Services
         {
             string sql = "INSERT INTO Department VALUES('"+ dept.getName() + "')";
             excuteNonQuery(sql);
-        }
-        /// <summary>
-        ///     returns a Lecturer Object corresponding to the ID given
-        /// </summary>
-        /// <param name="lecturerId">The Lecturer ID</param>
-        /// <returns>A Lecturer with the given ID</returns> 
-        public Lecturer loadLecturer(string lecturerId)
-        {
-            Lecturer newLec = new Lecturer();
-            string sqlStatment = "SELECT * FROM Lecturer WHERE ID LIKE " + lecturerId;
-            try
-            {
-                OpenConection();
-                cmd = new OleDbCommand(sqlStatment, conn);
-                reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-                    if (reader["Deleted"].ToString().Equals("False"))
-                    {
-                        newLec.setName(reader["Lec_Name"].ToString());
-                        newLec.setInitials(reader["Initials"].ToString());
-                        newLec.setEmail(reader["Email"].ToString());
-                        newLec.setMaxHours(Convert.ToInt32(reader["MaxHours"]));
-                        newLec.setMaxConsecHours(Convert.ToInt32(reader["MaxConsecHours"]));
-                        newLec.setMinSlotsPerDay(Convert.ToInt32(reader["MinSlotsPerDays"]));
-                        newLec.setSlotsOff(reader["SlotsOff"].ToString());
-                    }
-                }
-                CloseConnection();
-            }
-            catch
-            {
-                // MessageBox.Show("Failed to get data from source");
-            }
-
-            return newLec;
         }
         /// <summary>
         ///    Get data back in a data table
@@ -287,19 +260,14 @@ namespace Services
             }
             return outputString;
         }
-        /// <summary>
-        ///  Load all the Lecturers for a given Department
-        /// </summary>
-        /// <param name="dept">The Department the Lecturers are in</param>
-        /// <returns>LinkedList of Lecturer</returns>
-        public LinkedList loadLectuerList(Department dept)
-        {
-            LinkedList lectureList = new LinkedList();
+      /// <summary>
+      /// 
+      /// </summary>
+       private void loadLectuerList()
+       {
             Lecturer newLec;
-            string sqlStatment = "SELECT Lec_Name, Initials, Email, MaxHours, MaxConsecHours, MinSlotsPerDays, SlotsOff, Deleted";
-            sqlStatment += "FROM Lecturer WHERE Lecturer.Dept_ID LIKE" + dept.getID();
-                try
-                {
+            string sqlStatment = "SELECT * FROM Lecturer";
+            try{
                     OpenConection();
                     cmd = new OleDbCommand(sqlStatment, conn);
                     reader = cmd.ExecuteReader();
@@ -307,17 +275,15 @@ namespace Services
                     {
                         if (reader["Deleted"].ToString().Equals("False"))
                         {
-                            newLec = new Lecturer();
-                            newLec.setId(reader["ID"].ToString());
-                            newLec.setName(reader["Lec_Name"].ToString());
-                            newLec.setInitials(reader["Initials"].ToString());
-                            newLec.setEmail(reader["Email"].ToString());
-                            newLec.setMaxHours(Convert.ToInt32(reader["MaxHours"]));
-                            newLec.setMaxConsecHours(Convert.ToInt32(reader["MaxConsecHours"]));
-                            newLec.setMinSlotsPerDay(Convert.ToInt32(reader["MinSlotsPerDays"]));
-                            newLec.setSlotsOff(reader["SlotsOff"].ToString());
-                            lectureList.addAtTail(newLec);
-
+                            newLec = new Lecturer(reader["ID"].ToString(),
+                                reader["Lec_Name"].ToString(),
+                                reader["Initials"].ToString(),
+                                reader["Email"].ToString(),
+                                Convert.ToInt32(reader["MaxHours"]),
+                                Convert.ToInt32(reader["MaxConsecHours"]),
+                                Convert.ToInt32(reader["MinSlotsPerDays"]),
+                                reader["SlotsOff"].ToString(),reader["DepartmentID"].ToString());
+                                lecturerList.addAtTail(newLec);
                         }
                     }
                     CloseConnection();
@@ -326,60 +292,18 @@ namespace Services
                 {
                     // MessageBox.Show("Failed to get data from source");
                 } 
-            return lectureList;
         }
-        /// <summary>
-        ///     Returns the Lectures that teach a Module
-        /// </summary>
-        /// <param name="module">The Module that the Lecturers teach</param>
-        /// <returns>LinkedList of lecturer</returns>
-        public LinkedList loadLectuerList(Module module)
-        {
-            LinkedList lectureList = new LinkedList();
-            Lecturer newLec;
-            string sqlStatment = "SELECT ID, Lec_Name, Initials, Email, MaxHours, MaxConsecHours, MinSlotsPerDays, SlotsOff, Deleted";
-            sqlStatment += "FROM Lecturer, Lecturer/Module WHERE Lecturer/Module.Module_ID LIKE " + module.getID();
-            try
-            {
-                OpenConection();
-                cmd = new OleDbCommand(sqlStatment, conn);
-                reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-                    if (reader["Deleted"].ToString().Equals("False"))
-                    {
-                        newLec = new Lecturer();
-                        newLec.setId(reader["ID"].ToString());
-                        newLec.setName(reader["Lec_Name"].ToString());
-                        newLec.setInitials(reader["Initials"].ToString());
-                        newLec.setEmail(reader["Email"].ToString());
-                        newLec.setMaxHours(Convert.ToInt32(reader["MaxHours"]));
-                        newLec.setMaxConsecHours(Convert.ToInt32(reader["MaxConsecHours"]));
-                        newLec.setMinSlotsPerDay(Convert.ToInt32(reader["MinSlotsPerDays"]));
-                        newLec.setSlotsOff(reader["SlotsOff"].ToString());
-                        lectureList.addAtTail(newLec);
-                    }
-                    
-                }
-                CloseConnection();
-            }
-            catch 
-            {
-                // MessageBox.Show("Failed to get data from source");
-            }
-            return lectureList;
-        }
+        
         /// <summary>
         ///     Load LinkedList of Course for a Department
         /// </summary>
         /// <param name="dept">The Department the Courses are in</param>
         /// <returns>A LinkedList of Course</returns>
-        public LinkedList loadCourseList(Department dept)
+        private void loadCourseList()
         {
-            LinkedList courses = new LinkedList();
             Course tempCourse ;
 
-            string sqlStatment = "SELECT ID, Code, CourseName, NumOfStudents FROM Course WHERE DeptId Like  " +  dept.getID(); 
+            string sqlStatment = "SELECT ID, Code, CourseName, NumOfStudents FROM Course"; 
             try
             {
                 OpenConection();
@@ -389,13 +313,11 @@ namespace Services
                 {
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-                        tempCourse = new Course();
-                        tempCourse.setID(reader["ID"].ToString());
-                        tempCourse.setCourseCode(reader["Code"].ToString());
-                        tempCourse.setName(reader["CourseName"].ToString());
-                        tempCourse.setNumOfStudents(Convert.ToInt32(reader["NumOfStudents"]));
-                        tempCourse.setModuleList(LoadModuleList(tempCourse));
-                        courses.addAtTail(tempCourse);
+                        tempCourse = new Course(reader["ID"].ToString(), 
+                            reader["Code"].ToString(),
+                            reader["CourseName"].ToString(), 
+                            Convert.ToInt32(reader["NumOfStudents"]));
+                        courseList.addAtTail(tempCourse);
                     }
                     
                 }
@@ -405,19 +327,15 @@ namespace Services
             {
                 // MessageBox.Show("Failed to get data from source");
             }
-
-            return courses ;
         }
         /// <summary>
-        ///     Load the LinkedList of Room for a Building
+        ///     Load all rooms
         /// </summary>
-        /// <param name="building">The Building the Rooms are in</param>
-        /// <returns>Linked List of rooms</returns>
-        public LinkedList loadRoomList(Building building)
+       private void loadRoomList()
         {
             LinkedList roomList = new LinkedList();
             Room tempRoom;
-            string sqlStatment = "SELECT * FROM Room WHERE BuildingID LIKE  " + building.getID();
+            string sqlStatment = "SELECT * FROM Room ";
             try
             {
                 OpenConection();
@@ -427,12 +345,12 @@ namespace Services
                 {
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-                        tempRoom = new Room();
-                        tempRoom.setID(reader["ID"].ToString());
-                        tempRoom.setRoomNumber(reader["Number"].ToString());
-                        tempRoom.setCapacity(Convert.ToInt32(reader["Capacity"]));
-                        tempRoom.setRoomType(reader["RoomType"].ToString());
-                        tempRoom.setSlotsOff(reader["SlotsOff"].ToString());
+                        tempRoom = new Room(
+                        reader["ID"].ToString(),
+                        reader["Number"].ToString(),
+                        Convert.ToInt32(reader["Capacity"]),
+                        reader["RoomType"].ToString(),
+                        reader["SlotsOff"].ToString());
                         roomList.addAtTail(tempRoom);
                     }
                 }
@@ -442,16 +360,12 @@ namespace Services
             {
                 // MessageBox.Show("Failed to get data from source");
             }
-            return roomList;
         }
-        /// <summary>
-        ///     Returns a list of Departments
-        /// </summary>
-        /// <param name="institute">The Institute the Departments are in</param>
-        /// <returns>A LinkedList of Departments</returns>
-        public LinkedList loadDepartmentList(Institute institute)
+         /// <summary>
+         /// load all the depts from the database
+         /// </summary>
+       private void loadDepartmentList()
         {
-            LinkedList deptList = new LinkedList();
             Department tempDept ;
             string sqlStatment = "SELECT * FROM Department";
             try 
@@ -463,14 +377,10 @@ namespace Services
                 {
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-                        tempDept = new Department();
-                        tempDept.setId(reader["ID"].ToString());
-                        tempDept.setName(reader["Dept_Name"].ToString());
-                        tempDept.setLecturerList(loadLectuerList(tempDept));
-                        tempDept.setCourseList(loadCourseList(tempDept));
-                        deptList.addAtTail("tempDept");
+                        tempDept = new Department(reader["ID"].ToString(),
+                            reader["Dept_Name"].ToString());
+                        deptList.addAtTail(tempDept);
                     }
-                    
                 }
                 CloseConnection();
 	        }
@@ -478,16 +388,12 @@ namespace Services
 	        {
 	
 	        }
-            return deptList;
         }
         /// <summary>
-        ///     Returns a list of buildings
+        /// load all the buildings from the database
         /// </summary>
-        /// <param name="institute">The Institute the Buildings are in</param>
-        /// <returns>A LinkedList of Buildings</returns>
-        public LinkedList loadBuildingList(Institute institute)
+        private void loadBuildingList()
         {
-            LinkedList buildingList = new LinkedList();
             Building tempBuild;
             string sqlStatment = "SELECT * FROM Building";
             try
@@ -499,10 +405,8 @@ namespace Services
                 {
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-                        tempBuild = new Building();
-                        tempBuild.setId(reader["ID"].ToString());
-                        tempBuild.setName("Building_Name");
-                        tempBuild.setRoomList(loadRoomList(tempBuild));
+                        tempBuild = new Building(reader["ID"].ToString(), 
+                            reader["Building_Name"].ToString());
                         buildingList.addAtTail(tempBuild);
                     }
                 }
@@ -512,18 +416,14 @@ namespace Services
             {
 
             }
-            return buildingList;
         }
         /// <summary>
-        ///     Loads a LinkedList of Module from a Course
+        ///     Loads all modules
         /// </summary>
-        /// <param name="course">The Course the Modules are in</param>
-        /// <returns>A LinkedList of Modules</returns>
-        public LinkedList LoadModuleList(Course course)
+        private void LoadModuleList()
         {
-            LinkedList moduleList = new LinkedList();
             Module tempModule;
-            string sqlStatment = "SELECT * FROM Course WHERE CourseCode LIKE "+ course.getCourseCode();
+            string sqlStatment = "SELECT * FROM Module";
             try
             {
                 OpenConection();
@@ -531,17 +431,15 @@ namespace Services
                 reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-                        tempModule = new Module();
-                        tempModule.setId(reader["ID"].ToString());
-                        tempModule.setName(reader["Module_Name"].ToString());
-                        tempModule.setPractical(Convert.ToBoolean(reader["Pratcial"]));
-                        tempModule.setHoursPerWeek(Convert.ToInt32(reader["HoursPerWeek"]));
-                        tempModule.setRoomtype(reader["RoomType"].ToString());
-                        tempModule.setMaxConsecHours(Convert.ToInt32(reader["MaxConsecHours"]));
-                        tempModule.setDoubleSlots(Convert.ToBoolean(reader["DoubleSlots"]));
+                        tempModule = new Module(reader["ID"].ToString(),
+                        reader["Module_Name"].ToString(),
+                        Convert.ToBoolean(reader["Pratcial"]),
+                        Convert.ToInt32(reader["HoursPerWeek"]),
+                        reader["RoomType"].ToString(),
+                        Convert.ToBoolean(reader["DoubleSlots"]),
+                        Convert.ToInt32(reader["MaxConsecHours"]));
                         moduleList.addAtTail(tempModule);
                     }
                 }
@@ -549,10 +447,7 @@ namespace Services
             }
             catch
             {
-
             }
-            return moduleList;
-
         }
         /// <summary>
         ///     Save list of Lecturer to the database
@@ -614,7 +509,7 @@ namespace Services
             {
                 tempRoom = (Room)temp.data;
                 //if the room isnt in the database insert it else update it
-                if (tempRoom.getID().Equals("000"))
+                if (tempRoom.ID.Equals("000"))
                 {
                     insertRoom(tempRoom);
                 }
@@ -644,6 +539,39 @@ namespace Services
                 else
                 {
                     updateDept(tempDept);
+                }
+            }
+
+        }
+        /// <summary>
+        /// update the list to match database
+        /// </summary>
+        public void update()
+        {
+            loadBuildingList();
+            loadCourseList();
+            loadDepartmentList();
+            loadRoomList();
+            loadLectuerList();
+            LoadModuleList();
+        }
+
+        /// <summary>
+        /// find room for a building
+        /// </summary>
+        /// <param name="build">the building the rooms are in</param>
+        /// <returns></returns>
+        public LinkedList getRoomList(Building build)
+        {
+            LinkedList list = new LinkedList();
+            Node roomNode = roomList.head;
+
+            while (roomNode != null)
+            {
+                Room tempRoom = (Room)roomNode.data;
+                if (tempRoom.buildingId == build.getID())
+                {
+                    list.addAtTail(tempRoom);
                 }
             }
 
