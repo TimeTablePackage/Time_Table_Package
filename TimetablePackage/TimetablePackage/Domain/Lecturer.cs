@@ -11,39 +11,39 @@ namespace Domain
         /// <summary>
         /// ID  will be used for identifying the Lecturer in the database
         /// </summary>
-        private string ID;
+        public string ID { get; set; }
         /// <summary>
         /// This will be the name of the Lecturer
         /// </summary>
-        private string name;
+        public string name { get; set; }
         /// <summary>
         /// The initials of the lecturer will be used for the final timetable.
         /// </summary>
-        private string initials;
+        public string initials { get; set; }
         /// <summary>
         /// This is the email address of the Lecturer.
         /// </summary>
-        private string email;
+        public string email { get; set; }
         /// <summary>
         /// Maximum number of hours that Lecturer is available to work.
         /// </summary>
-        private int maxHours;
+        public int maxHours { get; set; }
         /// <summary>
         /// Maximum number of consecutive hours that a Lecturer can teach during the day.
         /// </summary>
-        private int maxConsecHours;
+        public int maxConsecHours { get; set; }
         /// <summary>
         /// The minimum number of hours that a Lecturer can teach.
         /// </summary>
- 
-        private int minSlotsPerDay;
+        public int minSlotsPerDay { get; set; }
         /// <summary>
         /// Different slots of time that a lecturer is not available.
         /// </summary>
-        private string slotsOff; 
+        public string slotsOff { get; set; }
         /// <summary>
-        ///     The method constructs new object without setting properties
+        /// The Id of the dept the lecturer is in
         /// </summary>
+<<<<<<< HEAD
 
         private string deptId;
         public Lecturer()
@@ -74,9 +74,14 @@ namespace Domain
             setSlotsOff(slotsOff);
             setdeptId(deptId);
         }
+=======
+        public string deptId { get; set; }
+
+>>>>>>> origin/Tom-
         /// <summary>
-        ///    This method is used when loading from database
+        ///     The method constructs new object and sets properties
         /// </summary>
+<<<<<<< HEAD
         /// <param name="name">String value for the name of lecturer</param>
         /// <param name="initials">String value for the initials of lecturer</param>
         /// <param name="email">String value for email details</param>
@@ -96,11 +101,22 @@ namespace Domain
             setMinSlotsPerDay(minSlotsPerDay);
             setSlotsOff(slotsOff);
             setdeptId(deptId);
+=======
+        public Lecturer(string name, string initials, string email, int maxHours, int maxConsecHours,
+            int minSlotsPerDay, string slotsOff, string deptId)
+        {
+            this.name = name;
+            this.initials = initials;
+            this.email = email;
+            this.maxHours = maxHours;
+            this.maxConsecHours = maxConsecHours;
+            this.minSlotsPerDay = minSlotsPerDay;
+            this.slotsOff = slotsOff;
+            this.deptId = deptId;
+>>>>>>> origin/Tom-
         }
-
-        //other methods
         /// <summary>
-        ///    Update the values in the Lecturer
+        ///    This method is used when loading from database
         /// </summary>
         /// <param name="name">String value for the name of lecturer</param>
         /// <param name="initials">String value for the initials of lecturer</param>
@@ -109,6 +125,7 @@ namespace Domain
         /// <param name="maxConsecHours">Integer value for maximum consecutive hours a lecturer can teach</param>
         /// <param name="minSlotsPerDay">Integer value for the minimum amount of hours that a Lecturer can teach.</param>
         /// <param name="slotsOff">String value for the time slots that a lecturer is not available.</param>
+<<<<<<< HEAD
         public void update(string name, string initials, string email, int maxHours, int maxConsecHours, 
             int minSlotsPerDay, string slotsOff, string deptId)
         {
@@ -251,6 +268,20 @@ namespace Domain
         public string getSlotsOff()
         {
             return this.slotsOff;
+=======
+        public Lecturer(string id ,string name, string initials, string email, int maxHours, int maxConsecHours, 
+            int minSlotsPerDay, string slotsOff, string deptId)
+        {
+            this.ID = id;
+            this.name = name;
+            this.initials = initials;
+            this.email = email;
+            this.maxHours = maxHours;
+            this.maxConsecHours = maxConsecHours;
+            this.minSlotsPerDay = minSlotsPerDay;
+            this.slotsOff = slotsOff;
+            this.deptId = deptId;
+>>>>>>> origin/Tom-
         }
 
         public void setdeptId(string Id)

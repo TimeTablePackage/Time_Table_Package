@@ -22,7 +22,6 @@ namespace Domain
         /// </summary>
         public Generate()
         {
-            roomList = controler.getAllRooms() ;
         }
         /// <summary>
         /// generate a random timeslot for a lesson

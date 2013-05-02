@@ -59,7 +59,11 @@ namespace TimetablePackage
 
         private void ribbonButton1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Lecturer listLecturer = new Lecturer();
+=======
+            LecturerForm listLecturer = new LecturerForm();
+>>>>>>> origin/Tom-
             listLecturer.ShowDialog();
         }
 

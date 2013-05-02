@@ -117,6 +117,11 @@
     </Compile>
     <Compile Include="Lecturer.Designer.cs">
       <DependentUpon>Lecturer.cs</DependentUpon>
+    <Compile Include="LecturerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecturerForm.Designer.cs">
+      <DependentUpon>LecturerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -176,6 +181,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lecturer.resx">
       <DependentUpon>Lecturer.cs</DependentUpon>
+    <EmbeddedResource Include="LecturerForm.resx">
+      <DependentUpon>LecturerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
