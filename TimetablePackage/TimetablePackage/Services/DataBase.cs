@@ -288,7 +288,7 @@ namespace Services
         {
             Course tempCourse ;
 
-            string sqlStatment = "SELECT ID, Code, CourseName, NumOfStudents FROM Course"; 
+            string sqlStatment = "SELECT * FROM Course"; 
             try
             {
                 OpenConection();
