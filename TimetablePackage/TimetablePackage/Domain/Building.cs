@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Building
+    public class Building
     {
-        DomainControler controler = DomainControler.getInstance();
-        DataBase dbhelper;
+        private DomainControler controler = DomainControler.getInstance();
+        private DataBase dbhelper;
         /// <summary>
         /// Generates a Id for new Building
         /// </summary>
@@ -40,6 +40,11 @@ namespace Domain
         {
             this.ID = id;
             this.name = name;
+        }
+
+        public LinkedList getRooms()
+        {
+           return dbhelper.getRoomList(this);
         }
         
     }

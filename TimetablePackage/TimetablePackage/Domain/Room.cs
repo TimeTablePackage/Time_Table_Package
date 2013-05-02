@@ -9,10 +9,6 @@ namespace Domain
 		class Room 
         {
             /// <summary>
-            /// Generates a new Id
-            /// </summary>
-            private static int autoNumber { get; set; }
-            /// <summary>
             /// ID will be used for identifying the Room in the database.
             /// </summary>
             public string ID { get; set; }
@@ -32,29 +28,58 @@ namespace Domain
             /// The time slots that a room is not available for hosting a class
             /// </summary>
             public string slotsOff { get; set; }
+            /// <summary>
+            /// id of the building the room is in
+            /// </summary>
             public string buildingId { get; set; }
+
+            private string slotsUsed;
             
             /// <summary>
-			/// Default constructor of the Room class.
-			/// </summary>
-			public Room() {
-                this.ID = autoNumber++.ToString();
-			}
-            /// <summary>
-            /// Constructer for database
+            /// Default constructor of the Room class.
             /// </summary>
-            /// <param name="roomNum">String value for the name/number of the room in the building.</param>
-            /// <param name="capacity">Integer value for the setting the maximum capacity.</param>
-            public Room(string id, string roomNum, int capacity, string roomType, string slotsOff)
+            /// <param name="roomNum">number of the room</param>
+            /// <param name="capacity">number of students room can hold</param>
+            /// <param name="roomType">Lab or Lecturer hall</param>
+            /// <param name="slotsOff">time room is not available</param>
+            public Room(string roomNum, int capacity, string roomType, string slotsOff)
             {
-                this.ID = autoNumber++.ToString();
                 this.roomNumber = roomNum;
                 this.capacity = capacity;
                 this.roomNumber = roomType;
                 this.slotsOff = slotsOff;
             }
+            /// <summary>
+            /// constructer for database
+            /// </summary>
+            /// <param name="id">id of room</param>
+            /// <param name="roomNum">number of the room</param>
+            /// <param name="capacity">number of students room can hold</param>
+            /// <param name="roomType">Lab or Lecturer hall</param>
+            /// <param name="slotsOff">time room is not available</param>
+            public Room(string id, string roomNum, int capacity, string roomType, string slotsOff, string buildingId)
+            {
+                this.roomNumber = roomNum;
+                this.capacity = capacity;
+                this.roomNumber = roomType;
+                this.slotsOff = slotsOff;
+                this.buildingId = buildingId;
+            }
 
-			
+            public Boolean available(String time)
+            {
+                string temp = slotsOff + slotsUsed;
+                bool answer = false;
+
+                while (temp != null)
+                {
+                    if (time == (temp = temp.Substring(0, temp.IndexOf(':'))))
+                    {
+                        answer = true;
+                    } 
+                }
+                return answer;
+            }
 		}
 
 }

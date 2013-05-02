@@ -9,74 +9,56 @@ namespace Domain
     public class Lecturer
     {
         /// <summary>
-        /// Generates a new Id
-        /// </summary>
-        private static int autoNumber;
-        /// <summary>
         /// ID  will be used for identifying the Lecturer in the database
         /// </summary>
-        private string ID;
+        public string ID { get; set; }
         /// <summary>
         /// This will be the name of the Lecturer
         /// </summary>
-        private string name;
+        public string name { get; set; }
         /// <summary>
         /// The initials of the lecturer will be used for the final timetable.
         /// </summary>
-        private string initials;
+        public string initials { get; set; }
         /// <summary>
         /// This is the email address of the Lecturer.
         /// </summary>
-        private string email;
+        public string email { get; set; }
         /// <summary>
         /// Maximum number of hours that Lecturer is available to work.
         /// </summary>
-        private int maxHours;
+        public int maxHours { get; set; }
         /// <summary>
         /// Maximum number of consecutive hours that a Lecturer can teach during the day.
         /// </summary>
-        private int maxConsecHours;
+        public int maxConsecHours { get; set; }
         /// <summary>
         /// The minimum number of hours that a Lecturer can teach.
         /// </summary>
- 
-        private int minSlotsPerDay;
+        public int minSlotsPerDay { get; set; }
         /// <summary>
         /// Different slots of time that a lecturer is not available.
         /// </summary>
-        private string slotsOff; 
+        public string slotsOff { get; set; }
         /// <summary>
-        ///     The method constructs new object without setting properties
+        /// The Id of the dept the lecturer is in
         /// </summary>
+        public string deptId { get; set; }
 
-        private string deptId;
-        public Lecturer()
+        /// <summary>
+        ///     The method constructs new object and sets properties
+        /// </summary>
+        public Lecturer(string name, string initials, string email, int maxHours, int maxConsecHours,
+            int minSlotsPerDay, string slotsOff, string deptId)
         {
-            setId(autoNumber++.ToString());
-        }
-       /// <summary>
-       ///     The method Constructs new object and with a set of properties
-       /// 
-       /// </summary>
-       /// <param name="name">String value for the name of lecturer</param>
-       /// <param name="initials">String value for the initials of lecturer</param>
-       /// <param name="email">String value for email details</param>
-       /// <param name="maxHours">Integer value for Maximum number of hours during the week</param>
-       /// <param name="maxConsecHours">Integer value for maximum consecutive hours a lecturer can teach</param>
-       /// <param name="minSlotsPerDay">Integer value for the minimum amount of hours that a Lecturer can teach.</param>
-       /// <param name="slotsOff">String value for the time slots that a lecturer is not available.</param>
-        /// 
-        public Lecturer(string name, string initials, string email, int maxHours, int maxConsecHours, int minSlotsPerDay, string slotsOff, string deptId)
-        {
-            setId(autoNumber++.ToString());
-            setName(name);
-            setInitials(initials);
-            setEmail(email);
-            setMaxHours(maxHours);
-            setMaxConsecHours(maxConsecHours);
-            setMinSlotsPerDay(minSlotsPerDay);
-            setSlotsOff(slotsOff);
-            setdeptId(deptId);
+            this.name = name;
+            this.initials = initials;
+            this.email = email;
+            this.maxHours = maxHours;
+            this.maxConsecHours = maxConsecHours;
+            this.minSlotsPerDay = minSlotsPerDay;
+            this.slotsOff = slotsOff;
+            this.deptId = deptId;
         }
         /// <summary>
         ///    This method is used when loading from database
@@ -91,183 +73,15 @@ namespace Domain
         public Lecturer(string id ,string name, string initials, string email, int maxHours, int maxConsecHours, 
             int minSlotsPerDay, string slotsOff, string deptId)
         {
-            setId(id);
-            setName(name);
-            setInitials(initials);
-            setEmail(email);
-            setMaxHours(maxHours);
-            setMaxConsecHours(maxConsecHours);
-            setMinSlotsPerDay(minSlotsPerDay);
-            setSlotsOff(slotsOff);
-            setdeptId(deptId);
-        }
-
-        //other methods
-        /// <summary>
-        ///    Update the values in the Lecturer
-        /// </summary>
-        /// <param name="name">String value for the name of lecturer</param>
-        /// <param name="initials">String value for the initials of lecturer</param>
-        /// <param name="email">String value for email details</param>
-        /// <param name="maxHours">Integer value for Maximum number of hours during the week</param>
-        /// <param name="maxConsecHours">Integer value for maximum consecutive hours a lecturer can teach</param>
-        /// <param name="minSlotsPerDay">Integer value for the minimum amount of hours that a Lecturer can teach.</param>
-        /// <param name="slotsOff">String value for the time slots that a lecturer is not available.</param>
-        public void update(string name, string initials, string email, int maxHours, int maxConsecHours, 
-            int minSlotsPerDay, string slotsOff, string deptId)
-        {
-            setName(name);
-            setInitials(initials);
-            setEmail(email);
-            setMaxHours(maxHours);
-            setMaxConsecHours(maxConsecHours);
-            setMinSlotsPerDay(minSlotsPerDay);
-            setSlotsOff(slotsOff);
-            setdeptId(deptId);
-        }
-
-        //Get & set methods
-        /// <summary>
-        ///    The parameter received by the method is set as the ID of the Lecturer.
-        /// </summary>
-        /// <param name="Id">String Value for Lecture ID</param>
-        public void setId(string Id)
-        {
-            this.ID = Id;
-        }
-        /// <summary>
-        ///     The method retrieves Lecture object and returns the ID of lecturer
-        /// </summary>
-        /// <returns>String</returns>
-        public string getId()
-        {
-            return this.ID;
-        }
-
-        /// <summary>
-        ///     The parameter received by the method is set as  the name of the Lecturer
-        /// </summary>
-        /// <param name="s">String value for Name</param>
-        public void setName(string s)
-        {
-            this.name = s;
-        }
-        /// <summary>
-        ///     The method retrieves Lecture object and returns the  Name of the Lecturer.
-        /// </summary>
-        /// <returns>String</returns>
-        public string getName()
-        {
-            return this.name;
-        }
-        /// <summary>
-        /// The parameter received by the method is set as  the initials.
-        /// </summary>
-        /// <param name="s">String value for Initials</param>
-        public void setInitials(string s)
-        {
-            this.initials = s;
-        }
-        /// <summary>
-        ///   The method retrieves Lecture object and returns the initials of the Lecturer
-        /// </summary>
-        /// <returns>String</returns>
-        public string getInitials()
-        {
-            return this.initials;
-        }
-        /// <summary>
-        ///    The parameter received by the method is set as the Email
-        /// </summary>
-        /// <param name="s">The Emaill address</param>
-        public void setEmail(string s)
-        {
-            this.email = s ;
-        }
-        /// <summary>
-        ///  The method retrieves Lecture object and returns the Email of Lecturer
-        /// </summary>
-        /// <returns>String</returns>
-        public string getEmail()
-        {
-            return this.email;
-        }
-        /// <summary>
-        ///   The parameter received by the method is set as  the initials maximum number of hours a lecturer is available.
-        /// </summary>
-        /// <param name="i">Maximum number of Hours</param>
-        public void setMaxHours(int i)
-        {
-            this.maxHours = i;
-        }
-        /// <summary>
-        ///  The method retrieves Lecture object and returns the Maximum Hours that a Lecturer can teach.
-        /// </summary>
-        /// <returns>Integer</returns>
-        public int getMaxHours()
-        {
-            return this.maxHours;
-        }
-        /// <summary>
-        ///     set Max Consectuive Hours
-        /// </summary>
-        /// <param name="i">Maximum number of Consecutive Hours</param>
-        public void setMaxConsecHours(int i)
-        {
-            this.maxConsecHours = i;
-        }
-        /// <summary>
-        /// The method retrieves Lecture object and returns the Maximum Consectuive Hours that a Lecturer can teach.
-        /// </summary>
-        /// <returns>Integer</returns>
-        public int getMaxConsecHours()
-        {
-            return this.maxConsecHours;
-        }
-        /// <summary>
-        ///     The parameter received by the method is set as  the minimum number of hours a Lecturer can teach.
-        /// </summary>
-        /// <param name="i">Minimum number of Hours Each Day</param>
-        public void setMinSlotsPerDay(int i)
-        {
-            this.minSlotsPerDay = i;
-        }
-        /// <summary>
-        ///   The method retrieves Lecture object and returns the Minimum Slots per Day
-        /// </summary>
-        /// <returns>Integer</returns>
-        public int getMinSlotsPerDay()
-        {
-            return this.minSlotsPerDay;
-        }
-        /// <summary>
-        ///    The parameter received by the method is set as the Timeslots that a Lecturers is not available. 
-        /// </summary>
-        /// <param name="s">String value for Time Slots </param>
-        public void setSlotsOff(string s)
-        {
-            this.slotsOff = s;
-        }
-        /// <summary>
-        ///  The method retrieves Lecture object and returns the Time Slots that a Lecturer is not available
-        /// </summary>
-        /// <returns>String</returns>
-        public string getSlotsOff()
-        {
-            return this.slotsOff;
-        }
-
-        public void setdeptId(string Id)
-        {
-            this.deptId = Id;
-        }
-        /// <summary>
-        ///     The method retrieves Lecture object and returns the ID of lecturer
-        /// </summary>
-        /// <returns>String</returns>
-        public string getdeptId()
-        {
-           return this.deptId ;
+            this.ID = id;
+            this.name = name;
+            this.initials = initials;
+            this.email = email;
+            this.maxHours = maxHours;
+            this.maxConsecHours = maxConsecHours;
+            this.minSlotsPerDay = minSlotsPerDay;
+            this.slotsOff = slotsOff;
+            this.deptId = deptId;
         }
     }
 }

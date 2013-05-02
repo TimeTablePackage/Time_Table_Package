@@ -47,9 +47,16 @@ namespace Domain
 
         }
 
-      
+        public void addRoom(Room theRoom)
+        {
+            dataBaseHelper.insertRoom(theRoom);
+            dataBaseHelper.update();
+        }
+
         public void addLecturer(Lecturer theLec)
         {
+            dataBaseHelper.insertLecturer(theLec);
+            dataBaseHelper.update();
             
         }
 

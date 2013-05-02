@@ -9,10 +9,6 @@ namespace Domain
 {
     class Course
     {
-        private static int autoNumber { get; set; }
-        /// <summary>
-        /// The Id of the course, mainly used for databse
-        /// </summary>
         public string ID { get; set; }
         /// <summary>
         /// The code of the course
@@ -27,28 +23,35 @@ namespace Domain
         /// </summary>
         public int numOfStudents { get; set; }
 
+        public string deptID { get; set; }
+
         /// <summary>
         ///     Defuault Constructer
-        ///     Sets Id to defualt 000 so as to know to use INSERT SQl command
-        ///     Creates a new linkedlist and assigns it to moduleList to prevent addModule() 
-        ///     trying to add to a non-existent list
-        /// </summary>
-        public Course()
-        {
-            this.ID = autoNumber++.ToString();
-        }
-        /// <summary>
-        ///     Constructer for database
         /// </summary>
         /// <param name="courseCode">code of the course</param>
         /// <param name="name">name of the course</param>
         /// <param name="numOfStudents">number of students in the course</param>
-        public Course(string id, string courseCode, string name, int numOfStudents)
+        public Course(string courseCode, string name, int numOfStudents, string deptId)
+        {
+            this.courseCode = courseCode;
+            this.name = name;
+            this.numOfStudents = numOfStudents;
+            this.deptID = deptId;
+        } 
+        /// <summary>
+        ///     Constructer for database
+        /// </summary>
+        /// <param name="id">the id of the course</param>
+        /// <param name="courseCode">code of the course</param>
+        /// <param name="name">name of the course</param>
+        /// <param name="numOfStudents">number of students in the course</param>
+        public Course(string id, string courseCode, string name, int numOfStudents, string deptId)
         {
             this.ID = id;
             this.courseCode = courseCode;
             this.name = name;
             this.numOfStudents = numOfStudents;
+            this.deptID = deptId;
         } 
       
     

@@ -8,24 +8,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Odbc;
+using System.Windows.Forms;
 
 namespace Services
 {   
    public class DataBase
     {
-
-        private LinkedList deptList = new LinkedList();
-        private LinkedList buildingList = new LinkedList();
-        private LinkedList roomList = new LinkedList();
-        private LinkedList moduleList = new LinkedList();
-        private LinkedList lecturerList = new LinkedList();
-        private LinkedList courseList = new LinkedList();
+       private LinkedList deptList = new LinkedList();
+       private LinkedList buildingList = new LinkedList();
+       private LinkedList roomList = new LinkedList();
+       private LinkedList moduleList = new LinkedList();
+       private LinkedList lecturerList = new LinkedList();
+       private LinkedList courseList = new LinkedList();
 
         /// <summary>
         /// A string for the OleDbConnection object to connect to the access database
         /// </summary>
         private string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=ttp.accdb";
-
         /// <summary>
         /// A OleDbConnection object to connect to the access database
         /// </summary>
@@ -84,89 +83,92 @@ namespace Services
                 cmd.ExecuteNonQuery();
                 CloseConnection();
             }
-            catch
+            catch (Exception e)
             {
-                // MessageBox.Show("Failed insert data");
-                Console.Write("cant excute insert command!");
+                MessageBox.Show(e.ToString());
             }
         }
         /// <summary>
         ///     Update a Lecturer in the database
         /// </summary>
         /// <param name="lecturers">The updated Lecturer</param>
-        private void updateLecturer(Lecturer lecturer)
+        public void updateLecturer(Lecturer lecturer)
         {
             string sql;
             sql = "UPDATE Lecturer";
-            sql += "Lec_Name='" + lecturer.getName() + "', ";
-            sql += "Initials='" + lecturer.getInitials() + "', ";
-            sql += "Email='" + lecturer.getEmail() + "', ";
-            sql += "MaxHours=" + lecturer.getMaxHours() + ", ";
-            sql += "MaxConsecHours=" + lecturer.getMaxConsecHours() + ", ";
-            sql += "MinSlotsPerDay=" + lecturer.getMinSlotsPerDay() + ", ";
-            sql += "SlotsOff='" + lecturer.getSlotsOff() + "' ";
-            sql += "WHERE ID LIKE '" + lecturer.getId() + "'";
+            sql += "Lec_Name='" + lecturer.name + "', ";
+            sql += "Initials='" + lecturer.initials + "', ";
+            sql += "Email='" + lecturer.email + "', ";
+            sql += "MaxHours=" + lecturer.maxHours + ", ";
+            sql += "MaxConsecHours=" + lecturer.maxConsecHours + ", ";
+            sql += "MinSlotsPerDay=" + lecturer.minSlotsPerDay + ", ";
+            sql += "SlotsOff='" + lecturer.slotsOff + "' ";
+            sql += "WHERE ID LIKE '" + lecturer.ID + "'";
             excuteNonQuery(sql);
         }
         /// <summary>
         ///     Add a new Lecturer to the database
         /// </summary>
         /// <param name="lecturer">The new Lecturer</param>
-        private void insertLecturer(Lecturer lecturer)
+        public void insertLecturer(Lecturer lecturer)
         {
             string sql;
-            sql = "INSERT INTO Lecturer (Lec_Name, Initials, Email, MaxHours, MaxConsecHours, MinSlotsPerDay, SlotsOff, Deleted) VALUES(";
-            sql += "'" + lecturer.getName() + "', ";
-            sql += "'" + lecturer.getInitials() + "', ";
-            sql += "'" + lecturer.getEmail() + "', ";
-            sql += lecturer.getMaxHours() + ", ";
-            sql += lecturer.getMaxConsecHours() + ", ";
-            sql += lecturer.getMinSlotsPerDay() + ", ";
-            sql += "'" + lecturer.getSlotsOff() + "', false)";
+            sql = "INSERT INTO Lecturer ( Lec_Name, Initials, Email, MaxHours, MaxConsecHours, MinSlotsPerDay, SlotsOff, DepartmentId, Deleted) VALUES(";
+            sql += "'" + lecturer.name + "', ";
+            sql += "'" + lecturer.initials + "', ";
+            sql += "'" + lecturer.email + "', ";
+            sql += lecturer.maxHours + ", ";
+            sql += lecturer.maxConsecHours + ", ";
+            sql += lecturer.minSlotsPerDay + ", ";
+            sql += "'" + lecturer.slotsOff + "',";
+            sql += "'"+ lecturer.deptId +"',false)";
             excuteNonQuery(sql);
         }
         /// <summary>
         ///     Update a Module in the database
         /// </summary>
         /// <param name="module">The updated Module</param>
-        private void updateModule(Module module)
+        public void updateModule(Module module)
         {
             string sql;
             sql = "UPDATE Module";
-            sql += "Module_Name='" + module.getName() + "', ";
-            sql += "Practical=" + module.getPractical() + ",";
-            sql += "HoursPerWeek=" + module.getHoursPerWeek() + ", ";
-            sql += "RoomType='" + module.getRommType() + "', ";
-            sql += "MaxConsecHours=" + module.getMaxConsecHours() + ", ";
-            sql += "DoubleSlots=" + module.getDoubleSlots() + ", ";
-            sql += "WHERE ID LIKE " + module.getID();
+            sql += "Module_Name='" + module.name + "', ";
+            sql += "Practical=" + module.practical + ",";
+            sql += "HoursPerWeek=" + module.hoursPerWeek + ", ";
+            sql += "RoomType='" + module.RoomType + "', ";
+            sql += "MaxConsecHours=" + module.maxConsecHours + ", ";
+            sql += "DoubleSlots=" + module.doubleSlots;
+            sql += ", CourseCode='" + module.courseId + "'";
+            sql += "WHERE ID LIKE " + module.ID;
             excuteNonQuery(sql);
         }
         /// <summary>
         ///     Insert a new Module into the database
         /// </summary>
         /// <param name="module">The new Module</param>
-        private void insertModule(Module module)
+        public void insertModule(Module module)
         {
             string sql;
-            sql = "INSERT INTO Module (Module_Name, Practical, HoursPerWeek, RoomType, MaxConsecHours, DoubleSlots, Deleted) VALUES(";
-            sql = "'" + module.getName() + "', ";
-            sql = module.getPractical() + ",";
-            sql = module.getHoursPerWeek() + ", ";
-            sql = "'" + module.getRommType() + "',";
-            sql = module.getMaxConsecHours() + ", ";
-            sql = module.getDoubleSlots() + ", false)";
+            sql = "INSERT INTO Module (Module_Name, Practical, HoursPerWeek, RoomType, MaxConsecHours, DoubleSlots, CourseId, Deleted) VALUES(";
+            sql += "'" + module.name + "', ";
+            sql += module.practical + ",";
+            sql += module.hoursPerWeek + ", ";
+            sql += "'" + module.RoomType + "',";
+            sql += module.maxConsecHours + ", ";
+            sql += module.doubleSlots;
+            sql += module.courseId + ", false)";
             excuteNonQuery(sql);
         }
         /// <summary>
         ///     Update a Room in the database
         /// </summary>
         /// <param name="room">The updated Room</param>
-        private void updateRoom(Room room)
+        public void updateRoom(Room room)
         {
             string sql;
             sql = "UPDATE Room";
             sql += "Number='" + room.roomNumber + "', ";
+            sql += "BuildingID='" + room.buildingId + "', ";
             sql += "Capacity=" + room.capacity + ", ";
             sql += "RoomType='" + room.roomType + "', ";
             sql += "SlotsOff='" + room.slotsOff + "', ";
@@ -177,7 +179,7 @@ namespace Services
         ///  Insert Room to the database
         /// </summary>
         /// <param name="room">The Room to be inserted</param>
-        private void insertRoom(Room room)
+        public void insertRoom(Room room)
         {
             string sql;
             sql = "INSERT INTO Room (Number, Capacity, RoomType, SlotsOff, Deleted) VALUES(";
@@ -191,79 +193,65 @@ namespace Services
         ///     Update a Department
         /// </summary>
         /// <param name="dept">The updated Department</param>
-        private void updateDept(Department dept)
+        public void updateDept(Department dept)
         {
             string sql;
             sql = "Update Department Dept_Name=";
-            sql += "'" + dept.getName() + "'";
+            sql += "'" + dept.name + "'";
             excuteNonQuery(sql);
         }
         /// <summary>
         ///     Insert a department into the database
         /// </summary>
         /// <param name="dept">The Department to be inserted</param>
-        private void insertDept(Department dept)
+        public void insertDept(Department dept)
         {
-            string sql = "INSERT INTO Department VALUES('"+ dept.getName() + "')";
+            string sql = "INSERT INTO Department VALUES('"+ dept.name + "')";
             excuteNonQuery(sql);
         }
         /// <summary>
-        ///    Get data back in a data table
+        /// update a course in the database
         /// </summary>
-        /// <param name="sqlStatment">The SQL Query</param>
-        /// <returns>Results in a DataTable</returns>
-        public DataTable GetTableData(String sqlStatment)
+        /// <param name="course">the updated course</param>
+        public void updateCourse(Course course)
         {
-            DataTable dt = new DataTable();
-            OpenConection();
-            OleDbCommand cmd = new OleDbCommand(sqlStatment, conn);
-            OleDbDataReader reader = cmd.ExecuteReader();
-            dt.Load(reader);
-            CloseConnection();
-            return dt ;
+            string sql;
+            sql = "UPDATE Course";
+            sql += "Code=" + course.courseCode + ",";
+            sql += "Course_Name='" + course.name + "', ";
+            sql += "NumOfStudents=" + course.numOfStudents + ", ";
+            sql += "DeptId='" + course.deptID + "', ";
+            sql += "WHERE ID LIKE " + course.ID;
+            excuteNonQuery(sql);
         }
         /// <summary>
-        ///     Get result of a Query in String form
+        ///     Load all rooms
         /// </summary>
-        /// <param name="sqlStatment">The SQL Query</param>
-        /// <returns>Result of Query in a String</returns>
-        public String GetData(String sqlStatment)
+        /// <summary>
+        /// insert building into database
+        /// </summary>
+        /// <param name="build"></param>
+        public void insertBuild(Building build)
         {
-            string outputString = "null";
-            try
-            {
-                OpenConection();
-                cmd = new OleDbCommand(sqlStatment, conn);
-                reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-                    if (reader["Deleted"].ToString().Equals("False"))
-                    {
-                        outputString = reader["Lec_Name"].ToString();
-                        outputString += "$" + reader["Initials"].ToString();
-                        outputString += "$" + reader["Email"].ToString();
-                        outputString += "$" + reader["MaxHours"].ToString();
-                        outputString += "$" + reader["MaxConsecHours"].ToString();
-                        outputString += "$" + reader["MinSlotsPerDay"].ToString();
-                        outputString += "$";
-                    }
-                    else
-                    {
-                        outputString = "N/A";
-                    }
-                }
-                CloseConnection();
-            }
-            catch
-            {
-               // MessageBox.Show("Failed to get data from source");
-            }
-            return outputString;
+            string sql = "INSERT INTO Building  VALUES('" + build.name + "')";
+            excuteNonQuery(sql);
         }
-      /// <summary>
-      /// 
-      /// </summary>
-       private void loadLectuerList()
+        /// <summary>
+        /// update a building
+        /// </summary>
+        /// <param name="build"></param>
+        public void updateBuild(Building build)
+        {
+            string sql;
+            sql = "Update Building Building_Name=";
+            sql += "'" + build.name + "'";
+            excuteNonQuery(sql);
+        }
+        /// <summary>
+        /// load lecturer from database
+        /// </summary>
+        /// 
+        private void loadLectuerList()
        {
             Lecturer newLec;
             string sqlStatment = "SELECT * FROM Lecturer";
@@ -293,12 +281,9 @@ namespace Services
                     // MessageBox.Show("Failed to get data from source");
                 } 
         }
-        
         /// <summary>
-        ///     Load LinkedList of Course for a Department
+        ///     Load LinkedList of Course 
         /// </summary>
-        /// <param name="dept">The Department the Courses are in</param>
-        /// <returns>A LinkedList of Course</returns>
         private void loadCourseList()
         {
             Course tempCourse ;
@@ -329,9 +314,9 @@ namespace Services
             }
         }
         /// <summary>
-        ///     Load all rooms
+        /// load room list from the database
         /// </summary>
-       private void loadRoomList()
+        private void loadRoomList()
         {
             LinkedList roomList = new LinkedList();
             Room tempRoom;
@@ -350,7 +335,8 @@ namespace Services
                         reader["Number"].ToString(),
                         Convert.ToInt32(reader["Capacity"]),
                         reader["RoomType"].ToString(),
-                        reader["SlotsOff"].ToString());
+                        reader["SlotsOff"].ToString(),
+                        reader["BuildingID"].ToString());
                         roomList.addAtTail(tempRoom);
                     }
                 }
@@ -360,11 +346,11 @@ namespace Services
             {
                 // MessageBox.Show("Failed to get data from source");
             }
-        }
+         }
          /// <summary>
          /// load all the depts from the database
          /// </summary>
-       private void loadDepartmentList()
+        private void loadDepartmentList()
         {
             Department tempDept ;
             string sqlStatment = "SELECT * FROM Department";
@@ -377,16 +363,17 @@ namespace Services
                 {
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-                        tempDept = new Department(reader["ID"].ToString(),
+                        tempDept = new Department(
+                            reader["ID"].ToString(),
                             reader["Dept_Name"].ToString());
                         deptList.addAtTail(tempDept);
                     }
                 }
                 CloseConnection();
 	        }
-	        catch 
+	        catch (Exception e)
 	        {
-	
+                MessageBox.Show(e.ToString());
 	        }
         }
         /// <summary>
@@ -405,7 +392,8 @@ namespace Services
                 {
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-                        tempBuild = new Building(reader["ID"].ToString(), 
+                        tempBuild = new Building(
+                            reader["ID"].ToString(), 
                             reader["Building_Name"].ToString());
                         buildingList.addAtTail(tempBuild);
                     }
@@ -433,13 +421,15 @@ namespace Services
                 {
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-                        tempModule = new Module(reader["ID"].ToString(),
+                        tempModule = new Module(
+                        reader["ID"].ToString(),
                         reader["Module_Name"].ToString(),
                         Convert.ToBoolean(reader["Pratcial"]),
                         Convert.ToInt32(reader["HoursPerWeek"]),
                         reader["RoomType"].ToString(),
                         Convert.ToBoolean(reader["DoubleSlots"]),
-                        Convert.ToInt32(reader["MaxConsecHours"]));
+                        Convert.ToInt32(reader["MaxConsecHours"]),
+                        reader["courseId"].ToString());
                         moduleList.addAtTail(tempModule);
                     }
                 }
@@ -450,101 +440,7 @@ namespace Services
             }
         }
         /// <summary>
-        ///     Save list of Lecturer to the database
-        /// </summary>
-        /// <param name="lecturers">The LinkedList of Lecturer</param>
-        public void saveLecturers(LinkedList lecturers)
-        {
-            Node temp = lecturers.head;
-            Lecturer tempLec ;
-
-            while (temp.next != null)
-            {
-                tempLec = (Lecturer)temp.data;
-                //if the lecturer is new i.e id=000 use Insert command
-                if (tempLec.getId().Equals("000"))
-                {
-                    insertLecturer(tempLec);
-                }
-                else // update the lecturer entry
-                {
-                    updateLecturer(tempLec);
-                }
-                temp = temp.next;
-            }
-        }
-        /// <summary>
-        ///     Save's the list of Module to the database
-        /// </summary>
-        /// <param name="modules">the LinkedList of Module</param>
-        public void saveModules(LinkedList modules)
-        {
-            Node temp = modules.head;
-            Module tempModule;
-
-            while (temp.next != null)
-            {
-                tempModule = (Module)temp.data;
-                //if the modue isnt already in the database create a new entry
-                if (tempModule.getID().Equals("000"))
-                {
-                    insertModule(tempModule);
-                }
-                else
-                {
-                    updateModule(tempModule);
-                }
-                temp = temp.next;
-            }
-        }
-        /// <summary>
-        ///     Saves a list of Room to the database
-        /// </summary>
-        /// <param name="rooms">The LinkedList of Room</param>
-        public void saveRoom(LinkedList rooms)
-        {
-            Node temp = rooms.head;
-            Room tempRoom;
-            while (temp.next != null)
-            {
-                tempRoom = (Room)temp.data;
-                //if the room isnt in the database insert it else update it
-                if (tempRoom.ID.Equals("000"))
-                {
-                    insertRoom(tempRoom);
-                }
-                else
-                {
-                    updateRoom(tempRoom);
-                }
-                temp = temp.next;
-            }
-        }
-        /// <summary>
-        ///     Save a list of Department to the database
-        /// </summary>
-        /// <param name="depts">The LinkedList of Department</param>
-        public void saveDepartments(LinkedList depts)
-        {
-            Node temp = depts.head;
-            Department tempDept;
-            while (temp.next != null)
-            {
-                tempDept = (Department)temp.data;
-                //if the dept is'nt in the database insert a new one else
-                if (tempDept.getID().Equals("000"))
-                {
-                    insertDept(tempDept);
-                }
-                else
-                {
-                    updateDept(tempDept);
-                }
-            }
-
-        }
-        /// <summary>
-        /// update the list to match database
+        /// update the linked lists
         /// </summary>
         public void update()
         {
@@ -555,12 +451,11 @@ namespace Services
             loadLectuerList();
             LoadModuleList();
         }
-
         /// <summary>
         /// find room for a building
         /// </summary>
         /// <param name="build">the building the rooms are in</param>
-        /// <returns></returns>
+        /// <returns>linked list of rooms in a building</returns>
         public LinkedList getRoomList(Building build)
         {
             LinkedList list = new LinkedList();
@@ -569,13 +464,30 @@ namespace Services
             while (roomNode != null)
             {
                 Room tempRoom = (Room)roomNode.data;
-                if (tempRoom.buildingId == build.getID())
+                if (tempRoom.buildingId == build.ID)
                 {
                     list.addAtTail(tempRoom);
                 }
             }
-
+            return list;
         }
+
+        public LinkedList getModuleList()
+        {
+            return moduleList;
+        }
+
+        public LinkedList getRoomList()
+        {
+            return roomList;
+        }
+
+        public LinkedList getLecturerList()
+        {
+            return lecturerList;
+        }
+
+
     }
 }
 
