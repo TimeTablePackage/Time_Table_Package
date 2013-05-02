@@ -7,7 +7,7 @@ using Services;
 
 namespace Domain
 {
-    class Module
+    public class Module
     {
         ///<summary>
         /// ID will be used for identifying the  Module in the database.

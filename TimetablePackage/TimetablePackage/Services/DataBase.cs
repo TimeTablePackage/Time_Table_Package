@@ -301,7 +301,9 @@ namespace Services
                         tempCourse = new Course(reader["ID"].ToString(), 
                             reader["Code"].ToString(),
                             reader["CourseName"].ToString(), 
-                            Convert.ToInt32(reader["NumOfStudents"]));
+                            Convert.ToInt32(reader["NumOfStudents"]),
+                            reader["DeptID"].ToString()
+                            );
                         courseList.addAtTail(tempCourse);
                     }
                     

@@ -84,10 +84,7 @@ namespace Domain
             //to be constructed!
         }
 
-        public DataTable GetTableData(String sqlStatment)
-        {
-            return dataBaseHelper.GetTableData(sqlStatment);
-        }
+
 
 
     }//class

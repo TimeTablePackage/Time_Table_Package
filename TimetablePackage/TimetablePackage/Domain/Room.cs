@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-		class Room 
+		public class Room 
         {
             /// <summary>
             /// ID will be used for identifying the Room in the database.
