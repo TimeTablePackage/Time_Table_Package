@@ -33,14 +33,14 @@ namespace TimetablePackage
             timetable  document = new timetable();
 
             // Show document
-            if (dockPanel1.DocumentStyle == DocumentStyle.SystemMdi)
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
             {
                 document.MdiParent = this;
                 document.Show();
             }
             else
             {
-                document.Show(dockPanel1);
+                document.Show(DockTabPanel);
             }
         }
 
@@ -59,18 +59,79 @@ namespace TimetablePackage
 
         private void ribbonButton1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             LecturerForm listLecturer = new LecturerForm();
             listLecturer.ShowDialog();
+=======
+            Lecturer document = new Lecturer();
+
+            // Show document
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
+            {
+                document.MdiParent = this;
+                document.Show();
+            }
+            else
+            {
+                document.Show(DockTabPanel);
+            }
+>>>>>>> origin/Ayhan123
         }
 
         private void addLecturer_Click(object sender, EventArgs e)
         {
-            addLecturer addALecturer = new addLecturer();
+            Add_Lecturer addALecturer = new Add_Lecturer();
             addALecturer.ShowDialog();
         }
 
-       
+        private void moduleListButton_Click(object sender, EventArgs e)
+        {
+            ModuleForm document = new ModuleForm();
+
+            // Show document
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
+            {
+                document.MdiParent = this;
+                document.Show();
+            }
+            else
+            {
+                document.Show(DockTabPanel);
+            }
+        }
+
+        private void courseListButton_Click(object sender, EventArgs e)
+        {
+            CourseForm document = new CourseForm();
+
+            // Show document
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
+            {
+                document.MdiParent = this;
+                document.Show();
+            }
+            else
+            {
+                document.Show(DockTabPanel);
+            }
+        }
 
         
+
+        private void buildingListButton_Click_1(object sender, EventArgs e)
+        {
+            BuildingForm document = new BuildingForm();
+
+            // Show document
+            if (DockTabPanel.DocumentStyle == DocumentStyle.SystemMdi)
+            {
+                document.MdiParent = this;
+                document.Show();
+            }
+            else
+            {
+                document.Show(DockTabPanel);
+            }
+        }
     }
 }

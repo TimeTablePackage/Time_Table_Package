@@ -46,8 +46,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.label1);
+            this.DockAreas = ((DigitalRune.Windows.Docking.DockAreas)((((((DigitalRune.Windows.Docking.DockAreas.Float | DigitalRune.Windows.Docking.DockAreas.Left) 
+            | DigitalRune.Windows.Docking.DockAreas.Right) 
+            | DigitalRune.Windows.Docking.DockAreas.Top) 
+            | DigitalRune.Windows.Docking.DockAreas.Bottom) 
+            | DigitalRune.Windows.Docking.DockAreas.Document)));
             this.Name = "timetable";
+            this.TabText = "timetable";
             this.Text = "timetable";
+            this.Load += new System.EventHandler(this.timetable_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

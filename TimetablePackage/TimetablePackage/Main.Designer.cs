@@ -31,7 +31,7 @@ namespace TimetablePackage
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            this.dockPanel1 = new DigitalRune.Windows.Docking.DockPanel();
+            this.DockTabPanel = new DigitalRune.Windows.Docking.DockPanel();
             this.ribbonbar = new System.Windows.Forms.Ribbon();
             this.Home = new System.Windows.Forms.RibbonTab();
             this.homePanel = new System.Windows.Forms.RibbonPanel();
@@ -71,14 +71,17 @@ namespace TimetablePackage
             this.ribbonOrbMenuItem1 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.SuspendLayout();
             // 
-            // dockPanel1
+            // DockTabPanel
             // 
-            this.dockPanel1.ActiveAutoHideContent = null;
-            this.dockPanel1.DefaultFloatingWindowSize = new System.Drawing.Size(300, 300);
-            this.dockPanel1.Location = new System.Drawing.Point(0, 146);
-            this.dockPanel1.Name = "dockPanel1";
-            this.dockPanel1.Size = new System.Drawing.Size(1008, 416);
-            this.dockPanel1.TabIndex = 2;
+            this.DockTabPanel.ActiveAutoHideContent = null;
+            this.DockTabPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DockTabPanel.DefaultFloatingWindowSize = new System.Drawing.Size(300, 300);
+            this.DockTabPanel.Location = new System.Drawing.Point(0, 146);
+            this.DockTabPanel.Name = "DockTabPanel";
+            this.DockTabPanel.Size = new System.Drawing.Size(1008, 416);
+            this.DockTabPanel.TabIndex = 2;
             // 
             // ribbonbar
             // 
@@ -242,6 +245,7 @@ namespace TimetablePackage
             this.courseListButton.MinimumSize = new System.Drawing.Size(0, 0);
             this.courseListButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("courseListButton.SmallImage")));
             this.courseListButton.Text = "Course List";
+            this.courseListButton.Click += new System.EventHandler(this.courseListButton_Click);
             // 
             // addCourseButton
             // 
@@ -264,6 +268,7 @@ namespace TimetablePackage
             this.moduleListButton.MinimumSize = new System.Drawing.Size(0, 0);
             this.moduleListButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("moduleListButton.SmallImage")));
             this.moduleListButton.Text = "Module List";
+            this.moduleListButton.Click += new System.EventHandler(this.moduleListButton_Click);
             // 
             // addModuleButton
             // 
@@ -292,6 +297,7 @@ namespace TimetablePackage
             this.buildingListButton.MinimumSize = new System.Drawing.Size(0, 0);
             this.buildingListButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("buildingListButton.SmallImage")));
             this.buildingListButton.Text = "Building List";
+            this.buildingListButton.Click += new System.EventHandler(this.buildingListButton_Click_1);
             // 
             // AddBuildingButton
             // 
@@ -375,12 +381,12 @@ namespace TimetablePackage
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 562);
             this.Controls.Add(this.ribbonbar);
-            this.Controls.Add(this.dockPanel1);
+            this.Controls.Add(this.DockTabPanel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.IsMdiContainer = true;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Timetable Package";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
 
@@ -389,7 +395,7 @@ namespace TimetablePackage
         #endregion
 
        
-        private DigitalRune.Windows.Docking.DockPanel dockPanel1;
+        private DigitalRune.Windows.Docking.DockPanel DockTabPanel;
         private System.Windows.Forms.Ribbon ribbonbar;
         private System.Windows.Forms.RibbonTab Home;
         private System.Windows.Forms.RibbonPanel homePanel;

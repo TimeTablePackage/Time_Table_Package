@@ -73,11 +73,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addLecturer.cs">
+    <Compile Include="Add_Lecturer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="addLecturer.Designer.cs">
-      <DependentUpon>addLecturer.cs</DependentUpon>
+    <Compile Include="Add_Lecturer.Designer.cs">
+      <DependentUpon>Add_Lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuildingForm.Designer.cs">
+      <DependentUpon>BuildingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseForm.Designer.cs">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartmentForm.Designer.cs">
+      <DependentUpon>DepartmentForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Domain\Building.cs" />
     <Compile Include="Domain\Course.cs" />
@@ -124,6 +142,12 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleForm.Designer.cs">
+      <DependentUpon>ModuleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Services\DataBase.cs" />
     <Compile Include="Services\LinkedList.cs" />
     <Compile Include="SettingsForm.cs">
@@ -146,6 +170,10 @@
     <Compile Include="timetable.Designer.cs">
       <DependentUpon>timetable.cs</DependentUpon>
     </Compile>
+    <Compile Include="ttpDataSet.cs">
+      <DependentUpon>ttpDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ttpDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -154,8 +182,17 @@
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="addLecturer.resx">
-      <DependentUpon>addLecturer.cs</DependentUpon>
+    <EmbeddedResource Include="Add_Lecturer.resx">
+      <DependentUpon>Add_Lecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuildingForm.resx">
+      <DependentUpon>BuildingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseForm.resx">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartmentForm.resx">
+      <DependentUpon>DepartmentForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GlobalStrings.tr-TR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -179,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuleForm.resx">
+      <DependentUpon>ModuleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
@@ -332,6 +372,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\32x32\add.png" />
+    <None Include="resources\32x32\bullet_edit.png" />
+    <None Include="resources\32x32\delete.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ttp.accdb">

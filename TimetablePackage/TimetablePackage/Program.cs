@@ -19,7 +19,7 @@ namespace TimetablePackage
 
              ToolStripManager.RenderMode = ToolStripManagerRenderMode.Professional;
              ToolStripManager.VisualStylesEnabled = false;
-             DockPanelManager.RenderMode = DockPanelRenderMode.Professional;
+             DockPanelManager.RenderMode = DockPanelRenderMode.Office2007Blue;
 
 
             Application.Run(new Main());
