@@ -111,7 +111,9 @@ namespace TimetablePackage
             }
         }
 
-        private void buildingListButton_Click(object sender, EventArgs e)
+        
+
+        private void buildingListButton_Click_1(object sender, EventArgs e)
         {
             BuildingForm document = new BuildingForm();
 
@@ -126,9 +128,5 @@ namespace TimetablePackage
                 document.Show(DockTabPanel);
             }
         }
-
-             
-
-        
     }
 }

@@ -170,6 +170,10 @@
     <Compile Include="timetable.Designer.cs">
       <DependentUpon>timetable.cs</DependentUpon>
     </Compile>
+    <Compile Include="ttpDataSet.cs">
+      <DependentUpon>ttpDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ttpDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -373,6 +377,8 @@
     <None Include="resources\32x32\add.png" />
     <None Include="resources\32x32\bullet_edit.png" />
     <None Include="resources\32x32\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="ttp.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
