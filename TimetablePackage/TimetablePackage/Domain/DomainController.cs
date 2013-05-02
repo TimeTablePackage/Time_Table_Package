@@ -26,9 +26,8 @@ namespace Domain
         private DomainControler()
         {
             dataBaseHelper = new DataBase();
+            dataBaseHelper.update();
             institute = new Institute("it carlow");
-            institute.setBuildingList(dataBaseHelper.loadBuildingList(institute));
-            institute.setDeptList(dataBaseHelper.loadDepartmentList(institute));
         }
         /// <summary>
         /// Get an instance of the controller
@@ -39,82 +38,26 @@ namespace Domain
                 return instance;
         }
         /// <summary>
-        /// Get a list of all the lecturers in the institute
+        /// get an instance of the database helper
         /// </summary>
-        /// <returns>linkedList of all lecturers in the institute</returns>
-        public LinkedList getallLecturers()
+        /// <returns></returns>
+        public DataBase getDBHelper()
         {
-            LinkedList allLec = new LinkedList();
-            LinkedList deptList = institute.getDeptList();
-            Node nodeDept = deptList.head;
+            return dataBaseHelper;
 
-            while (nodeDept.next != null)
-            {
-                Department tempDept = (Department)nodeDept.data;
-                allLec = allLec + tempDept.getLecturerList();
-            }
-            return allLec;
         }
-        /// <summary>
-        ///Get a list of all teh room in the institute
-        /// </summary>
-        /// <returns>LinkedList of all Room objects</returns>
-        public LinkedList getAllRooms()
+
+        public void addRoom(Room theRoom)
         {
-            LinkedList allRooms = new LinkedList();
-            LinkedList buildList = institute.getBuildingList();
-            Node buildNode = buildList.head;
-
-            //for all the departmnets in the list add each room list together
-            while (buildNode.next != null)
-            {
-                Building tempBuild = (Building)buildNode.data;
-                allRooms = allRooms + tempBuild.getRoomList();
-            }
-            return allRooms;
+            dataBaseHelper.insertRoom(theRoom);
+            dataBaseHelper.update();
         }
-        /// <summary>
-        /// List all the Modules in the Institute
-        /// </summary>
-        /// <returns>LinkedList of all Module objects</returns>
-        public LinkedList getAllModules()
-        {
-            LinkedList allModules = new LinkedList();
-            LinkedList deptList = institute.getDeptList();
-            LinkedList courseList;
-            Node nodeDept = deptList.head;
 
-            while (nodeDept.next != null)
-            {
-                Department tempDept = (Department)nodeDept.data;
-                courseList = tempDept.getCourseList();
-                Node nodeCourse = courseList.head;
-                while (nodeCourse.next != null)
-                {
-                    Course tempCourse = (Course)nodeCourse.data;
-                    allModules = allModules + tempCourse.getModuleList();
-                }
-            }
-            return allModules;
-        }
-        /// <summary>
-        /// Add a new lecturer to the system
-        /// </summary>
-        /// <param name="name">Name of the Lecturer</param>
-        /// <param name="initials">Initials of the Lecturer</param>
-        /// <param name="email">Email address of the Lecturer</param>
-        /// <param name="maxHours">Maximum hours lecturer can work</param>
-        /// <param name="maxConsecHours">Maximum Consecutive hours Lecturer can work</param>
-        /// <param name="minSlotsPerDay">Minimum Lessons a day a teaches wants to teach</param>
-        /// <param name="slotsOff">Times Lecturer Wants Off</param>
-        /// <param name="deptId">The Id of the Dept the Lecturer is in</param>
         public void addLecturer(Lecturer theLec)
         {
-            Node deptNode = institute.getDeptList().head;
-            Department dept = institute.getDeptById(theLec.getdeptId());
-            dept.addLecturer(theLec);
-            dataBaseHelper.saveLecturers(institute.getDeptById(theLec.getdeptId()).getLecturerList());
-           
+            dataBaseHelper.insertLecturer(theLec);
+            dataBaseHelper.update();
+            
         }
 
         /// <summary>
@@ -130,9 +73,9 @@ namespace Domain
         public void updateLecturer(string lecId, string name, string initials, string email, int maxHours,
                                     int maxConsecHours, int minSlotsPerDay, string slotsOff, string deptId)
         {
-            Department department = institute.getDeptById(deptId);
-            Lecturer lecturer = department.getLecById(lecId);
-            lecturer.update(name, initials, email, maxHours, maxConsecHours, minSlotsPerDay, slotsOff, deptId);
+           // Department department = institute.getDeptById(deptId);
+            //Lecturer lecturer = department.getLecById(lecId);
+            //lecturer.update(name, initials, email, maxHours, maxConsecHours, minSlotsPerDay, slotsOff, deptId);
         }
 
 

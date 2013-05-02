@@ -21,19 +21,6 @@ namespace TimetablePackage
         
         private void okayButton_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            String name = lecNameTextBox.Text ;
-            String initials = lecInitialsTextBox.Text ;
-            String email = lecEmailTextBox.Text ;
-            int maxHours =Convert.ToInt32( lecMaxHoursTextBox.Text) ;
-            int maxConsecHours  = Convert.ToInt32(lecMaxConsecHours.Text);
-            int minSlotsPerday = Convert.ToInt32(lecMinimumSlotsTextBox.Text);
-            String slotsOff = lecSlotsOffTextBox.Text;
-            String department = lectDepartmentTextBox.Text ;
-
-            Domain.Lecturer lecturer = new Domain.Lecturer(name, initials, email, maxHours, maxConsecHours, minSlotsPerday, slotsOff, department);
-
-=======
             string name = lecNameTextBox.Text ;
             string initials = lecInitialsTextBox.Text ;
             string email = lecEmailTextBox.Text ;
@@ -45,7 +32,6 @@ namespace TimetablePackage
 
             Lecturer lecturer = new Lecturer(name, initials, email,  maxHours, maxConsecHours,
                 minSlotsPerday , slotsOff, department );
->>>>>>> origin/Tom-
             controller.addLecturer(lecturer);
             
         }

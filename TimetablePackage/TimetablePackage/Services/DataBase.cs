@@ -8,10 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Odbc;
-<<<<<<< HEAD
-=======
 using System.Windows.Forms;
->>>>>>> origin/Tom-
 
 namespace Services
 {   
@@ -28,7 +25,6 @@ namespace Services
         /// A string for the OleDbConnection object to connect to the access database
         /// </summary>
         private string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=ttp.accdb";
-
         /// <summary>
         /// A OleDbConnection object to connect to the access database
         /// </summary>
@@ -367,17 +363,9 @@ namespace Services
                 {
                     if (reader["Deleted"].ToString().Equals("False"))
                     {
-<<<<<<< HEAD
-                        tempDept = new Department();
-                        tempDept.setId(reader["ID"].ToString());
-                        tempDept.setName(reader["Dept_Name"].ToString());
-                        tempDept.setLecturerList(loadLectuerList(tempDept));
-                        tempDept.setCourseList(loadCourseList(tempDept));
-=======
                         tempDept = new Department(
                             reader["ID"].ToString(),
                             reader["Dept_Name"].ToString());
->>>>>>> origin/Tom-
                         deptList.addAtTail(tempDept);
                     }
                 }
